@@ -88,82 +88,76 @@ export function Hero({ t }: HeroProps) {
   useLoopingTypewriter(t.hero.texts);
 
   return (
-<section
-  aria-label="Sululta highlights"
-  className="relative isolate min-h-screen overflow-hidden bg-black text-white"
->
+    <section
+      aria-label="Sululta highlights"
+      className="relative isolate min-h-screen overflow-hidden bg-black text-white"
+    >
       {/* =====================================================
           VIDEO BACKGROUND
       ===================================================== */}
-
-    {/* =====================================================
-    VIDEO BACKGROUND
-===================================================== */}
-<div className="absolute inset-0 -z-30 overflow-hidden">
-  <video
-    className="absolute inset-0 h-full w-full object-cover"
-    autoPlay
-    muted
-    loop
-    playsInline
-    preload="auto"
-    poster="/images/hero/sululta-img-1.jpg"
-    aria-hidden="true"
-  >
-    <source
-      src="/videos/sululta documetaries.mp4"
-      type="video/mp4"
-    />
-
-    Your browser does not support HTML5 video.
-  </video>
-</div>
-
+      <div className="absolute inset-0 -z-20 overflow-hidden">
+        <video
+          className="absolute inset-0 h-full w-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="/images/hero/sululta-img-1.jpg"
+          aria-hidden="true"
+        >
+          <source
+            src="/videos/documentary.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+  
       {/* =====================================================
           CINEMATIC OVERLAYS
       ===================================================== */}
-
-      {/* Base darkening */}
-      <div className="absolute inset-0 -z-20 bg-black/30" />
-
-      {/* Left cinematic gradient */}
+  
+      {/* Light overall darkening */}
+      <div className="absolute inset-0 -z-20 bg-black/10" />
+  
+      {/* Left readability gradient */}
       <div
         className="
           absolute inset-0 -z-20
           bg-gradient-to-r
-          from-black/90
-          via-black/55
-          to-black/10
-        "
-      />
-
-      {/* Bottom cinematic gradient */}
-      <div
-        className="
-          absolute inset-x-0 bottom-0 -z-20 h-[75%]
-          bg-gradient-to-t
-          from-black
-          via-black/60
+          from-black/65
+          via-black/25
           to-transparent
         "
       />
-
+  
+      {/* Bottom readability gradient */}
+      <div
+        className="
+          absolute inset-x-0 bottom-0 -z-20 h-[55%]
+          bg-gradient-to-t
+          from-black/75
+          via-black/25
+          to-transparent
+        "
+      />
+  
       {/* Mobile readability */}
       <div
         className="
           absolute inset-0 -z-20
           bg-gradient-to-t
-          from-black/95
-          via-black/45
-          to-black/20
+          from-black/70
+          via-black/15
+          to-transparent
           md:hidden
         "
       />
-
+  
       {/* =====================================================
           AMBIENT LIGHT
       ===================================================== */}
-
       <div
         className="
           pointer-events-none absolute
@@ -174,7 +168,7 @@ export function Hero({ t }: HeroProps) {
           blur-[120px]
         "
       />
-
+  
       <div
         className="
           pointer-events-none absolute
@@ -185,11 +179,10 @@ export function Hero({ t }: HeroProps) {
           blur-[120px]
         "
       />
-
+  
       {/* =====================================================
           MAIN CONTENT
       ===================================================== */}
-
       <div
         className="
           relative z-10
@@ -203,11 +196,8 @@ export function Hero({ t }: HeroProps) {
         "
       >
         <div className="w-full max-w-5xl">
-
-          {/* =================================================
-              TOP BADGE
-          ================================================= */}
-
+  
+          {/* TOP BADGE */}
           <div className="mb-7">
             <div
               className="
@@ -230,7 +220,6 @@ export function Hero({ t }: HeroProps) {
                     opacity-75
                   "
                 />
-
                 <span
                   className="
                     relative inline-flex
@@ -240,7 +229,7 @@ export function Hero({ t }: HeroProps) {
                   "
                 />
               </span>
-
+  
               <span
                 className="
                   text-[11px]
@@ -250,15 +239,12 @@ export function Hero({ t }: HeroProps) {
                   text-white/85
                 "
               >
-               {t.hero.badge}
+                {t.hero.badge}
               </span>
             </div>
           </div>
-
-          {/* =================================================
-              MAIN HEADING
-          ================================================= */}
-
+  
+          {/* MAIN HEADING */}
           <h1
             aria-live="polite"
             className="
@@ -272,7 +258,7 @@ export function Hero({ t }: HeroProps) {
             "
           >
             {displayText}
-
+  
             <span
               aria-hidden="true"
               className={[
@@ -293,30 +279,24 @@ export function Hero({ t }: HeroProps) {
               ].join(" ")}
             />
           </h1>
-
-          {/* =================================================
-              DESCRIPTION
-          ================================================= */}
-
+  
+          {/* DESCRIPTION */}
           <p
             className="
               mt-8
               max-w-2xl
               text-base
               leading-7
-              text-white/70
+              text-white/80
               sm:text-lg
               sm:leading-8
               md:text-xl
             "
           >
-           {t.hero.description}
+            {t.hero.description}
           </p>
-
-          {/* =================================================
-              ACTIONS
-          ================================================= */}
-
+  
+          {/* ACTIONS */}
           <div
             className="
               mt-9
@@ -326,43 +306,9 @@ export function Hero({ t }: HeroProps) {
               sm:items-center
             "
           >
-            {/* Primary CTA */}
-
-            {/* Secondary CTA */}
-
-            <Link
-              href="/about"
-              className="
-                inline-flex
-                min-h-14
-                items-center
-                justify-center
-                gap-2
-                rounded-full
-                border
-                border-white/20
-                bg-white/[0.08]
-                px-7
-                text-sm
-                font-semibold
-                text-white
-                backdrop-blur-xl
-                transition-all
-                duration-300
-                hover:-translate-y-1
-                hover:bg-white/[0.14]
-                hover:border-white/30
-              "
-            >
-              <Play className="size-4 fill-current" />
-              {t.hero.button}
-            </Link>
           </div>
-
-          {/* =================================================
-              MINI INFO
-          ================================================= */}
-
+  
+          {/* MINI INFO */}
           <div
             className="
               mt-12
@@ -372,23 +318,23 @@ export function Hero({ t }: HeroProps) {
               gap-x-8
               gap-y-4
               text-xs
-              text-white/50
+              text-white/60
             "
           >
             <div className="flex items-center gap-2">
               <span className="size-1.5 rounded-full bg-emerald-400" />
               <span>{t.hero.nature}</span>
             </div>
-
+  
             <div className="hidden h-4 w-px bg-white/20 sm:block" />
-
+  
             <div className="flex items-center gap-2">
               <span className="size-1.5 rounded-full bg-cyan-400" />
               <span>{t.hero.science}</span>
             </div>
-
+  
             <div className="hidden h-4 w-px bg-white/20 sm:block" />
-
+  
             <div className="flex items-center gap-2">
               <span className="size-1.5 rounded-full bg-white/60" />
               <span>{t.hero.culture}</span>
@@ -396,11 +342,8 @@ export function Hero({ t }: HeroProps) {
           </div>
         </div>
       </div>
-
-      {/* =====================================================
-          SCROLL INDICATOR
-      ===================================================== */}
-
+  
+      {/* SCROLL INDICATOR */}
       <div
         className="
           absolute
@@ -427,7 +370,7 @@ export function Hero({ t }: HeroProps) {
         >
           Scroll to explore
         </span>
-
+  
         <div
           className="
             flex size-9
@@ -448,11 +391,8 @@ export function Hero({ t }: HeroProps) {
           />
         </div>
       </div>
-
-      {/* =====================================================
-          VIDEO LABEL
-      ===================================================== */}
-
+  
+      {/* VIDEO LABEL */}
       <div
         className="
           absolute
@@ -466,7 +406,7 @@ export function Hero({ t }: HeroProps) {
           font-medium
           uppercase
           tracking-[0.25em]
-          text-white/40
+          text-white/50
           sm:flex
           md:left-10
         "
@@ -474,12 +414,6 @@ export function Hero({ t }: HeroProps) {
         <span className="h-px w-8 bg-white/30" />
         Sululta · Ethiopia
       </div>
-
-      {/* =====================================================
-          ANIMATIONS
-      ===================================================== */}
-
-
     </section>
   );
 }
