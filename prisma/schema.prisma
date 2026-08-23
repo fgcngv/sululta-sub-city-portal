@@ -1,0 +1,274 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─────────────────────────────────────────────
+// USERS
+// ─────────────────────────────────────────────
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  EDITOR
+}
+
+model User {
+  id      String @id @default(cuid())
+  clerkId String @unique
+
+  email     String  @unique
+  firstName String?
+
+  lastName String?
+  role     UserRole @default(EDITOR)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  newsCreated     News[]    @relation("NewsCreatedBy")
+  newsUpdated     News[]    @relation("NewsUpdatedBy")
+  projectsCreated Project[] @relation("ProjectsCreatedBy")
+  projectsUpdated Project[] @relation("ProjectsUpdatedBy")
+}
+
+// ─────────────────────────────────────────────
+// CONTENT STATUS
+// ─────────────────────────────────────────────
+
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+// ─────────────────────────────────────────────
+// LANGUAGES
+// ─────────────────────────────────────────────
+
+enum Language {
+  EN
+  AM
+  OM
+}
+
+// ─────────────────────────────────────────────
+// NEWS
+// ─────────────────────────────────────────────
+
+model News {
+  id String @id @default(cuid())
+
+  slug String @unique
+
+  status ContentStatus @default(DRAFT)
+
+  featured Boolean @default(false)
+
+  publishedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  createdById String
+  updatedById String
+
+  createdBy User @relation("NewsCreatedBy", fields: [createdById], references: [id])
+
+  updatedBy User @relation("NewsUpdatedBy", fields: [updatedById], references: [id])
+
+  translations NewsTranslation[]
+
+  media NewsMedia[]
+
+  @@index([status])
+  @@index([publishedAt])
+  @@index([featured])
+}
+
+// ─────────────────────────────────────────────
+// NEWS TRANSLATIONS
+// ─────────────────────────────────────────────
+
+model NewsTranslation {
+  id String @id @default(cuid())
+
+  newsId   String
+  language Language
+
+  title   String
+  excerpt String?
+  content String
+
+  seoTitle       String?
+  seoDescription String?
+
+  news News @relation(fields: [newsId], references: [id], onDelete: Cascade)
+
+  @@unique([newsId, language])
+  @@index([language])
+}
+
+// ─────────────────────────────────────────────
+// PROJECTS
+// ─────────────────────────────────────────────
+
+model Project {
+  id String @id @default(cuid())
+
+  slug String @unique
+
+  status ContentStatus @default(DRAFT)
+
+  featured Boolean @default(false)
+
+  startDate DateTime?
+  endDate   DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  createdById String
+  updatedById String
+
+  createdBy User @relation("ProjectsCreatedBy", fields: [createdById], references: [id])
+
+  updatedBy User @relation("ProjectsUpdatedBy", fields: [updatedById], references: [id])
+
+  translations ProjectTranslation[]
+
+  media ProjectMedia[]
+
+  @@index([status])
+  @@index([featured])
+}
+
+// ─────────────────────────────────────────────
+// PROJECT TRANSLATIONS
+// ─────────────────────────────────────────────
+
+model ProjectTranslation {
+  id String @id @default(cuid())
+
+  projectId String
+  language  Language
+
+  title       String
+  summary     String?
+  description String
+
+  location String?
+
+  project Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@unique([projectId, language])
+  @@index([language])
+}
+
+// ─────────────────────────────────────────────
+// MEDIA
+// ─────────────────────────────────────────────
+
+enum MediaType {
+  IMAGE
+  VIDEO
+  DOCUMENT
+}
+
+model Media {
+  id String @id @default(cuid())
+
+  type MediaType
+
+  fileName String
+  fileUrl  String
+
+  storagePath String
+
+  mimeType String?
+  fileSize Int?
+
+  altText String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  newsMedia    NewsMedia[]
+  projectMedia ProjectMedia[]
+}
+
+// ─────────────────────────────────────────────
+// NEWS MEDIA
+// ─────────────────────────────────────────────
+
+model NewsMedia {
+  id String @id @default(cuid())
+
+  newsId  String
+  mediaId String
+
+  sortOrder Int @default(0)
+
+  news News @relation(fields: [newsId], references: [id], onDelete: Cascade)
+
+  media Media @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+
+  @@unique([newsId, mediaId])
+  @@index([newsId, sortOrder])
+}
+
+// ─────────────────────────────────────────────
+// PROJECT MEDIA
+// ─────────────────────────────────────────────
+
+model ProjectMedia {
+  id String @id @default(cuid())
+
+  projectId String
+  mediaId   String
+
+  sortOrder Int @default(0)
+
+  project Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  media Media @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+
+  @@unique([projectId, mediaId])
+  @@index([projectId, sortOrder])
+}
+
+
+// ─────────────────────────────────────────────
+// CONTACT MESSAGES
+// ─────────────────────────────────────────────
+
+enum ContactMessageStatus {
+  NEW
+  READ
+  REPLIED
+  ARCHIVED
+}
+
+model ContactMessage {
+  id        String               @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  subject   String
+  message   String
+  status    ContactMessageStatus @default(NEW)
+  createdAt DateTime             @default(now())
+  updatedAt DateTime             @updatedAt
+
+  @@index([status])
+  @@index([createdAt])
+}
