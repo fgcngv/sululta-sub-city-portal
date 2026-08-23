@@ -5,35 +5,61 @@ import {
   CalendarDays,
   Newspaper,
 } from "lucide-react";
+import { getLanguage } from "@/lib/i18n";
 
 import { prisma } from "@/lib/prisma";
 
 export default async function NewsPage() {
+  // const news = await prisma.news.findMany({
+  //   orderBy: {
+  //     publishedAt: "desc",
+  //   },
+  //   include: {
+  //     translations: {
+  //       where: {
+  //         language: "EN",
+  //       },
+  //       take: 1,
+  //     },
+  //     media: {
+  //       orderBy: {
+  //         sortOrder: "asc",
+  //       },
+  //       take: 1,
+  //       include: {
+  //         media: true,
+  //       },
+  //     },
+  //   },
+  // });
+  const language = getLanguage();
+
   const news = await prisma.news.findMany({
-    orderBy: {
-      publishedAt: "desc",
+
+    orderBy:{
+      createdAt:"desc",
     },
-    include: {
-      translations: {
-        where: {
-          language: "EN",
+
+    include:{
+      translations:{
+        where:{
+          language
         },
-        take: 1,
+        take:1,
       },
-      media: {
-        orderBy: {
-          sortOrder: "asc",
+
+      media:{
+        orderBy:{
+          sortOrder:"asc",
         },
-        take: 1,
-        include: {
-          media: true,
+        take:1,
+        include:{
+          media:true,
         },
       },
     },
   });
 
-
-  console.log("news media file: ",news[1].media[0].media.fileUrl)
 
   return (
     <main className="min-h-screen bg-slate-50">
@@ -202,14 +228,6 @@ export default async function NewsPage() {
                           {translation.excerpt}
                         </p>
                       )}
-
-                      {/* Read more */}
-                      <div className="mt-6">
-                        <span className="inline-flex items-center gap-2 text-sm font-semibold text-slate-950">
-                          Read full story
-                          <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
-                        </span>
-                      </div>
                     </div>
                   </div>
                 </article>

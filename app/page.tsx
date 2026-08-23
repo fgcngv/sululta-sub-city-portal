@@ -10,12 +10,22 @@ import { visualStory } from "@/lib/visual-story-data";
 import { ContactLocation } from "@/components/home/contact-location";
 import { contactInformation } from "@/lib/contact-data";
 import { SulultaOverview } from "@/components/home/sululta-overview";
+import { cookies } from "next/headers";
+import { getDictionary, Language } from "@/lib/i18n/index";
 
-export default function Home() {
+export default async function Home() {
+  const cookieStore = await cookies();
+
+  const language =
+    (cookieStore.get("language")?.value as Language) ?? "EN";
+
+
+  const t = await getDictionary(language);
+
   return (
     <>
       <main>
-        <Hero />
+        <Hero  t={t} />
         <AdministrationWelcome />
         {/* <QuickAccess /> */}
         <SulultaOverview />

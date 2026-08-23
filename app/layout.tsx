@@ -8,6 +8,7 @@ import './globals.css'
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from '@/components/layout/site-header';
 import { Toaster } from "sonner";
+import { LanguageProvider } from './providers/language-provider';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+      <LanguageProvider>
         <ClerkProvider>
           <header className=" ">
           </header>
@@ -40,6 +42,7 @@ export default function RootLayout({
           <SiteFooter />
         </ClerkProvider>
         <Toaster position="top-right" richColors closeButton />
+        </LanguageProvider>
       </body>
     </html>
   )

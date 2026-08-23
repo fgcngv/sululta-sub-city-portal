@@ -6,6 +6,7 @@ import { ArrowLeft, CalendarDays } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { getNewsBySlug } from "@/lib/news";
+import { getLanguage } from "@/lib/i18n";
 
 type NewsDetailPageProps = {
   params: Promise<{
@@ -18,8 +19,13 @@ export default async function NewsDetailPage({
 }: NewsDetailPageProps) {
   const { slug } = await params;
 
-  const news = await getNewsBySlug(slug, "EN");
+  const language = getLanguage();
 
+  const news = await getNewsBySlug(
+    slug,
+    language
+  );
+  
   if (!news || news.status !== "PUBLISHED") {
     notFound();
   }

@@ -215,7 +215,7 @@ const overviewItems = [
     description:
       "Explore development activities and infrastructure initiatives across Sululta.",
     href: "/projects",
-    image: "/images/development.jpg",
+    image: "/images/projects/img4.png",
   },
   {
     icon: GraduationCap,
@@ -224,7 +224,7 @@ const overviewItems = [
     description:
       "Discover schools, educational services and community learning initiatives.",
     href: "/services/education",
-    image: "/images/education2.jpg",
+    image: "/images/projects/img46.png",
   },
 ];
 

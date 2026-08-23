@@ -15,6 +15,9 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
+import {
+  Mail,
+} from "lucide-react";
 
 type NavigationItem = {
   label: string;
@@ -87,6 +90,11 @@ const navigation: NavigationSection[] = [
         label: "Settings",
         href: "/admin/settings",
         icon: Settings,
+      },
+      {
+        label: "Messages",
+        href: "/admin/messages",
+        icon: Mail,
       },
     ],
   },

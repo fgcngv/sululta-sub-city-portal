@@ -103,58 +103,44 @@ export default function EducationPage() {
       {/* =========================================================
           HERO
       ========================================================= */}
-      <section className="relative overflow-hidden bg-[#231f20]">
-        {/* Brand accents */}
-        <div className="absolute -right-32 -top-32 size-96 rounded-full bg-[#ed1c24]/20 blur-3xl" />
-        <div className="absolute -bottom-40 -left-32 size-96 rounded-full bg-[#087443]/20 blur-3xl" />
-
-        <div className="absolute inset-0 opacity-[0.035]">
-          <div
-            className="h-full w-full"
-            style={{
-              backgroundImage:
-                "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)",
-              backgroundSize: "48px 48px",
-            }}
+      <section className="relative isolate overflow-hidden bg-slate-">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/projects/img44.png"
+            alt="Sululta landscape"
+            fill
+            priority
+            className="object-cover opacity-45"
+            sizes="100vw"
           />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-450 via-slate-950/85 to-slate-950/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/80 backdrop-blur">
+        <div className="relative mx-auto flex min-h-[560px] max-w-7xl items-end px-6 py-20 lg:px-8 lg:py-28">
+          <div className="max-w-3xl">
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/80 backdrop-blur">
               <GraduationCap className="size-4 text-[#ed1c24]" />
               Education & Learning
             </div>
 
-            <h1 className="mt-6 max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Education in{" "}
-              <span className="text-[#ed1c24]">Sululta</span>
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-7xl">
+            Education in Sululta
+            <span className="block text-slate-300">
+                Building our future.
+              </span>
             </h1>
 
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-white/70 sm:text-xl">
-              Supporting learning, knowledge and opportunity for children and
-              young people across Sululta Sub-City.
+            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
+            Supporting learning, knowledge and opportunity for children and young people across Sululta Sub-City.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              <Link
-                href="#education-data"
-                className="inline-flex items-center gap-2 rounded-lg bg-[#ed1c24] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#d91820]"
-              >
-                Explore education
-                <ArrowRight className="size-4" />
-              </Link>
-
-              <Link
-                href="#initiatives"
-                className="inline-flex items-center gap-2 rounded-lg border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/10"
-              >
-                Education initiatives
-              </Link>
-            </div>
           </div>
         </div>
       </section>
+
+      {/*  */}
+
 
       {/* =========================================================
           INTRO
@@ -284,6 +270,29 @@ export default function EducationPage() {
       {/* =========================================================
           SULULTA EDUCATION PHOTO
       ========================================================= */}
+            <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+        <div className="overflow-hidden rounded-3xl bg-[#231f20]">
+          <div className="grid lg:grid-cols-1">
+            <div className="relative min-h-[360px] lg:min-h-[500px]">
+              <Image
+                src="/images/projects/img44.png"
+                alt="Outdoor learning session at School of Success in Sululta"
+                fill
+                unoptimized
+                className="object-cover"
+              />
+
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" /> */}
+
+              <div className="absolute bottom-5 left-5 right-5">
+                <span className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-[#231f20]">
+                  Sululta
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="overflow-hidden rounded-3xl bg-[#231f20]">
           <div className="grid lg:grid-cols-2">

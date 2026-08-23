@@ -11,6 +11,7 @@ import {
   Phone,
   Send,
 } from "lucide-react";
+import SulultaMap from "@/components/contact/sululta-map";
 
 const contactDetails = [
   {
@@ -22,13 +23,13 @@ const contactDetails = [
   {
     icon: Phone,
     title: "Call us",
-    value: "+251 11 XXX XXXX",
+    value: "+251961083131",
     description: "Monday – Friday, during office hours",
   },
   {
     icon: Mail,
     title: "Email us",
-    value: "info@sululta.gov.et",
+    value: "sulultssubcity@gmail.com",
     description: "For general inquiries and public information",
   },
   {
@@ -103,27 +104,40 @@ async function handleSubmit(event: FormEvent<HTMLFormElement>) {
 
   return (
     <main className="bg-white">
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-slate-950">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.12),transparent_35%)]" />
+{/* Hero */}
+<section className="relative overflow-hidden">
+  {/* Background image */}
+  <div
+    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+    style={{
+      backgroundImage: "url('/images/contact-hero.jpg')",
+    }}
+  />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
-          <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
-              Contact Sululta Administration
-            </p>
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-black/60" />
 
-            <h1 className="mt-5 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-              We’re here to help.
-            </h1>
+  {/* Subtle gradient for better readability */}
+  <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-black/30" />
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              Have a question, need information about a public service, or
-              want to get in touch with the administration? Reach out to us.
-            </p>
-          </div>
-        </div>
-      </section>
+  {/* Content */}
+  <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
+    <div className="max-w-3xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/75">
+        Contact Sululta Administration
+      </p>
+
+      <h1 className="mt-5 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+        We&apos;re here to help.
+      </h1>
+
+      <p className="mt-6 max-w-2xl text-lg leading-8 text-white/85">
+        Have a question, need information about a public service, or
+        want to get in touch with the administration? Reach out to us.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* Contact details */}
       <section className="border-b border-slate-200 bg-slate-50">
@@ -177,25 +191,6 @@ async function handleSubmit(event: FormEvent<HTMLFormElement>) {
               provide enough information for our team to understand and respond
               to your request.
             </p>
-
-            <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-6">
-              <h3 className="font-semibold text-slate-950">
-                Looking for a public service?
-              </h3>
-
-              <p className="mt-2 text-sm leading-6 text-slate-600">
-                You may find the information you need directly through our
-                public services directory.
-              </p>
-
-              <Link
-                href="/services"
-                className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-slate-950"
-              >
-                Browse services
-                <ArrowRight className="size-4" />
-              </Link>
-            </div>
 
             <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-6">
               <h3 className="font-semibold text-amber-950">
@@ -365,7 +360,7 @@ async function handleSubmit(event: FormEvent<HTMLFormElement>) {
               </div>
             </div>
 
-            <div className="flex min-h-[360px] items-center justify-center overflow-hidden rounded-3xl border border-slate-200 bg-slate-200">
+            {/* <div className="flex min-h-[360px] items-center justify-center overflow-hidden rounded-3xl border border-slate-200 bg-slate-200">
               <div className="text-center">
                 <MapPin className="mx-auto size-10 text-slate-500" />
 
@@ -377,7 +372,8 @@ async function handleSubmit(event: FormEvent<HTMLFormElement>) {
                   Interactive map will be added here.
                 </p>
               </div>
-            </div>
+            </div> */}
+            <SulultaMap />
           </div>
         </div>
       </section>

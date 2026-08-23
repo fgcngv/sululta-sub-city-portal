@@ -16,6 +16,12 @@ const administrators = [
     image: "/administrations/waaziraa.jpg",
     message:
       "Working together with our communities to improve services and create better opportunities for every resident.",
+  },  {
+    name: "Obbo Taarrakeny _______ Administreetara Saayinsii Fi Teeknoolojii Kutaan Magaalaa Sulultaa",
+    role: "",
+    image: "/images/administrator.jpg",
+    message:
+      "Working together with our communities to improve digital transformation.",
   },
   {
     name: "Bulchaa Aanaa Abbaa Gadaa",
