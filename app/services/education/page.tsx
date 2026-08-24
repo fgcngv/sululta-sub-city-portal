@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -66,10 +64,8 @@ const initiatives = [
       "The Gudina Tumsa Foundation reported the unveiling of a reading park at Sululta Secondary School, providing students with a dedicated place for reading.",
     image:
       "https://gudinatumsafoundation.org/wp-content/uploads/2024/12/reading-park.jpg",
-    imageAlt:
-      "Reading park initiative at Sululta Secondary School",
-    source:
-      "Gudina Tumsa Foundation, December 2024",
+    imageAlt: "Reading park initiative at Sululta Secondary School",
+    source: "Gudina Tumsa Foundation, December 2024",
   },
   {
     title: "Improved WASH Facilities at Babo Wale Ilu Primary School",
@@ -78,10 +74,8 @@ const initiatives = [
       "An eight-seat latrine equipped with handwashing basins and a water storage system was inaugurated at Babo Wale Ilu Primary School.",
     image:
       "https://gudinatumsafoundation.org/wp-content/uploads/2024/12/babo-wale-ilu.jpg",
-    imageAlt:
-      "WASH facility initiative at Babo Wale Ilu Primary School",
-    source:
-      "Gudina Tumsa Foundation, December 2024",
+    imageAlt: "WASH facility initiative at Babo Wale Ilu Primary School",
+    source: "Gudina Tumsa Foundation, December 2024",
   },
 ];
 
@@ -91,8 +85,7 @@ const learningStories = [
     description:
       "School of Success states that it was established in Sululta town in 2014. Its published information describes open-plan classrooms, smart-board technology, literacy and numeracy programs, sports activities, IT training, and Afaan Oromo and Amharic curriculum.",
     image: "https://www.ethioharvardschool.com/gallary/g1.jpg",
-    imageAlt:
-      "Outdoor learning session at School of Success in Sululta",
+    imageAlt: "Outdoor learning session at School of Success in Sululta",
     source: "School of Success",
   },
 ];
@@ -119,28 +112,25 @@ export default function EducationPage() {
 
         <div className="relative mx-auto flex min-h-[560px] max-w-7xl items-end px-6 py-20 lg:px-8 lg:py-28">
           <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/80 backdrop-blur">
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/80 backdrop-blur">
               <GraduationCap className="size-4 text-[#ed1c24]" />
               Education & Learning
             </div>
 
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-7xl">
-            Education in Sululta
-            <span className="block text-slate-300">
-                Building our future.
-              </span>
+              Education in Sululta
+              <span className="block text-slate-300">Building our future.</span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
-            Supporting learning, knowledge and opportunity for children and young people across Sululta Sub-City.
+              Supporting learning, knowledge and opportunity for children and
+              young people across Sululta Sub-City.
             </p>
-
           </div>
         </div>
       </section>
 
       {/*  */}
-
 
       {/* =========================================================
           INTRO
@@ -167,13 +157,84 @@ export default function EducationPage() {
 
               <p>
                 Available planning and research documents also highlight the
-                importance of teacher capacity, learning environments,
-                parental engagement and educational infrastructure.
+                importance of teacher capacity, learning environments, parental
+                engagement and educational infrastructure.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+            {/* =========================================================
+          INITIATIVES
+      ========================================================= */}
+      <section id="initiatives" className="border-y border-black/5 bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+          <div className="max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#ed1c24]">
+              Education initiatives
+            </p>
+
+            <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
+              Recent education-related developments
+            </h2>
+
+            <p className="mt-4 leading-7 text-[#231f20]/60">
+              These are documented initiatives reported by organizations working
+              in Sululta. They are presented here as factual examples, not as
+              claims that they are government projects.
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-7 lg:grid-cols-2">
+            {initiatives.map((initiative) => (
+              <article
+                key={initiative.title}
+                className="overflow-hidden rounded-2xl border border-black/5 bg-[#f7f7f5]"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden bg-[#e9e9e6]">
+                  {initiative.image ? (
+                    <Image
+                      src={initiative.image}
+                      alt={initiative.imageAlt}
+                      fill
+                      unoptimized
+                      className="object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-full items-center justify-center">
+                      <Building2 className="size-12 text-black/20" />
+                    </div>
+                  )}
+                </div>
+
+                <div className="p-7">
+                  <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-wide">
+                    <span className="text-[#ed1c24]">{initiative.date}</span>
+
+                    <span className="size-1 rounded-full bg-black/20" />
+
+                    <span className="text-black/40">Education</span>
+                  </div>
+
+                  <h3 className="mt-4 text-2xl font-bold">
+                    {initiative.title}
+                  </h3>
+
+                  <p className="mt-3 text-sm leading-7 text-black/60">
+                    {initiative.description}
+                  </p>
+
+                  <p className="mt-5 border-t border-black/5 pt-5 text-xs text-black/40">
+                    Source: {initiative.source}
+                  </p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
 
       {/* =========================================================
           FACTUAL STATISTICS
@@ -220,10 +281,37 @@ export default function EducationPage() {
           <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-[#087443]" />
 
           <p>
-            Source: Shaggar City Plan and Development Office, 2024.
-            The figures refer specifically to public schools in Sululta
-            Sub-City.
+            Source: Shaggar City Plan and Development Office, 2024. The figures
+            refer specifically to public schools in Sululta Sub-City.
           </p>
+        </div>
+      </section>
+
+
+      {/* =========================================================
+          SULULTA EDUCATION PHOTO
+      ========================================================= */}
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+        <div className="overflow-hidden rounded-3xl bg-[#231f20]">
+          <div className="grid lg:grid-cols-1">
+            <div className="relative min-h-[360px] lg:min-h-[500px]">
+              <Image
+                src="/images/projects/img44.png"
+                alt="Outdoor learning session at School of Success in Sululta"
+                fill
+                unoptimized
+                className="object-cover"
+              />
+
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" /> */}
+
+              <div className="absolute bottom-5 left-5 right-5">
+                <span className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-[#231f20]">
+                  Sululta
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -267,32 +355,7 @@ export default function EducationPage() {
         </div>
       </section>
 
-      {/* =========================================================
-          SULULTA EDUCATION PHOTO
-      ========================================================= */}
-            <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-        <div className="overflow-hidden rounded-3xl bg-[#231f20]">
-          <div className="grid lg:grid-cols-1">
-            <div className="relative min-h-[360px] lg:min-h-[500px]">
-              <Image
-                src="/images/projects/img44.png"
-                alt="Outdoor learning session at School of Success in Sululta"
-                fill
-                unoptimized
-                className="object-cover"
-              />
 
-              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" /> */}
-
-              <div className="absolute bottom-5 left-5 right-5">
-                <span className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-[#231f20]">
-                  Sululta
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="overflow-hidden rounded-3xl bg-[#231f20]">
           <div className="grid lg:grid-cols-2">
@@ -326,8 +389,8 @@ export default function EducationPage() {
               <p className="mt-5 leading-7 text-white/65">
                 School of Success, located in Sululta town, publishes
                 information about open-plan classrooms, attractive school
-                grounds, smart-board technology, literacy and numeracy
-                programs, sports activities and IT training.
+                grounds, smart-board technology, literacy and numeracy programs,
+                sports activities and IT training.
               </p>
 
               <p className="mt-5 text-sm leading-6 text-white/45">
@@ -351,82 +414,6 @@ export default function EducationPage() {
         </div>
       </section>
 
-      {/* =========================================================
-          INITIATIVES
-      ========================================================= */}
-      <section
-        id="initiatives"
-        className="border-y border-black/5 bg-white"
-      >
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-          <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#ed1c24]">
-              Education initiatives
-            </p>
-
-            <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-              Recent education-related developments
-            </h2>
-
-            <p className="mt-4 leading-7 text-[#231f20]/60">
-              These are documented initiatives reported by organizations
-              working in Sululta. They are presented here as factual examples,
-              not as claims that they are government projects.
-            </p>
-          </div>
-
-          <div className="mt-10 grid gap-7 lg:grid-cols-2">
-            {initiatives.map((initiative) => (
-              <article
-                key={initiative.title}
-                className="overflow-hidden rounded-2xl border border-black/5 bg-[#f7f7f5]"
-              >
-                <div className="relative aspect-[16/9] overflow-hidden bg-[#e9e9e6]">
-                  {initiative.image ? (
-                    <Image
-                      src={initiative.image}
-                      alt={initiative.imageAlt}
-                      fill
-                      unoptimized
-                      className="object-cover"
-                    />
-                  ) : (
-                    <div className="flex h-full items-center justify-center">
-                      <Building2 className="size-12 text-black/20" />
-                    </div>
-                  )}
-                </div>
-
-                <div className="p-7">
-                  <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-wide">
-                    <span className="text-[#ed1c24]">
-                      {initiative.date}
-                    </span>
-
-                    <span className="size-1 rounded-full bg-black/20" />
-
-                    <span className="text-black/40">
-                      Education
-                    </span>
-                  </div>
-
-                  <h3 className="mt-4 text-2xl font-bold">
-                    {initiative.title}
-                  </h3>
-
-                  <p className="mt-3 text-sm leading-7 text-black/60">
-                    {initiative.description}
-                  </p>
-
-                  <p className="mt-5 border-t border-black/5 pt-5 text-xs text-black/40">
-                    Source: {initiative.source}
-                  </p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* =========================================================
           RESEARCH / SECONDARY EDUCATION
@@ -455,15 +442,13 @@ export default function EducationPage() {
               </div>
 
               <div>
-                <h3 className="font-semibold">
-                  Secondary-school study
-                </h3>
+                <h3 className="font-semibold">Secondary-school study</h3>
 
                 <p className="mt-2 text-sm leading-6 text-black/60">
                   A peer-reviewed 2025 study on Sululta Sub-City secondary
                   schools used questionnaires, interviews and document review.
-                  The study included 307 students, 65 teachers, 4 principals
-                  and 28 PTA members.
+                  The study included 307 students, 65 teachers, 4 principals and
+                  28 PTA members.
                 </p>
 
                 <Link
@@ -565,8 +550,7 @@ export default function EducationPage() {
 
             <p className="mx-auto mt-4 max-w-2xl leading-7 text-white/70">
               Strong schools, supportive learning environments and community
-              participation all contribute to better educational
-              opportunities.
+              participation all contribute to better educational opportunities.
             </p>
 
             <Link

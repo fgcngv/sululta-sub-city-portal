@@ -1,5 +1,6 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { FormEvent, useState } from "react";
 import { toast } from "sonner";
 import {
@@ -9,7 +10,23 @@ import {
   Phone,
   Send,
 } from "lucide-react";
-import SulultaMap from "@/components/contact/sululta-map";
+
+const SulultaMap = dynamic(
+  () => import("@/components/contact/sululta-map"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex min-h-[360px] items-center justify-center rounded-3xl border border-slate-200 bg-slate-100">
+        <div className="text-center">
+          <MapPin className="mx-auto size-10 text-slate-400" />
+          <p className="mt-4 font-semibold text-slate-700">
+            Loading map...
+          </p>
+        </div>
+      </div>
+    ),
+  }
+);
 
 const contactDetails = [
   {

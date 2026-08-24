@@ -73,7 +73,7 @@
 
 //         {/* Main feature */}
 //         <div className="mt-14 grid overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm lg:grid-cols-[1.05fr_1fr]">
-          
+
 //           {/* LEFT — Administrator Message */}
 // <div className="bg-white p-6 sm:p-8 lg:p-10">
 //   <div className="flex h-full flex-col">
@@ -192,8 +192,6 @@
 //   );
 // }
 
-
-
 "use client";
 
 import Image from "next/image";
@@ -234,7 +232,6 @@ export function SulultaOverview() {
   return (
     <section className="relative overflow-hidden bg-white py-20 sm:py-24 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
         {/* =====================================================
             SECTION HEADER
         ===================================================== */}
@@ -249,9 +246,8 @@ export function SulultaOverview() {
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
-            Access information about public services, development,
-            community initiatives and the work of the Sululta Sub-City
-            Administration.
+            Access information about public services, development, community
+            initiatives and the work of the Sululta Sub-City Administration.
           </p>
         </div>
 
@@ -259,15 +255,13 @@ export function SulultaOverview() {
             ADMINISTRATOR — ONE ROW
         ===================================================== */}
         <div className="mt-14 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-
           <div className="grid lg:grid-cols-2">
-
             {/* =================================================
                 ADMINISTRATOR IMAGE — FIRST COLUMN
             ================================================= */}
             <div className="relative min-h-[320px] overflow-hidden bg-slate-100 sm:min-h-[400px] lg:min-h-[500px]">
               <Image
-                src="/images/administrator.jpg"
+                src="/images/projects/img50.png"
                 alt="Science and Technology Administrator of Sululta Sub-City"
                 fill
                 priority
@@ -276,11 +270,10 @@ export function SulultaOverview() {
               />
 
               {/* Image overlay */}
-           
 
               {/* Image label */}
               <div className="absolute bottom-6 left-6 sm:bottom-8 sm:left-8">
-                <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-white backdrop-blur-md ring-1 ring-white/20">
+                <span className="relative inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-white backdrop-blur-md ring-1 ring-white/20 bottom-20">
                   <MessageSquareText className="size-4" />
                   Administrator
                 </span>
@@ -291,7 +284,6 @@ export function SulultaOverview() {
                 ADMINISTRATOR MESSAGE — SECOND COLUMN
             ================================================= */}
             <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-12">
-
               <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">
                 Message from the Sululta Sub-City Science & Technology
                 Administration
@@ -314,12 +306,21 @@ export function SulultaOverview() {
                   <>
                     {/* Short preview */}
                     <p className="mt-4 line-clamp-3 text-base leading-7 text-slate-600 sm:text-lg">
-                      We are committed to using science, technology and
-                      innovation to support the development of our community.
-                      Through collaboration, knowledge sharing and improved
-                      access to technology, we are working to create
-                      opportunities for our citizens and contribute to
-                      sustainable development.
+                      First of all, greetings and respect to you. Using science
+                      and technology to modernize public services, deliver
+                      faster and more quality work, and encourage innovation and
+                      new ideas is at the heart of our vision. The Sultanate
+                      Science and Technology Office is working to strengthen
+                      executive capacity, create innovative opportunities for
+                      youth and professionals, introduce new technologies and
+                      expand digital services. Success in our work cannot be
+                      complete without public participation, cooperation and
+                      input. Therefore, let us all do our part by using science,
+                      technology and innovation as opportunities for development
+                      and lasting change. “Science and Technology – The
+                      Foundation for Change and Development in Our City!” Thank
+                      you. Head of the Office of Science and Technology
+                      Sultanate of Sulu
                     </p>
 
                     {/* Explore button */}
@@ -329,9 +330,7 @@ export function SulultaOverview() {
                       className="group mt-7 inline-flex w-fit items-center gap-2 rounded-xl bg-red-700 px-5 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-300 hover:bg-red-800 hover:shadow-md"
                     >
                       <MessageSquareText className="size-4" />
-
                       Expand Message
-
                       <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
                     </button>
                   </>
@@ -340,18 +339,27 @@ export function SulultaOverview() {
                     {/* Full message */}
                     <div className="space-y-4">
                       <p className="text-base leading-7 text-slate-600 sm:text-lg">
-                        We are committed to using science, technology and
-                        innovation to support the development of our community.
-                        Through collaboration, knowledge sharing and improved
-                        access to technology, we are working to create
-                        opportunities for our citizens and contribute to
-                        sustainable development.
+                        First of all, greetings and respect to you. Using
+                        science and technology to modernize public services,
+                        deliver faster and more quality work, and encourage
+                        innovation and new ideas is at the heart of our vision.
+                        The Sultanate Science and Technology Office is working
+                        to strengthen executive capacity, create innovative
+                        opportunities for youth and professionals, introduce new
+                        technologies and expand digital services. Success in our
+                        work cannot be complete without public participation,
+                        cooperation and input. Therefore, let us all do our part
+                        by using science, technology and innovation as
+                        opportunities for development and lasting change.
+                        “Science and Technology – The Foundation for Change and
+                        Development in Our City!” Thank you. Head of the Office
+                        of Science and Technology Sultanate of Sulu
                       </p>
 
                       <p className="text-base leading-7 text-slate-600 sm:text-lg">
                         We invite citizens, institutions, businesses and
-                        development partners to work together in building a
-                        more innovative, productive and inclusive Sululta.
+                        development partners to work together in building a more
+                        innovative, productive and inclusive Sululta.
                       </p>
 
                       <p className="text-base leading-7 text-slate-600 sm:text-lg">
@@ -383,7 +391,6 @@ export function SulultaOverview() {
             MOBILE: ONE COLUMN
         ===================================================== */}
         <div className="mt-6 grid gap-6 md:grid-cols-2">
-
           {overviewItems.map((item) => {
             const Icon = item.icon;
 
@@ -412,7 +419,6 @@ export function SulultaOverview() {
 
                 {/* Card content */}
                 <div className="absolute inset-x-0 bottom-0 z-10 p-6 sm:p-8">
-
                   {/* Icon */}
                   <div className="inline-flex size-11 items-center justify-center rounded-xl bg-white/15 text-white backdrop-blur-md ring-1 ring-white/25 transition-all duration-300 group-hover:bg-white group-hover:text-slate-900">
                     <Icon className="size-5" />
@@ -436,7 +442,6 @@ export function SulultaOverview() {
                   {/* Explore */}
                   <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-white">
                     Explore
-
                     <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
                   </span>
                 </div>

@@ -34,7 +34,7 @@ const projects = [
     category: "Water & Sanitation",
     status: "Ongoing",
     location: "Sululta",
-    image: "/images/projects/img3.png",
+    image: "/images/projects/img47.png",
   },
 ];
 

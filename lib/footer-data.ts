@@ -33,7 +33,7 @@ export const footerData = {
     socialLinks: [
       {
         label: "Facebook",
-        href: "#",
+        href: "https://www.facebook.com/share/19ZE3WmMnr/",
       },
       {
         label: "Telegram",

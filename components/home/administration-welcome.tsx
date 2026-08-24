@@ -17,9 +17,9 @@ const administrators = [
     message:
       "Working together with our communities to improve services and create better opportunities for every resident.",
   },  {
-    name: "Obbo Taarrakeny _______ Administreetara Saayinsii Fi Teeknoolojii Kutaan Magaalaa Sulultaa",
+    name: "Obbo Taarraqeny _______ Itti Gaafatamaa Waajjira Saayinsii fi Teeknooloojii Kutaa Magaalaa Sulultaa",
     role: "",
-    image: "/images/administrator.jpg",
+    image: "/images/projects/img48.png",
     message:
       "Working together with our communities to improve digital transformation.",
   },
