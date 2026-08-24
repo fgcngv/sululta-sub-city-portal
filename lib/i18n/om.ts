@@ -336,6 +336,100 @@ const om = {
       "Odeeffannoon bakka mootummaa yeroo dhiyaatu itti dabalamuu danda'a.",
   
   },
+
+  about: {
+    hero: {
+      badge: "Waa'ee Sulultaa",
+      title: "Hawaasa keenya tajaajiluu.",
+      subtitle: "Fuuldura keenya ijaaruu.",
+      description:
+        "Bulchiinsi Kutaa Magaalaa Sulultaa tajaajila mootummaa gaarii fi bulchiinsa itti gaafatamummaa qabuun hawaasa cimsaa, walitti dhufeenya qabu fi badhaadhaa ta'e ijaaruuf kutannoo qaba.",
+    },
+  
+  
+    introduction: {
+      eyebrow: "Nuti eenyu?",
+      title: "Bulchiinsa ummataa fi guddina irratti xiyyeeffate.",
+  
+      paragraphs: [
+        "Sulultaan hawaasa guddachaa jiru, eenyummaa cimaa, carraa fi itti gaafatamummaa waliinii qabu dha.",
+  
+        "Tajaajila mootummaa, misooma bu'uuraalee misoomaa, hirmaannaa hawaasaa fi bulchiinsa gaarii irratti hundaa'uun jireenya guyyaa guyyaa fooyyeessuuf hojjenna.",
+      ],
+  
+      commitmentTitle: "Kutannoo keenya",
+  
+      commitment:
+        "Tajaajila fooyya'aa, hawaasa cimaa fi misooma naannoo itti fufiinsa qabu.",
+    },
+  
+  
+    direction: {
+      eyebrow: "Kallattii keenya",
+  
+      title: "Kaayyoo ifaa irratti hundaa'uun hogganamuu.",
+  
+      visionTitle: "Mul'ata keenya",
+  
+      vision:
+        "Sulultaan hawaasa hunda hammatu, badhaadhaa, tajaajilamu fi itti fufiinsa qabu akka taatu gochuu.",
+  
+      missionTitle: "Ergama keenya",
+  
+      mission:
+        "Tajaajila mootummaa bu'a qabeessa, salphaa fi itti gaafatamummaa qabu kennuun guddina naannoo deeggaruu.",
+    },
+  
+  
+    values: {
+      eyebrow: "Waan nu qajeelchu",
+  
+      title: "Duudhaalee hojii keenya duuba jiran.",
+  
+      description:
+        "Hojii keenya tajaajila, itti gaafatamummaa fi ummata Sulultaa waliin hojjechuu irratti hundeessina.",
+  
+  
+      items: [
+        {
+          title: "Hawaasa dursa kennuu",
+  
+          description:
+            "Fedhii, hawwii fi nageenya hawaasa Sulultaa hojii keenya keessatti bakka jalqabaa irratti kaa'na.",
+        },
+  
+  
+        {
+          title: "Itti gaafatamummaa",
+  
+          description:
+            "Bulchiinsa iftoomina qabu, amanamaa fi itti gaafatamummaa qabu kennuuf hojjenna.",
+        },
+  
+  
+        {
+          title: "Tajaajila qulqullina qabu",
+  
+          description:
+            "Tajaajilawwan mootummaa salphaa, saffisaa fi namni hundi argachuu danda'u gochuuf hojjenna.",
+        },
+      ],
+    },
+  
+  
+    closing: {
+      eyebrow: "Bulchiinsa Kutaa Magaalaa Sulultaa",
+  
+      title:
+        "Waliin taanee Sulultaa cimaa ijaarra.",
+  
+      description:
+        "Odeeffannoo argadhaa, tajaajila mootummaa fayyadamaa fi bulchiinsa keessan waliin wal qunnamaa.",
+  
+      button:
+        "Oduu haaraa",
+    },
+  },
 };
 
 export default om;

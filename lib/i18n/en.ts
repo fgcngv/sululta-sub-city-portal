@@ -325,105 +325,78 @@ const en = {
     },
 
     about: {
-
-      heroBadge: "About Sululta",
-    
-      heroTitle: "Serving our community.",
-    
-      heroTitleHighlight: "Building our future.",
-    
-      heroDescription:
-        "Sululta Sub-City Administration is committed to creating a stronger, more connected, and more prosperous community through effective public service and responsible local administration.",
-    
-    
-    
-      introductionEyebrow: "Who we are",
-    
-      introductionTitle:
-        "A local administration focused on people and progress.",
-    
-      introductionText1:
-        "Sululta is a growing community with a strong sense of identity, opportunity, and shared responsibility. Our administration works alongside residents and stakeholders to support sustainable development and improve everyday life.",
-    
-      introductionText2:
-        "Through public services, infrastructure development, community engagement, and responsible governance, we aim to create an environment where individuals, families, businesses, and institutions can thrive.",
-    
-    
-      commitmentTitle:
-        "Our commitment",
-    
-      commitmentText:
-        "Better services, stronger communities, and sustainable local development.",
-    
-    
-    
-      direction:
-        "Our direction",
-    
-      directionTitle:
-        "Guided by a clear purpose.",
-    
-    
-      visionTitle:
-        "Our Vision",
-    
-      vision:
-        "To see Sululta become an inclusive, prosperous, well-served, and sustainable community where people can live, work, and build a better future.",
-    
-    
-      missionTitle:
-        "Our Mission",
-    
-      mission:
-        "To provide effective, accessible, and accountable public services while working with the community to advance local development and improve quality of life.",
-    
-    
-    
-      valuesEyebrow:
-        "What guides us",
-    
-      valuesTitle:
-        "Values behind our work.",
-    
-      valuesDescription:
-        "Our approach is grounded in service, responsibility, and a commitment to the people of Sululta.",
-    
-    
-      values:[
-        {
-          title:"Community First",
-          description:
-          "We put the needs, aspirations, and wellbeing of Sululta's communities at the center of our work."
-        },
-    
-        {
-          title:"Accountability",
-          description:
-          "We are committed to responsible administration, transparency, and delivering meaningful public value."
-        },
-    
-        {
-          title:"Service Excellence",
-          description:
-          "We continuously work to make public services more accessible, responsive, and effective."
-        }
-      ],
-    
-    
-    
-      ctaEyebrow:
-        "Sululta Administration",
-    
-      ctaTitle:
-        "Together, we can build a stronger Sululta.",
-    
-      ctaDescription:
-        "Stay informed, access public services, and connect with your local administration.",
-    
-      latestNews:
-        "Latest news"
-    
-    }
+      hero: {
+        badge: "About Sululta",
+        title: "Serving our community.",
+        subtitle: "Building our future.",
+        description:
+          "Sululta Sub-City Administration is committed to creating a stronger, more connected, and prosperous community through effective public service.",
+      },
+  
+      introduction: {
+        eyebrow: "Who we are",
+        title: "A local administration focused on people and progress.",
+  
+        paragraphs: [
+          "Sululta is a growing community with a strong sense of identity, opportunity, and shared responsibility.",
+          "Through public services, infrastructure development, community engagement, and responsible governance, we aim to improve everyday life.",
+        ],
+  
+        commitmentTitle: "Our commitment",
+        commitment:
+          "Better services, stronger communities, and sustainable local development.",
+      },
+  
+  
+      direction: {
+        eyebrow: "Our direction",
+        title: "Guided by a clear purpose.",
+  
+        visionTitle: "Our Vision",
+        vision:
+          "To see Sululta become an inclusive, prosperous, and sustainable community.",
+  
+        missionTitle: "Our Mission",
+        mission:
+          "To provide effective, accessible, and accountable public services.",
+      },
+  
+  
+      values: {
+        eyebrow: "What guides us",
+        title: "Values behind our work.",
+        description:
+          "Our approach is grounded in service, responsibility, and commitment.",
+  
+        items: [
+          {
+            title: "Community First",
+            description:
+              "We put the needs and wellbeing of Sululta communities first.",
+          },
+          {
+            title: "Accountability",
+            description:
+              "We are committed to transparency and responsible administration.",
+          },
+          {
+            title: "Service Excellence",
+            description:
+              "We work to make public services accessible and effective.",
+          },
+        ],
+      },
+  
+  
+      closing: {
+        eyebrow: "Sululta Administration",
+        title: "Together, we can build a stronger Sululta.",
+        description:
+          "Stay informed, access public services, and connect with your administration.",
+        button: "Latest news",
+      },
+    },
 };
 
 export default en;
+
