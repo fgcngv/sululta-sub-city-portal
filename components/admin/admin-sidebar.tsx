@@ -33,11 +33,11 @@ type NavigationSection =
     };
 
 const navigation: NavigationSection[] = [
-  {
-    label: "Overview",
-    href: "/admin",
-    icon: LayoutDashboard,
-  },
+  // {
+  //   label: "Overview",
+  //   href: "/admin",
+  //   icon: LayoutDashboard,
+  // },
   {
     label: "Content",
     items: [
@@ -46,56 +46,56 @@ const navigation: NavigationSection[] = [
         href: "/admin/news",
         icon: FileText,
       },
-      {
-        label: "Services",
-        href: "/admin/services",
-        icon: BriefcaseBusiness,
-      },
-      {
-        label: "Projects",
-        href: "/admin/projects",
-        icon: FolderKanban,
-      },
-      {
-        label: "Announcements",
-        href: "/admin/announcements",
-        icon: Megaphone,
-      },
+      // {
+      //   label: "Services",
+      //   href: "/admin/services",
+      //   icon: BriefcaseBusiness,
+      // },
+      // {
+      //   label: "Projects",
+      //   href: "/admin/projects",
+      //   icon: FolderKanban,
+      // },
+      // {
+      //   label: "Announcements",
+      //   href: "/admin/announcements",
+      //   icon: Megaphone,
+      // },
     ],
   },
-  {
-    label: "Media",
-    items: [
-      {
-        label: "Images",
-        href: "/admin/media/images",
-        icon: ImageIcon,
-      },
-      {
-        label: "Videos",
-        href: "/admin/media/videos",
-        icon: Video,
-      },
-    ],
-  },
+  // {
+  //   label: "Media",
+  //   items: [
+  //     {
+  //       label: "Images",
+  //       href: "/admin/media/images",
+  //       icon: ImageIcon,
+  //     },
+  //     {
+  //       label: "Videos",
+  //       href: "/admin/media/videos",
+  //       icon: Video,
+  //     },
+  //   ],
+  // },
   {
     label: "Administration",
     items: [
       {
-        label: "Users",
-        href: "/admin/users",
+        label: "Messages",
+        href: "/admin/messages",
         icon: Users,
       },
       {
         label: "Settings",
-        href: "/admin/settings",
+        href: "#",
         icon: Settings,
       },
-      {
-        label: "Messages",
-        href: "/admin/messages",
-        icon: Mail,
-      },
+      // {
+      //   label: "Messages",
+      //   href: "/admin/messages",
+      //   icon: Mail,
+      // },
     ],
   },
 ];
