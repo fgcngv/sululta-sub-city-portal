@@ -3,21 +3,20 @@
 
 const om = {
   hero: {
-    badge: "Sulultaa Daawwadhaa",
+    badge: "Sululta Daawwadhaa",
 
     texts: [
-      "Baga gara Magaalaa Xiqqaa Sulultaa dhuftan",
-      "Bareedina Sulultaa argadhaa",
+      "Baga gara Magaalaa Sulultaa Nagaan dhuftan",
+      "Uumama Sulultaa Daawwadhaa",
       "Muuxannoo adda ta'e argadhaa",
       "Imalli keessan as irraa jalqaba",
-      "Sulultaa fooyya'aa ijaaramaa jirra",
-      "Saayinsii fi Teeknooloojii",
+      "Sululta fooyya'aa ijaaraa jirra",
     ],
 
     description:
-      "Namoota, iddoowwan, kalaqa, aadaa fi muuxannoowwan Sulultaa bakka qorachuu, wal qunnamuu fi egeree ijaaruuf addaa taasisan argadhaa.",
+      "Namoota, iddoowwan, kalaqa, aadaa fi muuxannoowwan Sulultaa argadhaa.",
 
-    button: "Sulultaa Daawwadhaa",
+    button: "Sululta Daawwadhaa",
 
     nature: "Uumama fi Imala",
 
