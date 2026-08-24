@@ -425,6 +425,7 @@
 
 import { useEffect, useState } from "react";
 import { ArrowDown } from "lucide-react";
+import Link from "next/link";
 
 const TYPING_SPEED = 70;
 const DELETING_SPEED = 40;
@@ -815,6 +816,9 @@ export function Hero({ t }: HeroProps) {
               <span className="size-1.5 rounded-full bg-white/60" />
               <span>{hero.culture}</span>
             </div>
+            <div>
+          <Link href={"/admin"}>Admin</Link>
+        </div>
           </div>
         </div>
       </div>
@@ -863,7 +867,10 @@ export function Hero({ t }: HeroProps) {
           "
         >
           <ArrowDown className="size-4 animate-bounce" />
+
         </div>
+
+
       </div>
 
       {/* =====================================================

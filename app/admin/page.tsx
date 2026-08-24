@@ -7,26 +7,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-const stats = [
-  {
-    label: "Published News",
-    value: "12",
-    description: "Currently published",
-    icon: FileText,
-  },
-  {
-    label: "Active Projects",
-    value: "8",
-    description: "Projects in progress",
-    icon: FolderKanban,
-  },
-  {
-    label: "Services",
-    value: "14",
-    description: "Available services",
-    icon: BriefcaseBusiness,
-  },
-];
+
 
 const activities = [
   {
@@ -76,38 +57,6 @@ export default function AdminDashboard() {
         </div>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-3">
-        {stats.map((stat) => {
-          const Icon = stat.icon;
-
-          return (
-            <div
-              key={stat.label}
-              className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
-            >
-              <div className="flex items-start justify-between">
-                <div className="flex size-11 items-center justify-center rounded-xl bg-slate-100">
-                  <Icon className="size-5 text-slate-700" />
-                </div>
-
-                <ArrowUpRight className="size-4 text-slate-400" />
-              </div>
-
-              <p className="mt-5 text-sm font-medium text-slate-500">
-                {stat.label}
-              </p>
-
-              <p className="mt-1 text-3xl font-bold tracking-tight text-slate-950">
-                {stat.value}
-              </p>
-
-              <p className="mt-1 text-sm text-slate-500">
-                {stat.description}
-              </p>
-            </div>
-          );
-        })}
-      </section>
 
       <section className="grid gap-6 lg:grid-cols-[1.5fr_1fr]">
         <div className="rounded-2xl border border-slate-200 bg-white shadow-sm">
@@ -164,19 +113,17 @@ export default function AdminDashboard() {
               + Create news
             </Link>
 
-            <Link
-              href="/admin/projects/new"
+            <div
               className="rounded-xl border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50"
             >
               + Add project
-            </Link>
+            </div>
 
-            <Link
-              href="/admin/media/images"
+            <div
               className="rounded-xl border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50"
             >
               + Upload media
-            </Link>
+            </div>
           </div>
         </div>
       </section>
