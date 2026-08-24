@@ -61,18 +61,18 @@ const om = {
           "Hawaasa keenya waliin ta’uun tajaajila fooyyessuu fi jiraataa hundaaf carraa fooyya’aa uumuu. ",
       },
       {
-        name: "Obbo Taarraqeny _______ Itti Gaafatamaa Waajjira Saayinsii fi Teeknooloojii Kutaa Magaalaa Sulultaa",
+        name: "Obbo Taarraqeny Gaddafaa Itti Gaafatamaa Waajjira Saayinsii fi Teeknooloojii Kutaa Magaalaa Sulultaa",
         role: "",
         message:
           "Jijjiirama dijitaalaa fooyyessuuf hawaasa keenya waliin hojjenna.",
       },
       {
-        name: "Bulchaa Aanaa Abbaa Gadaa",
+        name: "Obbo Amantee Fullaasaa Bulchaa Aanaa Abbaa Gadaa",
         role: "Bulchaa Aanaa Abbaa Gadaa",
         message: "",
       },
       {
-        name: "Bulchaa Aanaa Wasarbii",
+        name: "Obbo Shimallis Nagaash Bulchaa Aanaa Wasarbii",
         role: "Bulchaa Aanaa Wasarbii",
         message: "",
       },
@@ -110,7 +110,7 @@ const om = {
       heading:
       "Dhaamsa I/G waajjira Saayinsii fi Teeknooloojii Kutaa Magaalaa  Sulultaa ",
 
-      name:"Obbo Taareqeny _____",
+      name:"Obbo Taarraqeny Gaddafaa ",
 
       role:
       "I/G waajjira Saayinsii fi Teeknooloojii Kutaa Magaalaa  Sulultaa",
@@ -239,7 +239,103 @@ const om = {
       }
   
     ]
-  }
+  },
+
+  news: {
+
+    label:
+      "Oduu Haaraa",
+  
+    title:
+      "Oduu fi Beeksisa",
+  
+    description:
+      "Oduu haaraa, hojiiwwan fi beeksisa mootummaa Kutaa Magaalaa Sulultaa hordofaa.",
+  
+    viewAll:
+      "Oduu hunda ilaali",
+  
+  },
+
+  agriculture: {
+
+    label:
+      "Qonna",
+  
+    title:
+      "Inisheetiivota misooma qonnaa",
+  
+    description:
+      "Inisheetiivota qonnaan bultoota deeggaru, oomisha qonnaa guddisu, jallisii fi horsiisa beeyladaa Sululta keessatti hojjetaman qoradhaa.",
+  
+    viewAll:
+      "Inisheetiivota hunda ilaali",
+  
+    clickView:
+      "Suuraa ilaaluuf cuqaasi",
+  
+    close:
+      "Daawwannaa suuraa cufi",
+  
+    previous:
+      "Inisheetivii darbe",
+  
+    next:
+      "Inisheetivii itti aanu",
+  
+    learnMore:
+      "Dabalataan baradhu",
+  
+  },
+
+  contact: {
+
+    eyebrow:
+      "Nu qunnami",
+  
+    title:
+      "Bulchiinsa Magaalaa Sulultaa waliin qunnamaa",
+  
+    description:
+      "Odeeffannoo, tajaajila mootummaa fi gaaffilee hojii mootummaa irratti bulchiinsa waliin qunnamaa.",
+  
+  
+    address:{
+      label:"Waajjira",
+      value:"Bulchiinsa Kutaa Magaalaa Sulultaa",
+    },
+  
+  
+    phone:{
+      label:"Bilbila",
+      value:"+251961083131",
+      href:"tel:+251961083131",
+    },
+  
+  
+    email:{
+      label:"Imeelii",
+      value:"sulultssubcity@gmail.com",
+      href:"mailto:sulultssubcity@gmail.com",
+    },
+  
+  
+    officeHours:{
+      label:"Sa'aatii hojii",
+      value:"Wiixata hanga Jimaata, 2:30 AM – 11:30 PM",
+    },
+  
+  
+    mapTitle:
+      "Bakka Bulchiinsa Kutaa Magaalaa Sulultaa",
+  
+    mapHeading:
+      "Kaartaan bakka jiru",
+  
+    mapDescription:
+      "Odeeffannoon bakka mootummaa yeroo dhiyaatu itti dabalamuu danda'a.",
+  
+  },
 };
 
 export default om;

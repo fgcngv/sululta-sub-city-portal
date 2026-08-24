@@ -1,4 +1,3 @@
-import { SiteHeader } from "@/components/layout/site-header";
 import { Hero } from "@/components/hero/hero";
 
 import { AdministrationWelcome } from "@/components/home/administration-welcome";
@@ -30,10 +29,25 @@ export default async function Home() {
         {/* <QuickAccess /> */}
         <SulultaOverview t={t}/>
         <ProjectsPreview t={t} />
-        <NewsPreview />
-        <GalleryPreview />
+        <NewsPreview t={t}/>
+        <GalleryPreview t={t}/>
         <VisualStory  {...visualStory} />
-        <ContactLocation {...contactInformation} />
+        <ContactLocation
+          {...contactInformation}
+
+          eyebrow={t.contact.eyebrow}
+          title={t.contact.title}
+          description={t.contact.description}
+
+          address={t.contact.address}
+          phone={t.contact.phone}
+          email={t.contact.email}
+          officeHours={t.contact.officeHours}
+
+          mapTitle={t.contact.mapTitle}
+          mapHeading={t.contact.mapHeading}
+          mapDescription={t.contact.mapDescription}
+        />
       </main>
     </>
   );

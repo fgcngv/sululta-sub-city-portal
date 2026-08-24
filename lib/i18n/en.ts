@@ -59,18 +59,18 @@ const en = {
           "Working together with our communities to improve services and create better opportunities for every resident.",
       },
       {
-        name: "Mr. Taarraqeny _______ Head of Science and Technology Office",
+        name: "Mr. Tarekegn Gedefa Head of Science and Technology Office",
         role: "",
         message:
           "Working together with our communities to improve digital transformation.",
       },
       {
-        name: "Governor of the Abba Geda District ",
+        name: "Mr.Amante Fulasa Governor of the Abba Geda District ",
         role: "Governor of the Abba Geda District",
         message: "",
       },
       {
-        name: "Governor of the Weserbi District",
+        name: " Mr.Shemalis Negash Governor of the Weserbi District",
         role: "Governor of the Weserbi District",
         message: "",
       },
@@ -106,7 +106,7 @@ const en = {
       heading:
         "Message from the Sululta Sub-City Science & Technology Office ",
 
-      name: "Mr. Tarekegn",
+      name: "Mr. Tarekegn Gedefa",
 
       role: "Science & Technology Officer",
 
@@ -228,7 +228,202 @@ const en = {
       }
   
     ]
-  }
+  },
+
+  news: {
+
+    label:
+      "Latest updates",
+  
+    title:
+      "News & announcements",
+  
+    description:
+      "Follow the latest news, activities and official announcements from Sululta Sub-City.",
+  
+    viewAll:
+      "View all news",
+  
+  },
+
+  agriculture: {
+
+    label:
+      "Agriculture initiatives",
+  
+    title:
+      "Agricultural development initiatives",
+  
+    description:
+      "Explore initiatives supporting farmers, agricultural production, irrigation, livestock development and sustainable farming across Sululta.",
+  
+    viewAll:
+      "View all initiatives",
+  
+    clickView:
+      "Click to view image",
+  
+    close:
+      "Close image viewer",
+  
+    previous:
+      "Previous initiative",
+  
+    next:
+      "Next initiative",
+  
+    learnMore:
+      "Learn more",
+  
+  },
+
+  contact: {
+
+    eyebrow:"Contact us",
+    
+    title:"Get in touch with Sululta Sub-City",
+    
+    description:
+    "Contact the administration for information, public services and official enquiries.",
+    
+    
+    address:{
+    label:"Office",
+    value:"Sululta Sub-City Administration",
+    },
+    
+    
+    phone:{
+    label:"Phone",
+    value:"+251961083131",
+    href:"tel:+251961083131",
+    },
+    
+    
+    email:{
+    label:"Email",
+    value:"sulultssubcity@gmail.com",
+    href:"mailto:sulultssubcity@gmail.com",
+    },
+    
+    
+    officeHours:{
+    label:"Office hours",
+    value:"Monday – Friday, 2:30 AM – 11:30 PM",
+    },
+    
+    
+    mapTitle:
+    "Sululta Sub-City location map",
+    
+    mapHeading:
+    "Location map",
+    
+    mapDescription:
+    "Official location information will be added once it is provided by the administration.",
+    
+    },
+
+    about: {
+
+      heroBadge: "About Sululta",
+    
+      heroTitle: "Serving our community.",
+    
+      heroTitleHighlight: "Building our future.",
+    
+      heroDescription:
+        "Sululta Sub-City Administration is committed to creating a stronger, more connected, and more prosperous community through effective public service and responsible local administration.",
+    
+    
+    
+      introductionEyebrow: "Who we are",
+    
+      introductionTitle:
+        "A local administration focused on people and progress.",
+    
+      introductionText1:
+        "Sululta is a growing community with a strong sense of identity, opportunity, and shared responsibility. Our administration works alongside residents and stakeholders to support sustainable development and improve everyday life.",
+    
+      introductionText2:
+        "Through public services, infrastructure development, community engagement, and responsible governance, we aim to create an environment where individuals, families, businesses, and institutions can thrive.",
+    
+    
+      commitmentTitle:
+        "Our commitment",
+    
+      commitmentText:
+        "Better services, stronger communities, and sustainable local development.",
+    
+    
+    
+      direction:
+        "Our direction",
+    
+      directionTitle:
+        "Guided by a clear purpose.",
+    
+    
+      visionTitle:
+        "Our Vision",
+    
+      vision:
+        "To see Sululta become an inclusive, prosperous, well-served, and sustainable community where people can live, work, and build a better future.",
+    
+    
+      missionTitle:
+        "Our Mission",
+    
+      mission:
+        "To provide effective, accessible, and accountable public services while working with the community to advance local development and improve quality of life.",
+    
+    
+    
+      valuesEyebrow:
+        "What guides us",
+    
+      valuesTitle:
+        "Values behind our work.",
+    
+      valuesDescription:
+        "Our approach is grounded in service, responsibility, and a commitment to the people of Sululta.",
+    
+    
+      values:[
+        {
+          title:"Community First",
+          description:
+          "We put the needs, aspirations, and wellbeing of Sululta's communities at the center of our work."
+        },
+    
+        {
+          title:"Accountability",
+          description:
+          "We are committed to responsible administration, transparency, and delivering meaningful public value."
+        },
+    
+        {
+          title:"Service Excellence",
+          description:
+          "We continuously work to make public services more accessible, responsive, and effective."
+        }
+      ],
+    
+    
+    
+      ctaEyebrow:
+        "Sululta Administration",
+    
+      ctaTitle:
+        "Together, we can build a stronger Sululta.",
+    
+      ctaDescription:
+        "Stay informed, access public services, and connect with your local administration.",
+    
+      latestNews:
+        "Latest news"
+    
+    }
 };
 
 export default en;

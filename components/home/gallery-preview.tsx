@@ -1,105 +1,5 @@
 
 
-// import Image from "next/image";
-// import Link from "next/link";
-// import { ArrowRight, Images } from "lucide-react";
-
-// import { galleryItems } from "@/lib/gallery-data";
-
-// export function GalleryPreview() {
-//   return (
-//     <section
-//       aria-labelledby="gallery-preview-heading"
-//       className="bg-white"
-//     >
-//       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-//         {/* Heading */}
-//         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
-//           <div className="max-w-2xl">
-//             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
-//               Visual stories
-//             </p>
-
-//             <h2
-//               id="gallery-preview-heading"
-//               className="mt-3 text-3xl font-bold tracking-tight text-red-700 sm:text-4xl"
-//             >
-//               Life and development in Sululta
-//             </h2>
-
-//             <p className="mt-4 text-base leading-7 text-slate-600">
-//               Explore photographs showing community activities, development
-//               projects and everyday life across Sululta.
-//             </p>
-//           </div>
-
-//           <Link
-//             href="/gallery"
-//             className="inline-flex min-h-11 shrink-0 items-center gap-2 text-sm font-semibold transition-colors hover:text-slate-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-4 text-red-700"
-//           >
-//             View gallery
-//             <ArrowRight className="size-4" />
-//           </Link>
-//         </div>
-
-//         {/* Gallery */}
-//         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-//           {galleryItems.map((item, index) => (
-//             <Link
-//               key={item.id}
-//               href={item.href}
-//               className={[
-//                 "group relative overflow-hidden rounded-2xl bg-slate-100",
-//                 index === 0
-//                   ? "sm:col-span-2 sm:row-span-2"
-//                   : "aspect-[4/3]",
-//               ].join(" ")}
-//             >
-//               <div
-//                 className={
-//                   index === 0
-//                     ? "relative aspect-[4/3] h-full min-h-[280px] sm:min-h-[420px]"
-//                     : "relative h-full min-h-[220px]"
-//                 }
-//               >
-//                 <Image
-//                   src={item.image}
-//                   alt={item.title}
-//                   fill
-//                   sizes={
-//                     index === 0
-//                       ? "(min-width: 1024px) 50vw, 100vw"
-//                       : "(min-width: 1024px) 25vw, 50vw"
-//                   }
-//                   className="object-cover transition-transform duration-500 group-hover:scale-105"
-//                 />
-
-//                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-
-//                 {item.placeholder && (
-//                   <span className="absolute left-4 top-4 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-slate-600 backdrop-blur">
-//                     Placeholder
-//                   </span>
-//                 )}
-
-//                 <div className="absolute inset-x-0 bottom-0 p-5 text-white">
-//                   <div className="flex items-center gap-2 text-xs font-medium text-white/75">
-//                     <Images className="size-3.5" />
-//                     {item.category}
-//                   </div>
-
-//                   <h3 className="mt-1 text-base font-semibold sm:text-lg">
-//                     {item.title}
-//                   </h3>
-//                 </div>
-//               </div>
-//             </Link>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 
 "use client";
 
@@ -221,7 +121,25 @@ const agricultureInitiatives: AgricultureInitiative[] = [
   },
 ];
 
-export function GalleryPreview() {
+type GalleryPreviewProps = {
+  t: {
+    agriculture: {
+      label: string;
+      title: string;
+      description: string;
+      viewAll: string;
+      clickView: string;
+      close: string;
+      previous: string;
+      next: string;
+      learnMore: string;
+    };
+  };
+};
+
+export function GalleryPreview({
+  t,
+}: GalleryPreviewProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   const selectedInitiative =
@@ -263,29 +181,29 @@ export function GalleryPreview() {
           {/* Heading */}
           <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-2xl">
-              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
-                Agriculture initiatives
-              </p>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
+  {t.agriculture.label}
+</p>
 
-              <h2
-                id="agriculture-preview-heading"
-                className="mt-3 text-3xl font-bold tracking-tight text-red-700 sm:text-4xl"
-              >
-                Agricultural development initiatives
-              </h2>
 
-              <p className="mt-4 text-base leading-7 text-slate-600">
-                Explore initiatives supporting farmers, agricultural
-                production, irrigation, livestock development and sustainable
-                farming across Sululta.
-              </p>
+<h2
+  id="agriculture-preview-heading"
+  className="mt-3 text-3xl font-bold tracking-tight text-red-700 sm:text-4xl"
+>
+  {t.agriculture.title}
+</h2>
+
+
+<p className="mt-4 text-base leading-7 text-slate-600">
+  {t.agriculture.description}
+</p>
             </div>
 
             <Link
               href="/initiatives"
               className="inline-flex min-h-11 shrink-0 items-center gap-2 text-sm font-semibold text-red-700 transition-colors hover:text-slate-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-4"
             >
-              View all initiatives
+             {t.agriculture.viewAll}
               <ArrowRight className="size-4" />
             </Link>
           </div>
@@ -304,7 +222,7 @@ export function GalleryPreview() {
                     ? "sm:col-span-2 sm:row-span-2"
                     : "aspect-[4/3]",
                 ].join(" ")}
-                aria-label={`View ${item.title}`}
+                aria-label={`${t.agriculture.clickView} ${item.title}`}
               >
                 <div
                   className={
@@ -349,7 +267,7 @@ export function GalleryPreview() {
                     </p>
 
                     <span className="mt-3 inline-block text-xs font-semibold text-white/90">
-                      Click to view image
+                    {t.agriculture.clickView}
                     </span>
                   </div>
                 </div>
@@ -377,7 +295,7 @@ export function GalleryPreview() {
               type="button"
               onClick={closeModal}
               className="absolute right-2 top-2 z-20 flex size-10 items-center justify-center rounded-full bg-black/60 text-white transition-colors hover:bg-black/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-              aria-label="Close image viewer"
+              aria-label={t.agriculture.close}
             >
               <X className="size-5" />
             </button>
@@ -387,7 +305,7 @@ export function GalleryPreview() {
               type="button"
               onClick={showPrevious}
               className="absolute left-2 top-1/2 z-20 flex size-10 -translate-y-1/2 items-center justify-center rounded-full bg-black/60 text-white transition-colors hover:bg-black/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:left-4"
-              aria-label="Previous initiative"
+              aria-label={t.agriculture.previous}
             >
               <ChevronLeft className="size-6" />
             </button>
@@ -397,7 +315,7 @@ export function GalleryPreview() {
               type="button"
               onClick={showNext}
               className="absolute right-2 top-1/2 z-20 flex size-10 -translate-y-1/2 items-center justify-center rounded-full bg-black/60 text-white transition-colors hover:bg-black/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:right-4"
-              aria-label="Next initiative"
+              aria-label={t.agriculture.next}
             >
               <ChevronRight className="size-6" />
             </button>
@@ -434,7 +352,7 @@ export function GalleryPreview() {
                   onClick={closeModal}
                   className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-red-700 hover:text-slate-600"
                 >
-                  Learn more
+                 {t.agriculture.learnMore}
                   <ArrowRight className="size-4" />
                 </Link>
               )}

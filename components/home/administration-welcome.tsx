@@ -29,7 +29,7 @@ type AdministrationWelcomeProps = {
 };
 
 const ADMINISTRATOR_IMAGES = [
-  "/images/administration/administrator-placeholder.jpg",
+  "/images/projects/img51.png",
   "/administrations/waaziraa.jpg",
   "/images/projects/img48.png",
   "/administrations/img1.png",
@@ -83,7 +83,7 @@ export function AdministrationWelcome({
                 ADMINISTRATOR CARDS
             ================================================= */}
 
-            <div className="grid gap-5 sm:grid-cols-2">
+            <div className="grid gap-5 sm:grid-cols-2 ">
               {administrators.map((administrator) => (
                 <article
                   key={administrator.name}
@@ -139,7 +139,7 @@ export function AdministrationWelcome({
                         {t.administration.administrationLabel}
                       </p>
 
-                      <h3 className="mt-1 text-xl font-bold text-slate-900">
+                      <h3 className="mt-1 text-2xl font-bold  text-red-700">
                         {administrator.name}
                       </h3>
 

@@ -568,7 +568,7 @@ export function Hero({ t }: HeroProps) {
           aria-hidden="true"
         >
           <source
-            src="/videos/documentary.mp4"
+            src="https://jippbr7pe5ialdxy.public.blob.vercel-storage.com/documentary.mp4"
             type="video/mp4"
           />
 

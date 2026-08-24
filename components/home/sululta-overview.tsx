@@ -184,9 +184,6 @@ export function SulultaOverview({
                 ">
 
                   <MessageSquareText className="size-4"/>
-
-                  {t.overview.administrator.label}
-
                 </span>
 
               </div>
