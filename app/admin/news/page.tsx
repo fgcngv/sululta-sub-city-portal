@@ -193,23 +193,33 @@ export default async function NewsPage() {
 
                   {/* Actions */}
                   <div className="flex shrink-0 items-center gap-1">
-                    <Link
+                  <div
+                      className="inline-flex size-9 items-center justify-center rounded-lg text-slate-500 transition hover:bg-slate-100 hover:text-slate-950"
+                    >
+                      <Pencil className="size-4" />
+                    </div>
+                    {/* <Link
                       href={`/admin/news/${article.id}`}
                       aria-label={`Edit ${translation?.title ?? "news"}`}
                       className="inline-flex size-9 items-center justify-center rounded-lg text-slate-500 transition hover:bg-slate-100 hover:text-slate-950"
                     >
                       <Pencil className="size-4" />
-                    </Link>
+                    </Link> */}
 
                     {article.status === "PUBLISHED" && (
-                      <Link
-                        href={`/news/${article.slug}`}
-                        target="_blank"
-                        aria-label="View published news"
-                        className="inline-flex size-9 items-center justify-center rounded-lg text-slate-500 transition hover:bg-slate-100 hover:text-slate-950"
-                      >
-                        <Eye className="size-4" />
-                      </Link>
+                      // <Link
+                      //   href={`/news/${article.slug}`}
+                      //   target="_blank"
+                      //   aria-label="View published news"
+                      //   className="inline-flex size-9 items-center justify-center rounded-lg text-slate-500 transition hover:bg-slate-100 hover:text-slate-950"
+                      // >
+                      //   <Eye className="size-4" />
+                      // </Link>
+                      <div
+                      className="inline-flex size-9 items-center justify-center rounded-lg text-slate-500 transition hover:bg-slate-100 hover:text-slate-950"
+                    >
+                      <Eye className="size-4" />
+                    </div>
                     )}
 
                     <button

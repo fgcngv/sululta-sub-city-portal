@@ -1,20 +1,19 @@
-
-
 "use client";
 
 import {
   Bell,
+  InfoIcon,
   Menu,
+  MessageCircleCheckIcon,
   Search,
 } from "lucide-react";
+import Link from "next/link";
 
 type AdminHeaderProps = {
   onMenuClick?: () => void;
 };
 
-export function AdminHeader({
-  onMenuClick,
-}: AdminHeaderProps) {
+export function AdminHeader({ onMenuClick }: AdminHeaderProps) {
   return (
     <header className="sticky top-0 z-30 flex h-20 items-center justify-between border-b border-slate-200 bg-white/95 px-4 backdrop-blur-xl sm:px-6 lg:px-8">
       <div className="flex items-center gap-3">
@@ -39,23 +38,19 @@ export function AdminHeader({
       </div>
 
       <div className="flex items-center gap-2">
-        <button
-          type="button"
-          aria-label="Search administration"
-          className="inline-flex size-10 items-center justify-center rounded-xl text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-950"
-        >
-          <Search className="size-5" />
-        </button>
+        <Link href={"/admin/messages"} className=" hover:text-green-500">
+          {" "}
+          <MessageCircleCheckIcon />{" "}
+        </Link>
 
-        <button
-          type="button"
-          aria-label="Notifications"
+        <Link
+          href={"/admin/news"}
           className="relative inline-flex size-10 items-center justify-center rounded-xl text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-950"
         >
-          <Bell className="size-5" />
+          <InfoIcon />
 
           <span className="absolute right-2.5 top-2.5 size-2 rounded-full bg-red-500 ring-2 ring-white" />
-        </button>
+        </Link>
       </div>
     </header>
   );

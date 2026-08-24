@@ -2,6 +2,7 @@
 
 import { prisma } from "@/lib/prisma";
 import { MessagesTable } from "@/components/admin/messages/messages-table";
+import Link from "next/link";
 
 export default async function MessagesPage() {
 
@@ -19,7 +20,6 @@ export default async function MessagesPage() {
         <h1 className="text-3xl font-bold">
           Contact Messages
         </h1>
-
         <p className="text-slate-500">
           Manage messages received from citizens.
         </p>
