@@ -11,7 +11,7 @@ import { ContactLocation } from "@/components/home/contact-location";
 import { contactInformation } from "@/lib/contact-data";
 import { SulultaOverview } from "@/components/home/sululta-overview";
 import { cookies } from "next/headers";
-import { getDictionary, Language } from "@/lib/i18n/index";
+import { getCurrentDictionary, getDictionary, Language } from "@/lib/i18n/index";
 
 export default async function Home() {
   const cookieStore = await cookies();
@@ -20,16 +20,16 @@ export default async function Home() {
     (cookieStore.get("language")?.value as Language) ?? "EN";
 
 
-  const t = await getDictionary(language);
+    const t = await getCurrentDictionary();
 
   return (
     <>
       <main>
         <Hero  t={t} />
-        <AdministrationWelcome />
+        <AdministrationWelcome t={t} />
         {/* <QuickAccess /> */}
-        <SulultaOverview />
-        <ProjectsPreview />
+        <SulultaOverview t={t}/>
+        <ProjectsPreview t={t} />
         <NewsPreview />
         <GalleryPreview />
         <VisualStory  {...visualStory} />

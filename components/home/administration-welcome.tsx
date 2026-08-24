@@ -1,65 +1,57 @@
+// components/home/administration-welcome.tsx
+
 import Image from "next/image";
 
+type Administrator = {
+  name: string;
+  role: string;
+  message: string;
+};
 
-const administrators = [
-  {
-    name: "Mr. Kuma Hundee",
-    role: "Governor of Sululta Sub-City",
-    image: "/images/administration/administrator-placeholder.jpg",
-    message:
-      "We are committed to building a modern, inclusive, and prosperous Sululta Sub-City through strong leadership and community participation.",
-    main: true,
-  },
-  {
-    name: "Aadde Waaziraa Jamaal I/A Bulchaa Kutaa Magaalaa Sulultaa",
-    role: "Deputy Administrator",
-    image: "/administrations/waaziraa.jpg",
-    message:
-      "Working together with our communities to improve services and create better opportunities for every resident.",
-  },  {
-    name: "Obbo Taarraqeny _______ Itti Gaafatamaa Waajjira Saayinsii fi Teeknooloojii Kutaa Magaalaa Sulultaa",
-    role: "",
-    image: "/images/projects/img48.png",
-    message:
-      "Working together with our communities to improve digital transformation.",
-  },
-  {
-    name: "Bulchaa Aanaa Abbaa Gadaa",
-    role: "Bulchaa Aanaa Abbaa Gadaa",
-    image: "/administrations/img1.png",
-    message:
-      "",
-  },
-  {
-    name: "Bulchaa Aanaa Wasarbii",
-    role: "Bulchaa Aanaa Wasarbii",
-    image: "/administrations/img2.png",
-    message:
-      "",
-  },
-  {
-    name: "I/G Kominikeeshinii Kutaa Magaalaa Sulultaa",
-    role: "I/G Kominikeeshinii Kutaa Magaalaa Sulultaa",
-    image: "/administrations/img3.png",
-    message:
-      "",
-  },
-  {
-    name: "I/G Waajjira Kadastaraa Kutaa Magaalaa Sulultaa",
-    role: "I/G Waajjira Kadastaraa Kutaa Magaalaa Sulultaa",
-    image: "/administrations/img4.png",
-    message:
-      "",
-  },  {
-    name: "I/G Waajjira Maallaqaa Kutaa Magaalaa Sulultaa",
-    role: "I/G Waajjira Maallaqaa Kutaa Magaalaa Sulultaa",
-    image: "/administrations/img5.png",
-    message:
-      "",
-  },
+type AdministrationWelcomeProps = {
+  t: {
+    administration: {
+      eyebrow: string;
+      title: string;
+      description: string;
+      administrationLabel: string;
+      mainAdministrator: string;
+      fromAdministration: string;
+      welcomeTitle: string;
+      welcomeParagraph1: string;
+      welcomeParagraph2: string;
+      welcomeParagraph3: string;
+      governorName: string;
+      governorRole: string;
+      administrators: Administrator[];
+    };
+  };
+};
+
+const ADMINISTRATOR_IMAGES = [
+  "/images/administration/administrator-placeholder.jpg",
+  "/administrations/waaziraa.jpg",
+  "/images/projects/img48.png",
+  "/administrations/img1.png",
+  "/administrations/img2.png",
+  "/administrations/img3.png",
+  "/administrations/img4.png",
+  "/administrations/img5.png",
 ];
 
-export function AdministrationWelcome() {
+export function AdministrationWelcome({
+  t,
+}: AdministrationWelcomeProps) {
+  const administrators = t.administration.administrators.map(
+    (administrator, index) => ({
+      ...administrator,
+      image:
+        ADMINISTRATOR_IMAGES[index] ??
+        "/images/administration/administrator-placeholder.jpg",
+      main: index === 0,
+    })
+  );
+
   return (
     <section
       aria-labelledby="administration-welcome-heading"
@@ -67,24 +59,30 @@ export function AdministrationWelcome() {
     >
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="grid items-start gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
-          {/* LEFT - Administration Grid */}
+
+          {/* =====================================================
+              LEFT — ADMINISTRATION
+          ===================================================== */}
+
           <div>
             <div className="mb-8">
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
-                Our Leadership
+                {t.administration.eyebrow}
               </p>
 
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-red-700 sm:text-4xl">
-                Administration
+                {t.administration.title}
               </h2>
 
               <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600">
-                Meet the administrators working together to serve the people
-                of Sululta Sub-City and advance our community.
+                {t.administration.description}
               </p>
             </div>
 
-            {/* Administrator Cards */}
+            {/* =================================================
+                ADMINISTRATOR CARDS
+            ================================================= */}
+
             <div className="grid gap-5 sm:grid-cols-2">
               {administrators.map((administrator) => (
                 <article
@@ -102,7 +100,10 @@ export function AdministrationWelcome() {
                         : "grid-cols-1"
                     }`}
                   >
-                    {/* Administrator Image */}
+                    {/* =================================================
+                        IMAGE
+                    ================================================= */}
+
                     <div
                       className={`relative overflow-hidden bg-slate-200 ${
                         administrator.main
@@ -124,28 +125,35 @@ export function AdministrationWelcome() {
 
                       {administrator.main && (
                         <div className="absolute left-3 top-3 rounded-full bg-red-700 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white">
-                          Main Administrator
+                          {t.administration.mainAdministrator}
                         </div>
                       )}
                     </div>
 
-                    {/* Administrator Information */}
+                    {/* =================================================
+                        INFORMATION
+                    ================================================= */}
+
                     <div className="p-5">
                       <p className="text-xs font-semibold uppercase tracking-wider text-red-700">
-                        Administration
+                        {t.administration.administrationLabel}
                       </p>
 
                       <h3 className="mt-1 text-xl font-bold text-slate-900">
                         {administrator.name}
                       </h3>
 
-                      <p className="mt-1 text-sm font-medium text-slate-500">
-                        {administrator.role}
-                      </p>
+                      {administrator.role && (
+                        <p className="mt-1 text-sm font-medium text-slate-500">
+                          {administrator.role}
+                        </p>
+                      )}
 
-                      <p className="mt-4 text-sm leading-6 text-slate-600">
-                        {administrator.message}
-                      </p>
+                      {administrator.message && (
+                        <p className="mt-4 text-sm leading-6 text-slate-600">
+                          {administrator.message}
+                        </p>
+                      )}
                     </div>
                   </div>
                 </article>
@@ -153,51 +161,37 @@ export function AdministrationWelcome() {
             </div>
           </div>
 
-          {/* RIGHT - Welcome Message */}
+          {/* =====================================================
+              RIGHT — WELCOME MESSAGE
+          ===================================================== */}
+
           <div className="lg:sticky lg:top-8">
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
-              From the Administration
+              {t.administration.fromAdministration}
             </p>
 
             <h2
               id="administration-welcome-heading"
               className="mt-3 text-3xl font-bold tracking-tight text-red-700 sm:text-4xl"
             >
-              Welcome to Sululta Sub-City
+              {t.administration.welcomeTitle}
             </h2>
 
             <div className="mt-6 space-y-4 text-base leading-7 text-slate-600">
-              <p>
-                <strong>Shaggar City Administration</strong> is pleased to
-                share our strong goal to move our community forward. We are
-                strongly committed to transforming <strong>Shaggar</strong>{" "}
-                into an exemplary Smart City—a city that is competitive,
-                offers a good life, and is responsive to all of its
-                communities.
-              </p>
+              <p>{t.administration.welcomeParagraph1}</p>
 
-              <p>
-                Our goal is to make Shaggar a <strong>compact city</strong>{" "}
-                and a <strong>polycentric economic hub</strong>. This will be
-                achieved by strengthening community participation, strategic
-                linkages, and environmental stewardship.
-              </p>
+              <p>{t.administration.welcomeParagraph2}</p>
 
-              <p>
-                Furthermore, we will work on{" "}
-                <strong>coordinated strategy development</strong> and focused
-                investment in <strong>new and smart infrastructure</strong>{" "}
-                that our communities need.
-              </p>
+              <p>{t.administration.welcomeParagraph3}</p>
 
               <p className="pt-3 text-center text-xl font-bold leading-8 text-red-700">
-                Mr. Kuma Hundee
+                {t.administration.governorName}
+
                 <span className="block text-sm font-medium text-slate-500">
-                  Governor of Sululta Sub-City
+                  {t.administration.governorRole}
                 </span>
               </p>
             </div>
-
           </div>
         </div>
       </div>
