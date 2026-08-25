@@ -17,12 +17,12 @@ export function NewsCard({ article }: NewsCardProps) {
         className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-inset"
       >
         <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
-          <Image
+          <img
             src={article.image}
             alt=""
-            fill
+            
             sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className="object-cover transition-transform duration-500 group-hover:scale-105 h-full w-full"
           />
 
         </div>

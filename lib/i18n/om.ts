@@ -352,15 +352,15 @@ const om = {
       title: "Bulchiinsa ummataa fi guddina irratti xiyyeeffate.",
   
       paragraphs: [
-        "Sulultaan hawaasa guddachaa jiru, eenyummaa cimaa, carraa fi itti gaafatamummaa waliinii qabu dha.",
+        "Sululti hawaasa guddachaa jiru, eenyummaa cimaa, carraa fi itti gaafatamummaa waliinii qabu dha.",
   
-        "Tajaajila mootummaa, misooma bu'uuraalee misoomaa, hirmaannaa hawaasaa fi bulchiinsa gaarii irratti hundaa'uun jireenya guyyaa guyyaa fooyyeessuuf hojjenna.",
+        "Tajaajila mootummaa, bu'uuraalee misoomaa, hirmaannaa hawaasaa fi bulchiinsa gaarii irratti hundaa'uun jireenya guyyaa guyyaa fooyyeessuuf hojjenna.",
       ],
   
       commitmentTitle: "Kutannoo keenya",
   
       commitment:
-        "Tajaajila fooyya'aa, hawaasa cimaa fi misooma naannoo itti fufiinsa qabu.",
+        "Tajaajila fooyya'aa, hawaasa cimaa fi misooma naannoo itti fufiinsa qabu ijaaruu.",
     },
   
   
@@ -372,7 +372,7 @@ const om = {
       visionTitle: "Mul'ata keenya",
   
       vision:
-        "Sulultaan hawaasa hunda hammatu, badhaadhaa, tajaajilamu fi itti fufiinsa qabu akka taatu gochuu.",
+        "Sulult magaalaa hawaasa hunda hammattu, badhaatuu, tajaajila saffisaa fi itti fufiinsa qabu magaalaa kennitu akka taatu gochuu.",
   
       missionTitle: "Ergama keenya",
   
@@ -392,10 +392,10 @@ const om = {
   
       items: [
         {
-          title: "Hawaasa dursa kennuu",
+          title: "Hawaasaf dursa kennuu",
   
           description:
-            "Fedhii, hawwii fi nageenya hawaasa Sulultaa hojii keenya keessatti bakka jalqabaa irratti kaa'na.",
+            "Fedhii, hawwii fi nageenya hawaasa magaalattii hojii keenya keessatti bakka jalqabaa irra keenya.",
         },
   
   
@@ -421,10 +421,10 @@ const om = {
       eyebrow: "Bulchiinsa Kutaa Magaalaa Sulultaa",
   
       title:
-        "Waliin taanee Sulultaa cimaa ijaarra.",
+        "Waliin taanee Sululta cimaa ijaarra.",
   
       description:
-        "Odeeffannoo argadhaa, tajaajila mootummaa fayyadamaa fi bulchiinsa keessan waliin wal qunnamaa.",
+        "Odeeffannoo argadhaa, tajaajila mootummaa fayyadamaa akkasumas bulchiinsa keessan waliin wal qunnamaa.",
   
       button:
         "Oduu haaraa",
@@ -607,16 +607,16 @@ const om = {
       "Manneen barnootaa mootummaa sirna barnootaa mootummaa keessatti tajaajila barnootaa kennuun hawaasaalee Kutaa Magaalaa Sulultaa keessatti argaman tajaajilu.",
     noteTitle: "Barnoota mootummaa",
     noteDescription:
-      "Odeeffannoon waa'ee mana barnootaa dhuunfaa tokko tokkoo, galmee barattootaa, sadarkaa kutaa fi tajaajilaalee isaa qaama barnootaa dhimmi ilaallatu irraa mirkanaa'uu qaba.",
+      "",
   },
 
   privateSchools: {
     eyebrow: "Barnoota dhuunfaa",
     title: "Manneen barnootaa dhuunfaa muraasa suuradhaan",
     description:
-      "Manneen barnootaa dhuunfaa maatiiwwaniif filannoo barnootaa dabalataa kennuun carraa barnootaa garaagaraa babaldhisuu keessatti gahee ni taphatu.",
+      "Manneen barnootaa dhuunfaa maatiiwwaniif filannoo barnoota dabalataa kennuun carraa barnootaa garaagaraa babaldhisuu keessatti gahee ni taphatu.",
     badge: "Barnoota dhuunfaa",
-    imageAlt: "Mana barnootaa dhuunfaa Sulultaa keessatti",
+    imageAlt: "Mana barnootaa dhuunfaa Sululta keessatti",
     imageLabel: "Mana barnootaa dhuunfaa",
     cardTitle: "Dhaabbata barnootaa dhuunfaa",
     cardDescription:

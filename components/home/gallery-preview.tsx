@@ -231,16 +231,16 @@ export function GalleryPreview({
                       : "relative h-full min-h-[220px]"
                   }
                 >
-                  <Image
+                  <img
                     src={item.image}
                     alt={item.title}
-                    fill
+                    
                     sizes={
                       index === 0
                         ? "(min-width: 1024px) 50vw, 100vw"
                         : "(min-width: 1024px) 25vw, 50vw"
                     }
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105 h-full w-full "
                   />
 
                   {/* Dark gradient */}

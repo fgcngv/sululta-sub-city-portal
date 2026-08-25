@@ -107,20 +107,19 @@ export function AdministrationWelcome({
                     <div
                       className={`relative overflow-hidden bg-slate-200 ${
                         administrator.main
-                          ? "aspect-[4/3] md:aspect-auto md:min-h-[240px]"
-                          : "aspect-[4/3]"
+                          ? "aspect-4/3 md:aspect-auto md:min-h-60"
+                          : "aspect-4/3"
                       }`}
                     >
-                      <Image
+                      <img
                         src={administrator.image}
                         alt={administrator.name}
-                        fill
                         sizes={
                           administrator.main
                             ? "(min-width: 1024px) 220px, 100vw"
                             : "(min-width: 640px) 40vw, 100vw"
                         }
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105 w-full h-full"
                       />
 
                       {administrator.main && (
