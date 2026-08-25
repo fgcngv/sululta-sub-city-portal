@@ -59,12 +59,6 @@ const en = {
           "Working together with our communities to improve services and create better opportunities for every resident.",
       },
       {
-        name: "Mr. Tarekegn Gedefa Head of Science and Technology Office",
-        role: "",
-        message:
-          "Working together with our communities to improve digital transformation.",
-      },
-      {
         name: "Mr.Amante Fulasa Governor of the Abba Geda District ",
         role: "Governor of the Abba Geda District",
         message: "",
@@ -73,6 +67,12 @@ const en = {
         name: " Mr.Shemalis Negash Governor of the Weserbi District",
         role: "Governor of the Weserbi District",
         message: "",
+      },
+      {
+        name: "Mr. Tarekegn Gedefa Head of Science and Technology Office",
+        role: "",
+        message:
+          "Working together with our communities to improve digital transformation.",
       },
       {
         name: "Sulultaa Sub-City Communication Officer",
@@ -396,6 +396,297 @@ const en = {
         button: "Latest news",
       },
     },
+
+    contactUs: {
+      hero: {
+        eyebrow: "Contact Sululta Administration",
+        title: "We're here to help.",
+        description:
+          "Have a question, need information about a public service, or want to get in touch with the administration? Reach out to us.",
+      },
+    
+      details: {
+        office: {
+          title: "Visit our office",
+          value: "Sululta Sub-City Administration",
+          description: "Sululta, Oromia, Ethiopia",
+        },
+    
+        phone: {
+          title: "Call us",
+          value: "+251961083131",
+          description: "Monday – Friday, during office hours",
+        },
+    
+        email: {
+          title: "Email us",
+          value: "sulultssubcity@gmail.com",
+          description:
+            "For general inquiries and public information",
+        },
+    
+        hours: {
+          title: "Office hours",
+          value: "Monday – Friday",
+          description: "8:30 AM – 5:30 PM",
+        },
+      },
+    
+      form: {
+        getInTouch: "Get in touch",
+        sendMessage: "Send us a message",
+        sendMessageDescription:
+          "Use the form to send an inquiry to the administration. Please provide enough information for our team to understand and respond to your request.",
+    
+        urgentTitle: "Urgent matters",
+        urgentDescription:
+          "This contact form is intended for general administrative inquiries. For emergencies or matters requiring immediate assistance, contact the appropriate emergency authority.",
+    
+        name: "Full name",
+        namePlaceholder: "Your full name",
+    
+        email: "Email address",
+        emailPlaceholder: "you@example.com",
+    
+        phone: "Phone number",
+        phonePlaceholder: "+251 ...",
+    
+        subject: "Subject",
+        subjectPlaceholder: "What can we help with?",
+    
+        message: "Message",
+        messagePlaceholder: "Write your message...",
+    
+        privacyNotice:
+          "Please do not include sensitive personal information unless it is necessary for your inquiry.",
+    
+        send: "Send message",
+        sending: "Sending...",
+    
+        successTitle: "Message sent successfully",
+        successDescription:
+          "Thank you for contacting Sululta Administration.",
+    
+        errorTitle: "Message could not be sent",
+        errorDescription:
+          "Please try again later.",
+      },
+    
+      location: {
+        title: "Visit the administration",
+        address: "Sululta Sub-City Administration",
+        city: "Sululta, Oromia, Ethiopia",
+    
+        officeHours: "Office hours",
+        weekdays: "Monday – Friday",
+        time: "8:30 AM – 5:30 PM",
+      },
+    },
+
+education: {
+  hero: {
+    badge: "Education & Learning",
+    title: "Education in Sululta",
+    subtitle: "Building our future.",
+    description:
+      "Supporting learning, knowledge and opportunity for children and young people across Sululta Sub-City.",
+    exploreSchools: "Explore schools",
+    viewGallery: "View gallery",
+    imageAlt: "Education and learning in Sululta",
+  },
+
+  introduction: {
+    eyebrow: "Education & opportunity",
+    title: "Building stronger learning environments",
+    paragraphs: [
+      "Education is an important part of Sululta's development. Public and private schools across the sub-city provide learning opportunities for children and young people at different stages of education.",
+      "The administration recognizes the importance of quality teaching, safe learning environments, educational infrastructure, parental engagement and community participation.",
+    ],
+  },
+
+  statistics: {
+    eyebrow: "Education data",
+    title: "Education at a glance",
+    description:
+      "Available education data provides an overview of learning conditions and student–teacher ratios in public schools.",
+    items: [
+      {
+        value: "37:1",
+        label: "KG student–teacher ratio",
+        description:
+          "Reported for public schools in Sululta Sub-City.",
+      },
+      {
+        value: "37:1",
+        label: "Primary student–teacher ratio",
+        description:
+          "Grades 1–8 in public schools.",
+      },
+      {
+        value: "34:1",
+        label: "Secondary student–teacher ratio",
+        description:
+          "Grades 9–12 in public schools.",
+      },
+    ],
+    source:
+      "Source: Shaggar City Plan and Development Office, 2024. The figures refer specifically to public schools in Sululta Sub-City.",
+  },
+
+  levels: {
+    eyebrow: "Learning pathway",
+    title: "Education across different stages",
+    description:
+      "Education in Sululta includes early childhood learning, primary education, secondary education and opportunities for further study.",
+    prePrimary: {
+      title: "Pre-Primary & Kindergarten",
+      description:
+        "Early learning helps children develop the skills and confidence needed for primary education.",
+    },
+    primary: {
+      title: "Primary Education",
+      description:
+        "Primary education covers Grades 1–8 and provides the foundation for continued learning.",
+    },
+    secondary: {
+      title: "Secondary Education",
+      description:
+        "Secondary education supports students in the upper grades and prepares them for further study and work.",
+    },
+    higher: {
+      title: "Further Education",
+      description:
+        "Students can continue their education through colleges, universities and other learning opportunities.",
+    },
+  },
+
+  publicSchools: {
+    eyebrow: "Government & public schools",
+    title: "Public education in Sululta",
+    description:
+      "Government schools play an important role in providing accessible education to children and young people across Sululta Sub-City.",
+    imageAlt: "Public school in Sululta",
+    cardTitle: "Government public school",
+    cardDescription:
+      "Public schools provide education services within the government education system and serve communities across the sub-city.",
+    noteTitle: "Public education",
+    noteDescription:
+      "Information about individual schools, enrollment, grade levels and facilities should be confirmed through the relevant education authorities.",
+  },
+
+  privateSchools: {
+    eyebrow: "Private education",
+    title: "Private schools in Sululta",
+    description:
+      "Private schools provide additional education choices for families and contribute to the diversity of learning opportunities available in Sululta.",
+    badge: "Private education",
+    imageAlt: "Private school in Sululta",
+    imageLabel: "Private school",
+    cardTitle: "Private education provider",
+    cardDescription:
+      "Private schools may offer different learning environments, facilities, programs and extracurricular activities.",
+    featured: {
+      eyebrow: "Featured school",
+      title: "School of Success",
+      description:
+        "School of Success, located in Sululta town, describes a learning environment that includes open-plan classrooms, smart-board technology, literacy and numeracy programs, sports activities and IT training.",
+      imageAlt:
+        "Students participating in an outdoor lesson at School of Success in Sululta",
+      features: [
+        "Established in 2014",
+        "Open-plan classrooms",
+        "Smart-board technology",
+        "Literacy & numeracy",
+        "Sports activities",
+        "IT training",
+      ],
+      button: "School information",
+      href: "https://www.ethioharvardschool.com/schoolofsuccess.php",
+    },
+  },
+
+  initiatives: {
+    eyebrow: "Education initiatives",
+    title: "Recent education-related developments",
+    description:
+      "These examples highlight education-related initiatives and improvements reported in Sululta.",
+    category: "Education",
+    sourceLabel: "Source",
+    items: [
+      {
+        title: "Reading Park at Sululta Secondary School",
+        date: "2024",
+        description:
+          "The Gudina Tumsa Foundation reported the unveiling of a reading park at Sululta Secondary School, providing students with a dedicated place for reading.",
+        image: "/images/projects/img52.png",
+        imageAlt:
+          "Reading park initiative at Sululta Secondary School",
+        source: "Gudina Tumsa Foundation, December 2024",
+      },
+      {
+        title: " Lube Wale Babo Ilu Primary School",
+        date: "2024",
+        description:
+          " ",
+        image: "/images/projects/img56.png",
+        imageAlt:
+          "WASH facility initiative at Babo Wale Ilu Primary School",
+        source: "",
+      },
+      {
+        title: "",
+        date: "2024",
+        description:
+          " ",
+        image: "/images/projects/img58.png",
+        imageAlt:
+          "",
+        source: "",
+      },
+      {
+        title: "",
+        date: "2024",
+        description:
+          " ",
+        image: "/images/projects/img59.png",
+        imageAlt:
+          "",
+        source: "",
+      },
+    ],
+  },
+
+  gallery: {
+    eyebrow: "Education gallery",
+    title: "Learning spaces and school life",
+    description:
+      "Explore photographs showing schools, learning environments and education-related activities in Sululta.",
+    imageAlt: "Education in Sululta",
+  },
+
+  research: {
+    eyebrow: "Research & learning",
+    title: "Understanding education in Sululta",
+    description:
+      "Academic research and local studies can help communities understand the factors that influence learning outcomes and school participation.",
+    study: {
+      title: "Secondary-school study",
+      description:
+        "A 2025 study examined parental engagement and student achievement in secondary schools in Sululta Sub-City using questionnaires, interviews and document review.",
+      button: "Read the research",
+      href: "https://journals.wgu.edu.et/index.php/star/article/view/1952",
+    },
+  },
+
+  cta: {
+    title: "Education shapes Sululta's future",
+    description:
+      "Strong schools, supportive learning environments and community participation all contribute to better educational opportunities.",
+    button: "Contact the Administration",
+  },
+},
+
+
 };
 
 export default en;
