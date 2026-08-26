@@ -485,22 +485,22 @@ const en = {
 
 education: {
   hero: {
-    badge: "Education & Learning",
-    title: "Education in Sululta",
-    subtitle: "Building our future.",
+    badge: "Education in Sululta",
+    title: "Education",
+    subtitle: "Building the future through learning.",
     description:
-      "Supporting learning, knowledge and opportunity for children and young people across Sululta Sub-City.",
+      "Discover public and private education, schools, learning opportunities and education initiatives across Sululta.",
+    imageAlt: "Education and learning in Sululta",
     exploreSchools: "Explore schools",
     viewGallery: "View gallery",
-    imageAlt: "Education and learning in Sululta",
   },
 
   introduction: {
     eyebrow: "Education & opportunity",
     title: "Building stronger learning environments",
     paragraphs: [
-      "Education is an important part of Sululta's development. Public and private schools across the sub-city provide learning opportunities for children and young people at different stages of education.",
-      "The administration recognizes the importance of quality teaching, safe learning environments, educational infrastructure, parental engagement and community participation.",
+      "Education is an important part of Sululta's development. Public and private schools provide learning opportunities for children and young people across the community.",
+      "Sululta continues to support better learning environments, stronger educational infrastructure, teacher development and community participation.",
     ],
   },
 
@@ -508,7 +508,7 @@ education: {
     eyebrow: "Education data",
     title: "Education at a glance",
     description:
-      "Available education data provides an overview of learning conditions and student–teacher ratios in public schools.",
+      "Selected education information from available planning and research sources.",
     items: [
       {
         value: "37:1",
@@ -520,78 +520,138 @@ education: {
         value: "37:1",
         label: "Primary student–teacher ratio",
         description:
-          "Grades 1–8 in public schools.",
+          "Reported for grades 1–8 in public schools.",
       },
       {
         value: "34:1",
         label: "Secondary student–teacher ratio",
         description:
-          "Grades 9–12 in public schools.",
+          "Reported for grades 9–12 in public schools.",
       },
     ],
     source:
-      "Source: Shaggar City Plan and Development Office, 2024. The figures refer specifically to public schools in Sululta Sub-City.",
+      "Source: Shaggar City Plan and Development Office, 2024. Figures refer specifically to public schools in Sululta Sub-City.",
   },
 
   levels: {
     eyebrow: "Learning pathway",
     title: "Education across different stages",
     description:
-      "Education in Sululta includes early childhood learning, primary education, secondary education and opportunities for further study.",
+      "Education opportunities extend from early learning through secondary and higher education.",
     prePrimary: {
       title: "Pre-Primary & Kindergarten",
       description:
-        "Early learning helps children develop the skills and confidence needed for primary education.",
+        "Early learning prepares children for their transition into primary education.",
     },
     primary: {
       title: "Primary Education",
       description:
-        "Primary education covers Grades 1–8 and provides the foundation for continued learning.",
+        "Primary education covers grades 1–8 within the general education structure.",
     },
     secondary: {
       title: "Secondary Education",
       description:
-        "Secondary education supports students in the upper grades and prepares them for further study and work.",
+        "Secondary education provides learning opportunities for students in the upper grades.",
     },
     higher: {
-      title: "Further Education",
+      title: "Higher Education",
       description:
-        "Students can continue their education through colleges, universities and other learning opportunities.",
+        "Higher education creates opportunities for advanced study, skills development and professional growth.",
     },
   },
 
   publicSchools: {
-    eyebrow: "Government & public schools",
-    title: "Public education in Sululta",
+    eyebrow: "Government & public education",
+    title: "Public schools in Sululta",
     description:
-      "Government schools play an important role in providing accessible education to children and young people across Sululta Sub-City.",
-    imageAlt: "Public school in Sululta",
-    cardTitle: "Government public school",
-    cardDescription:
-      "Public schools provide education services within the government education system and serve communities across the sub-city.",
+      "Public schools provide essential education services for children and young people throughout Sululta Sub-City.",
+
+    imageLabel: "Public school",
+
+    cards: [
+      {
+        title: "Sululta Secondary School Students Meeting",
+        description:
+          "Students participating in a meeting and school activity at Sululta Secondary School.",
+        image: "/images/projects/img53.png",
+        imageAlt:
+          "Students meeting at Sululta Secondary School",
+      },
+
+      {
+        title: "Abdi Boru Primary School Compound",
+        description:
+          "The compound and learning environment of Abdi Boru Primary School in Sululta.",
+        image: "/images/projects/img54.png",
+        imageAlt:
+          "Abdi Boru Primary School compound",
+      },
+
+      {
+        title: "Public School Learning Environment",
+        description:
+          "A public school learning environment showing facilities and activities supporting education in Sululta.",
+        image: "/images/projects/img55.png",
+        imageAlt:
+          "Public school learning environment in Sululta",
+      },
+    ],
+
     noteTitle: "Public education",
     noteDescription:
-      "Information about individual schools, enrollment, grade levels and facilities should be confirmed through the relevant education authorities.",
+      "Public schools play an important role in providing accessible education to children and young people across Sululta Sub-City.",
   },
 
   privateSchools: {
     eyebrow: "Private education",
     title: "Private schools in Sululta",
     description:
-      "Private schools provide additional education choices for families and contribute to the diversity of learning opportunities available in Sululta.",
+      "Private schools complement public education by providing additional learning environments, programs and educational opportunities.",
+
     badge: "Private education",
-    imageAlt: "Private school in Sululta",
+
     imageLabel: "Private school",
-    cardTitle: "Private education provider",
-    cardDescription:
-      "Private schools may offer different learning environments, facilities, programs and extracurricular activities.",
+
+    cards: [
+      {
+        title: "School of Success",
+        description:
+          "School of Success is a private school in Sululta that describes its learning environment as supporting literacy, numeracy, technology, sports and student development.",
+        image: "/education/success-2.png",
+        imageAlt:
+          "School of Success in Sululta",
+      },
+
+      {
+        title: "BEZ Academy",
+        description:
+          "BEZ Academy provides private education and learning opportunities for students in Sululta.",
+        image: "/education/private-school-2.jpg",
+        imageAlt:
+          "BEZ Academy in Sululta",
+      },
+
+      {
+        title: "Private School Learning Environment",
+        description:
+          "A private education environment showing students, school facilities and learning activities in Sululta.",
+        image: "/education/private-school-3.jpg",
+        imageAlt:
+          "Private school learning environment in Sululta",
+      },
+    ],
+
     featured: {
-      eyebrow: "Featured school",
+      eyebrow: "Featured private school",
       title: "School of Success",
       description:
-        "School of Success, located in Sululta town, describes a learning environment that includes open-plan classrooms, smart-board technology, literacy and numeracy programs, sports activities and IT training.",
+        "According to its published information, School of Success was established in Sululta town in 2014 and describes programs including literacy, numeracy, sports, IT training and technology-supported learning.",
+
+        image: "/education/school-of-success.png",
+
       imageAlt:
         "Students participating in an outdoor lesson at School of Success in Sululta",
+
       features: [
         "Established in 2014",
         "Open-plan classrooms",
@@ -600,8 +660,11 @@ education: {
         "Sports activities",
         "IT training",
       ],
+
+      href:
+        "https://www.ethioharvardschool.com/schoolofsuccess.php",
+
       button: "School information",
-      href: "https://www.ethioharvardschool.com/schoolofsuccess.php",
     },
   },
 
@@ -609,58 +672,42 @@ education: {
     eyebrow: "Education initiatives",
     title: "Recent education-related developments",
     description:
-      "These examples highlight education-related initiatives and improvements reported in Sululta.",
+      "Explore initiatives and activities supporting learning environments and educational facilities in Sululta.",
+
     category: "Education",
     sourceLabel: "Source",
+
     items: [
       {
         title: "Reading Park at Sululta Secondary School",
         date: "2024",
         description:
-          "The Gudina Tumsa Foundation reported the unveiling of a reading park at Sululta Secondary School, providing students with a dedicated place for reading.",
+          "A reading park was unveiled at Sululta Secondary School, providing students with a dedicated place for reading and learning.",
         image: "/images/projects/img52.png",
         imageAlt:
-          "Reading park initiative at Sululta Secondary School",
+          "Reading park at Sululta Secondary School",
         source: "Gudina Tumsa Foundation, December 2024",
       },
+
       {
-        title: " Lube Wale Babo Ilu Primary School",
+        title: "Lube Wale Babo Primary School",
         date: "2024",
         description:
-          " ",
+          "",
         image: "/images/projects/img56.png",
         imageAlt:
-          "WASH facility initiative at Babo Wale Ilu Primary School",
-        source: "",
-      },
-      {
-        title: "",
-        date: "2024",
-        description:
-          " ",
-        image: "/images/projects/img58.png",
-        imageAlt:
-          "",
-        source: "",
-      },
-      {
-        title: "",
-        date: "2024",
-        description:
-          " ",
-        image: "/images/projects/img59.png",
-        imageAlt:
-          "",
-        source: "",
+          "WASH facilities at Babo Wale Ilu Primary School",
+        source: "Gudina Tumsa Foundation, December 2024",
       },
     ],
   },
 
   gallery: {
     eyebrow: "Education gallery",
-    title: "Learning spaces and school life",
+    title: "Education in pictures",
     description:
-      "Explore photographs showing schools, learning environments and education-related activities in Sululta.",
+      "Explore images showing schools, students, learning environments and education activities in Sululta.",
+
     imageAlt: "Education in Sululta",
   },
 
@@ -668,13 +715,15 @@ education: {
     eyebrow: "Research & learning",
     title: "Understanding education in Sululta",
     description:
-      "Academic research and local studies can help communities understand the factors that influence learning outcomes and school participation.",
+      "Research has examined parental engagement, student achievement and other factors affecting secondary education in Sululta Sub-City.",
+
     study: {
       title: "Secondary-school study",
       description:
-        "A 2025 study examined parental engagement and student achievement in secondary schools in Sululta Sub-City using questionnaires, interviews and document review.",
+        "A 2025 study examined parental engagement and student achievement in secondary schools in Sululta Sub-City.",
+      href:
+        "https://journals.wgu.edu.et/index.php/star/article/view/1952",
       button: "Read the research",
-      href: "https://journals.wgu.edu.et/index.php/star/article/view/1952",
     },
   },
 
@@ -686,7 +735,159 @@ education: {
   },
 },
 
+scienceTechnology: {
+  hero: {
+    badge: "Science & Technology",
+    title: "Building a smarter Sululta",
+    subtitle: "Technology for better services and new opportunities.",
+    description:
+      "Sululta Sub-City is working to use science, technology and innovation to improve public services, strengthen digital transformation and create opportunities for young people and communities.",
+    explore: "Explore science & technology",
+    gallery: "View gallery",
+    imageAlt: "Science and technology in Sululta",
+  },
 
+  introduction: {
+    eyebrow: "Science, technology & innovation",
+    title: "Technology that serves our community",
+    paragraphs: [
+      "Science and technology are becoming increasingly important to the development of Sululta Sub-City. Digital tools can help improve public services, communication, planning and access to information.",
+      "The Science and Technology Office works with the administration and community to encourage innovation, strengthen digital capacity and create opportunities for young people, professionals and local institutions.",
+    ],
+  },
+
+  focusAreas: {
+    eyebrow: "Our focus",
+    title: "Areas of science and technology development",
+    description:
+      "Our technology priorities focus on practical solutions that improve services, strengthen institutions and create opportunities for the community.",
+
+    items: [
+      {
+        title: "Digital Public Services",
+        description:
+          "Using digital systems to make public services faster, more accessible and more efficient.",
+      },
+      {
+        title: "Innovation",
+        description:
+          "Encouraging new ideas, creative problem solving and locally developed solutions.",
+      },
+      {
+        title: "Youth & Skills",
+        description:
+          "Supporting young people and professionals to develop digital, scientific and technical skills.",
+      },
+      {
+        title: "Smart City Development",
+        description:
+          "Using data, technology and connected systems to support better urban management.",
+      },
+      {
+        title: "ICT & Connectivity",
+        description:
+          "Expanding access to information and communication technologies and digital opportunities.",
+      },
+      {
+        title: "Digital Awareness",
+        description:
+          "Promoting digital literacy and responsible use of technology across the community.",
+      },
+    ],
+  },
+
+  office: {
+    eyebrow: "Science & Technology Office",
+    title: "Working toward digital transformation",
+    description:
+      "The Science and Technology Office supports the administration's efforts to introduce technology into public services, strengthen digital capacity and promote innovation.",
+    quote:
+      "Science and technology can become powerful tools for development when they are connected to the needs, ideas and participation of our communities.",
+    officer: "Mr. Tarekegn Gedefa",
+    role: "Head of Science and Technology Office",
+  },
+
+  initiatives: {
+    eyebrow: "Technology initiatives",
+    title: "Technology and innovation in action",
+    description:
+      "Explore areas where science, technology and innovation can contribute to the development of Sululta.",
+
+    items: [
+      {
+        title: "Digital Public Services",
+        description:
+          "Digital platforms and information systems can help residents access public information and services more easily.",
+      },
+      {
+        title: "Innovation & New Ideas",
+        description:
+          "The administration encourages innovative thinking and practical solutions to local development challenges.",
+      },
+      {
+        title: "Youth Technology Opportunities",
+        description:
+          "Technology creates opportunities for young people to develop skills, build projects and participate in the digital economy.",
+      },
+      {
+        title: "Smart Urban Development",
+        description:
+          "Technology and data can support better planning, infrastructure management and decision-making.",
+      },
+    ],
+  },
+
+  gallery: {
+    eyebrow: "Technology gallery",
+    title: "Science, technology & innovation",
+    description:
+      "Images representing technology, innovation, digital development and the people working toward a smarter Sululta.",
+    imageAlt: "Science and technology in Sululta",
+    clickToView: "Click to view image",
+    close: "Close image",
+    previous: "Previous image",
+    next: "Next image",
+  },
+
+  opportunities: {
+    eyebrow: "Opportunities",
+    title: "Creating opportunities through technology",
+    description:
+      "Technology can help young people, professionals, businesses and public institutions connect with new opportunities and participate in Sululta's development.",
+
+    items: [
+      "Digital skills development",
+      "Innovation and entrepreneurship",
+      "Youth technology programs",
+      "Digital public services",
+      "Information access",
+      "Technology partnerships",
+    ],
+  },
+
+  future: {
+    eyebrow: "Looking ahead",
+    title: "A connected and innovative Sululta",
+    description:
+      "The future of Sululta depends on people, ideas and technology working together. By strengthening digital capacity and encouraging innovation, the community can build better services and new opportunities.",
+
+    points: [
+      "Stronger digital public services",
+      "Better access to information",
+      "More opportunities for young people",
+      "Innovation in local development",
+      "Technology-supported urban planning",
+      "Stronger collaboration with institutions and communities",
+    ],
+  },
+
+  cta: {
+    title: "Technology can build a better future",
+    description:
+      "Science, technology and innovation are opportunities to improve services, empower people and support the development of Sululta.",
+    button: "Contact the Administration",
+  },
+},
 };
 
 export default en;

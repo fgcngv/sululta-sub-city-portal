@@ -513,12 +513,12 @@ const am = {
 education: {
   hero: {
     badge: "ትምህርት እና መማር",
-    title: "በሱሉልታ ያለው ትምህርት",
-    subtitle: "የወደፊታችንን መገንባት።",
+    title: "ትምህርት",
+    subtitle: "ነገያችንን ለመገንባት ያግዘናል።",
     description:
       "በሱሉልታ ክፍለ ከተማ ላሉ ሕፃናትና ወጣቶች ትምህርትን፣ ዕውቀትን እና ዕድልን ማጠናከር።",
     exploreSchools: "ትምህርት ቤቶችን ይመልከቱ",
-    viewGallery: "የፎቶ ማዕከል ይመልከቱ",
+    viewGallery: "የፎቶዎችን ይመልከቱ",
     imageAlt: "በሱሉልታ የትምህርት እና የመማር ሁኔታ",
   },
 
@@ -526,7 +526,7 @@ education: {
     eyebrow: "ትምህርት እና ዕድል",
     title: "ጠንካራ የመማሪያ አካባቢዎችን መገንባት",
     paragraphs: [
-      "ትምህርት በሱሉልታ ልማት ውስጥ አስፈላጊ ሚና አለው። በክፍለ ከተማው ያሉ የመንግሥትና የግል ትምህርት ቤቶች ለሕፃናትና ለወጣቶች በተለያዩ የትምህርት ደረጃዎች የመማር ዕድል ይሰጣሉ።",
+      "ትምህርት በከተማችን ልማት ውስጥ አስፈላጊ ሚና አለው። በክፍለ ከተማው ያሉ የመንግሥትና የግል ትምህርት ቤቶች ለሕፃናትና ለወጣቶች በተለያዩ የትምህርት ደረጃዎች የመማር ዕድል ይሰጣሉ።",
       "አስተዳደሩ የትምህርት ጥራትን፣ ደህንነቱ የተጠበቀ የመማሪያ አካባቢን፣ የትምህርት መሠረተ ልማትን፣ የወላጆችንና የማኅበረሰቡን ተሳትፎ ማጠናከር አስፈላጊ መሆኑን ይገነዘባል።",
     ],
   },
@@ -557,7 +557,7 @@ education: {
       },
     ],
     source:
-      "ምንጭ፦ የሻገር ከተማ ዕቅድና ልማት ጽሕፈት ቤት፣ 2024። አሃዞቹ በሱሉልታ ክፍለ ከተማ ላሉ የመንግሥት ትምህርት ቤቶች ብቻ የሚመለከቱ ናቸው።",
+      "ምንጭ፦ የሸገር ከተማ ዕቅድና ልማት ጽሕፈት ቤት፣ 2024። አሃዞቹ በሱሉልታ ክፍለ ከተማ ላሉ የመንግሥት ትምህርት ቤቶች ብቻ የሚመለከቱ ናቸው።",
   },
 
   levels: {
@@ -593,6 +593,35 @@ education: {
     description:
       "የመንግሥት ትምህርት ቤቶች በሱሉልታ ክፍለ ከተማ ለሚኖሩ ሕፃናትና ወጣቶች ተደራሽ ትምህርት በመስጠት አስፈላጊ ሚና ይጫወታሉ።",
     imageAlt: "በሱሉልታ የሚገኝ የመንግሥት ትምህርት ቤት",
+    
+    cards: [
+      {
+        title: "Sululta Secondary School Students Meeting",
+        description:
+          "Students participating in a meeting and school activity at Sululta Secondary School.",
+        image: "/images/projects/img53.png",
+        imageAlt:
+          "Students meeting at Sululta Secondary School",
+      },
+
+      {
+        title: "Public  School Behind Classroom",
+        description:
+          "",
+        image: "/images/projects/img54.png",
+        imageAlt:
+          " School classroom",
+      },
+
+      {
+        title: "Public School Learning Environment",
+        description:
+          "A public school learning environment showing students and activities .",
+        image: "/images/projects/img55.png",
+        imageAlt:
+          "Public school learning environment in Sululta",
+      },
+    ],
     cardTitle: "የመንግሥት ትምህርት ቤት",
     cardDescription:
       "የመንግሥት ትምህርት ቤቶች በመንግሥት የትምህርት ሥርዓት ውስጥ የትምህርት አገልግሎት በመስጠት በክፍለ ከተማው ያሉ ማኅበረሰቦችን ያገለግላሉ።",
@@ -609,6 +638,34 @@ education: {
     badge: "የግል ትምህርት",
     imageAlt: "በሱሉልታ የሚገኝ የግል ትምህርት ቤት",
     imageLabel: "የግል ትምህርት ቤት",
+    cards: [
+      {
+        title: "School of Success",
+        description:
+          "School of Success is a private school in Sululta that describes its learning environment as supporting literacy, numeracy, technology, sports and student development.",
+        image: "/education/success-2.png",
+        imageAlt:
+          "School of Success in Sululta",
+      },
+
+      {
+        title: "BEZ Academy",
+        description:
+          "BEZ Academy provides private education and learning opportunities for students in Sululta.",
+        image: "/education/private-school-2.jpg",
+        imageAlt:
+          "BEZ Academy in Sululta",
+      },
+
+      {
+        title: "Private School Learning Environment",
+        description:
+          "A private education environment showing students, school facilities and learning activities in Sululta.",
+        image: "/education/private-school-3.jpg",
+        imageAlt:
+          "Private school learning environment in Sululta",
+      },
+    ],
     cardTitle: "የግል ትምህርት ተቋም",
     cardDescription:
       "የግል ትምህርት ቤቶች የተለያዩ የመማሪያ አካባቢዎችን፣ መሠረተ ልማቶችን፣ ፕሮግራሞችንና ተጨማሪ እንቅስቃሴዎችን ሊያቀርቡ ይችላሉ።",
@@ -617,6 +674,7 @@ education: {
       title: "School of Success",
       description:
         "በሱሉልታ ከተማ የሚገኘው School of Success ክፍት የመማሪያ ክፍሎች፣ smart-board ቴክኖሎጂ፣ የንባብና የሂሳብ ፕሮግራሞች፣ የስፖርት እንቅስቃሴዎችና የIT ሥልጠና እንዳለው በራሱ የታተመ መረጃ ይገልጻል።",
+        image: "/education/school-of-success.png",
       imageAlt:
         "በሱሉልታ School of Success የሚማሩ ተማሪዎች",
       features: [
@@ -651,13 +709,13 @@ education: {
         source: "Gudina Tumsa Foundation, December 2024",
       },
       {
-        title: "በBabo Wale Ilu የመጀመሪያ ደረጃ ትምህርት ቤት የWASH አገልግሎት ማሻሻያ",
+        title: "ሉቤ  ወሌ ባቦ አንደኛ ደረጃ ት/ቤ",
         date: "2024",
         description:
-          "በBabo Wale Ilu የመጀመሪያ ደረጃ ትምህርት ቤት የንጽህና አገልግሎት፣ የእጅ መታጠቢያ እና የውሃ ማከማቻ መሠረተ ልማት መሻሻሉ ተዘግቧል።",
-        image: "/images/projects/img4.png",
+          "።",
+        image: "/images/projects/img56.png",
         imageAlt:
-          "በBabo Wale Ilu ትምህርት ቤት የWASH አገልግሎት",
+          "",
         source: "Gudina Tumsa Foundation, December 2024",
       },
     ],
@@ -693,6 +751,159 @@ education: {
   },
 },
 
+scienceTechnology: {
+  hero: {
+    badge: "ሳይንስና ቴክኖሎጂ",
+    title: "ዘመናዊ ሱሉልታን መገንባት",
+    subtitle: "ለተሻለ አገልግሎትና ለአዳዲስ ዕድሎች ቴክኖሎጂን መጠቀም።",
+    description:
+      "የሱሉልታ ክፍለ ከተማ አስተዳደር የህዝብ አገልግሎቶችን ለማሻሻል፣ ዲጂታል ሽግግርን ለማጠናከር እና ለወጣቶችና ለማህበረሰቡ አዳዲስ ዕድሎችን ለመፍጠር ሳይንስን፣ ቴክኖሎጂንና ፈጠራን ለመጠቀም እየሰራ ነው።",
+    explore: "ሳይንስና ቴክኖሎጂን ይመልከቱ",
+    gallery: "የፎቶ ማዕከሉን ይመልከቱ",
+    imageAlt: "በሱሉልታ ሳይንስና ቴክኖሎጂ",
+  },
+
+  introduction: {
+    eyebrow: "ሳይንስ፣ ቴክኖሎጂና ፈጠራ",
+    title: "ማህበረሰባችንን የሚያገለግል ቴክኖሎጂ",
+    paragraphs: [
+      "ሳይንስና ቴክኖሎጂ በሱሉልታ ክፍለ ከተማ ልማት ውስጥ እየጨመረ የመጣ ሚና አለው። ዲጂታል መሳሪያዎች የህዝብ አገልግሎትን፣ ግንኙነትን፣ እቅድንና የመረጃ ተደራሽነትን ለማሻሻል ሊረዱ ይችላሉ።",
+      "የሳይንስና ቴክኖሎጂ ጽሕፈት ቤት ከአስተዳደሩና ከማህበረሰቡ ጋር በመስራት ዲጂታል አቅምን ለማጠናከር፣ ፈጠራን ለማበረታታት እና ለወጣቶች፣ ለባለሙያዎችና ለአካባቢ ተቋማት ዕድሎችን ለመፍጠር እየሰራ ነው።",
+    ],
+  },
+
+  focusAreas: {
+    eyebrow: "የስራ ትኩረታችን",
+    title: "የሳይንስና ቴክኖሎጂ ልማት ዋና ትኩረቶች",
+    description:
+      "ትኩረታችን አገልግሎቶችን በማሻሻል፣ ተቋማትን በማጠናከር እና ለማህበረሰቡ ዕድሎችን በመፍጠር ላይ ያተኮረ ተግባራዊ ቴክኖሎጂ ነው።",
+
+    items: [
+      {
+        title: "ዲጂታል የህዝብ አገልግሎት",
+        description:
+          "የህዝብ አገልግሎቶችን ፈጣን፣ ተደራሽና ውጤታማ ለማድረግ ዲጂታል ስርዓቶችን መጠቀም።",
+      },
+      {
+        title: "ፈጠራ",
+        description:
+          "አዳዲስ ሀሳቦችን፣ የፈጠራ አስተሳሰብንና የአካባቢ መፍትሄዎችን ማበረታታት።",
+      },
+      {
+        title: "ወጣቶችና ክህሎት",
+        description:
+          "ወጣቶችና ባለሙያዎች ዲጂታል፣ ሳይንሳዊና ቴክኒካዊ ክህሎቶችን እንዲያዳብሩ መደገፍ።",
+      },
+      {
+        title: "ዘመናዊ ከተማ ልማት",
+        description:
+          "የከተማ አስተዳደርን ለማሻሻል መረጃን፣ ቴክኖሎጂንና የተገናኙ ስርዓቶችን መጠቀም።",
+      },
+      {
+        title: "ICTና ግንኙነት",
+        description:
+          "የመረጃና የግንኙነት ቴክኖሎጂ ተደራሽነትንና ዲጂታል ዕድሎችን ማስፋፋት።",
+      },
+      {
+        title: "ዲጂታል ግንዛቤ",
+        description:
+          "በማህበረሰቡ ውስጥ ዲጂታል እውቀትንና የቴክኖሎጂ አጠቃቀም ግንዛቤን ማሳደግ።",
+      },
+    ],
+  },
+
+  office: {
+    eyebrow: "የሳይንስና ቴክኖሎጂ ጽሕፈት ቤት",
+    title: "ወደ ዲጂታል ሽግግር እየሰራን ነው",
+    description:
+      "የሳይንስና ቴክኖሎጂ ጽሕፈት ቤት በህዝብ አገልግሎቶች ውስጥ ቴክኖሎጂን ለማስገባት፣ ዲጂታል አቅምን ለማጠናከር እና ፈጠራን ለማበረታታት የአስተዳደሩን ስራ ይደግፋል።",
+    quote:
+      "ሳይንስና ቴክኖሎጂ ከማህበረሰባችን ፍላጎት፣ ሀሳብና ተሳትፎ ጋር ሲገናኝ ለልማት ኃይለኛ መሳሪያ ሊሆን ይችላል።",
+    officer: "አቶ ታረቀኝ ገደፋ",
+    role: "የሳይንስና ቴክኖሎጂ ጽሕፈት ቤት ኃላፊ",
+  },
+
+  initiatives: {
+    eyebrow: "የቴክኖሎጂ ተነሳሽነቶች",
+    title: "ቴክኖሎጂና ፈጠራን በተግባር",
+    description:
+      "ሳይንስ፣ ቴክኖሎጂና ፈጠራ ለሱሉልታ ልማት ሊያበረክቱ የሚችሉትን መንገዶች ይመልከቱ።",
+
+    items: [
+      {
+        title: "ዲጂታል የህዝብ አገልግሎት",
+        description:
+          "ዲጂታል መድረኮችና የመረጃ ስርዓቶች ነዋሪዎች የህዝብ መረጃና አገልግሎቶችን በቀላሉ እንዲያገኙ ሊያግዙ ይችላሉ።",
+      },
+      {
+        title: "ፈጠራና አዳዲስ ሀሳቦች",
+        description:
+          "የአካባቢ ልማት ችግኝቶችን ለመፍታት የፈጠራ አስተሳሰብና ተግባራዊ መፍትሄዎችን ማበረታታት።",
+      },
+      {
+        title: "የወጣቶች የቴክኖሎጂ ዕድሎች",
+        description:
+          "ቴክኖሎጂ ወጣቶች ክህሎት እንዲያዳብሩ፣ ፕሮጀክቶችን እንዲያበረክቱና በዲጂታል ኢኮኖሚ እንዲሳተፉ ዕድል ይፈጥራል።",
+      },
+      {
+        title: "ዘመናዊ የከተማ ልማት",
+        description:
+          "ቴክኖሎጂና መረጃ የከተማ እቅድን፣ የመሰረተ ልማት አስተዳደርንና ውሳኔ አሰጣጥን ሊያሻሽሉ ይችላሉ።",
+      },
+    ],
+  },
+
+  gallery: {
+    eyebrow: "የቴክኖሎጂ ፎቶ ማዕከል",
+    title: "ሳይንስ፣ ቴክኖሎጂና ፈጠራ",
+    description:
+      "ቴክኖሎጂን፣ ፈጠራን፣ ዲጂታል ልማትንና ለዘመናዊ ሱሉልታ እየሰሩ ያሉ ሰዎችን የሚያሳዩ ፎቶዎች።",
+    imageAlt: "በሱሉልታ ሳይንስና ቴክኖሎጂ",
+    clickToView: "ትልቅ ፎቶ ለማየት ይጫኑ",
+    close: "ፎቶውን ዝጋ",
+    previous: "ያለፈው ፎቶ",
+    next: "ቀጣዩ ፎቶ",
+  },
+
+  opportunities: {
+    eyebrow: "ዕድሎች",
+    title: "በቴክኖሎጂ ዕድሎችን መፍጠር",
+    description:
+      "ቴክኖሎጂ ወጣቶች፣ ባለሙያዎች፣ ንግዶችና የህዝብ ተቋማት ከአዳዲስ ዕድሎች ጋር እንዲገናኙ ሊያግዝ ይችላል።",
+
+    items: [
+      "የዲጂታል ክህሎት ልማት",
+      "ፈጠራና ሥራ ፈጠራ",
+      "የወጣቶች የቴክኖሎጂ ፕሮግራሞች",
+      "ዲጂታል የህዝብ አገልግሎት",
+      "የመረጃ ተደራሽነት",
+      "ከተቋማት ጋር የጋራ ስራ",
+    ],
+  },
+
+  future: {
+    eyebrow: "ወደፊት ስንመለከት",
+    title: "የተገናኘና ፈጠራ ያለው ሱሉልታ",
+    description:
+      "የሱሉልታ የወደፊት ልማት ሰዎች፣ ሀሳቦችና ቴክኖሎጂ በጋራ በመስራት ላይ ይመሰረታል። ዲጂታል አቅምን በማጠናከርና ፈጠራን በማበረታታት የተሻለ አገልግሎትና አዳዲስ ዕድሎች መፍጠር ይቻላል።",
+
+    points: [
+      "የተጠናከረ ዲጂታል የህዝብ አገልግሎት",
+      "የተሻለ የመረጃ ተደራሽነት",
+      "ለወጣቶች ተጨማሪ ዕድሎች",
+      "በአካባቢ ልማት ውስጥ ፈጠራ",
+      "በቴክኖሎጂ የተደገፈ የከተማ እቅድ",
+      "ከተቋማትና ከማህበረሰቡ ጋር ጠንካራ ትብብር",
+    ],
+  },
+
+  cta: {
+    title: "ቴክኖሎጂ የተሻለ የወደፊት ህይወት መገንባት ይችላል",
+    description:
+      "ሳይንስ፣ ቴክኖሎጂና ፈጠራ አገልግሎቶችን ለማሻሻል፣ ሰዎችን ለማብቃትና የሱሉልታን ልማት ለመደገፍ ትልቅ ዕድል ናቸው።",
+    button: "አስተዳደሩን ያግኙ",
+  },
+},
 };
 
 export default am;

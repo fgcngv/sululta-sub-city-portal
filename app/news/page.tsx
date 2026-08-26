@@ -176,7 +176,7 @@ export default async function NewsPage() {
                         //   className="object-cover transition duration-700 group-hover:scale-105"
                         //   sizes="(max-width: 1024px) 100vw, 380px"
                         // />
-                        <img src={image.fileUrl} alt={translation.title} sizes="(max-width: 1024px) 100vw, 380px"/>
+                        <img src={image.fileUrl} alt={translation.title} sizes="(max-width: 1024px) 100vw, 380px" className="object-cover transition duration-700 group-hover:scale-105 w-full h-full"/>
                       ) : (
                         <div className="flex h-full min-h-[220px] items-center justify-center bg-slate-100">
                           <Newspaper className="size-12 text-slate-300" />

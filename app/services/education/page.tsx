@@ -12,33 +12,7 @@ import {
 } from "lucide-react";
 
 import { getCurrentDictionary } from "@/lib/i18n/index";
-
-const publicSchools = [
-  {
-    image: "/images/projects/img53.png",
-  },
-  {
-    image: "/images/projects/img54.png",
-  },
-  {
-    image: "/images/projects/img55.png",
-  },
-];
-
-const privateSchools = [
-  {
-    image: "/education/private-school-1.jpg",
-    fallbackImage: "/education/success-2.png",
-  },
-  {
-    image: "/education/private-school-2.jpg",
-    fallbackImage: "/education/school-of-success.png",
-  },
-  {
-    image: "/education/private-school-3.jpg",
-    fallbackImage: "/education/success-2.png",
-  },
-];
+import EducationImageLightbox from "@/components/education/education-image-lightbox";
 
 const educationGallery = [
   {
@@ -50,9 +24,9 @@ const educationGallery = [
   {
     image: "/images/projects/img61.png",
   },
-  {
-    image: "/education/school-of-success.png",
-  },
+  // {
+  //   image: "/education/school-of-success.png",
+  // },
   {
     image: "/images/projects/img63.png",
   },
@@ -284,17 +258,16 @@ export default async function EducationPage() {
           </div>
 
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {publicSchools.map((school, index) => (
+            {education.publicSchools.cards.map((school) => (
               <article
-                key={index}
-                className="overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm"
+                key={school.title}
+                className="group overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-slate-200">
-                  <Image
+                  <EducationImageLightbox
                     src={school.image}
-                    alt={`${education.publicSchools.imageAlt} ${index + 1}`}
-                    fill
-                    className="object-cover transition duration-500 hover:scale-105"
+                    alt={school.imageAlt}
+                    className="absolute inset-0 h-full w-full"
                   />
                 </div>
 
@@ -302,14 +275,16 @@ export default async function EducationPage() {
                   <div className="flex size-11 items-center justify-center rounded-xl bg-[#087443]/10 text-[#087443]">
                     <Building2 className="size-5" />
                   </div>
-{/* 
-                  <h3 className="mt-5 text-xl font-bold">
-                    {education.publicSchools.cardTitle}
-                  </h3>
+
+                  <h3 className="mt-5 text-xl font-bold">{school.title}</h3>
 
                   <p className="mt-3 text-sm leading-6 text-[#231f20]/60">
-                    {education.publicSchools.cardDescription}
-                  </p> */}
+                    {school.description}
+                  </p>
+
+                  <p className="mt-5 text-xs font-semibold uppercase tracking-wide text-[#087443]">
+                    {/* {education.publicSchools.imageLabel} */}
+                  </p>
                 </div>
               </article>
             ))}
@@ -338,7 +313,7 @@ export default async function EducationPage() {
       ========================================================= */}
       <section className="border-y border-black/5 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-          <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
+          {/* <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#ed1c24]">
                 {education.privateSchools.eyebrow}
@@ -362,54 +337,50 @@ export default async function EducationPage() {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {privateSchools.map((school, index) => (
+          {/* <div className="mt-10 grid gap-6 lg:grid-cols-3">
+            {education.privateSchools.cards.map((school) => (
               <article
-                key={index}
+                key={school.title}
                 className="group overflow-hidden rounded-2xl border border-black/5 bg-[#f7f7f5]"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
-                  <Image
+                  <EducationImageLightbox
                     src={school.image}
-                    alt={`${education.privateSchools.imageAlt} ${index + 1}`}
-                    fill
-                    className="object-cover transition duration-500 group-hover:scale-105"
+                    alt={school.imageAlt}
+                    className="absolute inset-0 h-full w-full"
                   />
 
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-5">
-                    <span className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold">
+                  <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-5">
+                    <span className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-[#231f20]">
                       {education.privateSchools.imageLabel}
                     </span>
                   </div>
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-xl font-bold">
-                    {education.privateSchools.cardTitle}
-                  </h3>
+                  <h3 className="text-xl font-bold">{school.title}</h3>
 
                   <p className="mt-3 text-sm leading-6 text-[#231f20]/60">
-                    {education.privateSchools.cardDescription}
+                    {school.description}
                   </p>
                 </div>
               </article>
             ))}
-          </div>
+          </div> */}
 
           {/* Featured private school */}
-          <div className="mt-10 overflow-hidden rounded-3xl bg-[#231f20]">
+          {/* <div className="mt-10 overflow-hidden rounded-3xl bg-[#231f20]">
             <div className="grid lg:grid-cols-2">
               <div className="relative min-h-[360px] lg:min-h-[480px]">
-                <Image
-                  src="/education/school-of-success.png"
+                <EducationImageLightbox
+                  src={education.privateSchools.featured.image}
                   alt={education.privateSchools.featured.imageAlt}
-                  fill
-                  className="object-cover"
+                  className="absolute inset-0 h-full w-full"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 transition hover:opacity-100" />
               </div>
 
               <div className="flex flex-col justify-center p-8 sm:p-12 lg:p-14">
@@ -452,7 +423,7 @@ export default async function EducationPage() {
                 )}
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -490,11 +461,10 @@ export default async function EducationPage() {
                   className="overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm"
                 >
                   <div className="relative aspect-[16/9] overflow-hidden bg-slate-200">
-                    <Image
+                    <EducationImageLightbox
                       src={initiative.image}
                       alt={initiative.imageAlt}
-                      fill
-                      className="object-cover transition duration-500 hover:scale-105"
+                      className="absolute inset-0 h-full w-full"
                     />
                   </div>
 
@@ -559,11 +529,10 @@ export default async function EducationPage() {
                     : "aspect-square"
                 }`}
               >
-                <Image
+                <EducationImageLightbox
                   src={item.image}
                   alt={`${education.gallery.imageAlt} ${index + 1}`}
-                  fill
-                  className="object-cover transition duration-500 hover:scale-105"
+                  className="absolute inset-0 h-full w-full"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 transition hover:opacity-100" />

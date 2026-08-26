@@ -597,47 +597,107 @@ const om = {
   },
 
   publicSchools: {
-    eyebrow: "Mana barnootaa mootummaa",
-    title: "Barnoota mootummaa Sulultaa keessatti",
+    eyebrow: "Barnoota mootummaa",
+    title: "Manneen barnootaa mootummaa Sulultaa",
     description:
-      "Manneen barnootaa mootummaa daa'immanii fi dargaggoota Kutaa Magaalaa Sulultaa keessatti argamaniif barnoota dhaqqabamaa ta'e kennuudhaan gahee guddaa qabu.",
-    imageAlt: "Manneen barnootaa mootummaa muraasa suuradhaan ",
-    cardTitle: "Mana barnootaa mootummaa",
-    cardDescription:
-      "Manneen barnootaa mootummaa sirna barnootaa mootummaa keessatti tajaajila barnootaa kennuun hawaasaalee Kutaa Magaalaa Sulultaa keessatti argaman tajaajilu.",
+      "Manneen barnootaa mootummaa daa'immanii fi dargaggoota Sulultaa keessatti argamaniif tajaajila barnootaa barbaachisaa ni kennu.",
+
+    imageLabel: "Mana barnootaa mootummaa",
+
+    cards: [
+      {
+        title: "Walga'ii Barattoota Mana Barumsaa Sadarkaa Lammaffaa Sulultaa",
+        description:
+          "Barattoonni Mana Barumsaa Sadarkaa Lammaffaa Sulultaa walga'ii fi hojii mana barumsaa irratti hirmaachaa jiran.",
+        image: "/images/projects/img53.png",
+        imageAlt:
+          "Walga'ii barattoota Mana Barumsaa Sadarkaa Lammaffaa Sulultaa",
+      },
+
+      {
+        title: "Mooraa Mana Barumsaa Abdi Boruu",
+        description:
+          "Mooraa fi naannoo barnootaa Mana Barumsaa Abdi Boruu Sulultaa keessatti argamu.",
+        image: "/images/projects/img54.png",
+        imageAlt:
+          "Mooraa Mana Barumsaa Abdi Boruu",
+      },
+
+      {
+        title: "Naannoo Barnootaa Mana Barumsaa Mootummaa",
+        description:
+          "Naannoo barnootaa fi hojiiwwan manneen barnootaa mootummaa Sulultaa keessatti gaggeeffaman.",
+        image: "/images/projects/img55.png",
+        imageAlt:
+          "Naannoo barnootaa mana barumsaa mootummaa Sulultaa",
+      },
+    ],
+
     noteTitle: "Barnoota mootummaa",
     noteDescription:
-      "",
+      "Manneen barnootaa mootummaa daa'immanii fi dargaggoota Sulultaa hundaaf carraa barnootaa dhaqqabamaa ta'e uumu keessatti gahee olaanaa qabu.",
   },
 
   privateSchools: {
     eyebrow: "Barnoota dhuunfaa",
-    title: "Manneen barnootaa dhuunfaa muraasa suuradhaan",
+    title: "Manneen barnootaa dhuunfaa Sulultaa",
     description:
-      "Manneen barnootaa dhuunfaa maatiiwwaniif filannoo barnoota dabalataa kennuun carraa barnootaa garaagaraa babaldhisuu keessatti gahee ni taphatu.",
+      "Manneen barnootaa dhuunfaa barnoota mootummaa dabalanii naannoo barnootaa fi carraa barnootaa adda addaa ni kennu.",
+
     badge: "Barnoota dhuunfaa",
-    imageAlt: "Mana barnootaa dhuunfaa Sululta keessatti",
+
     imageLabel: "Mana barnootaa dhuunfaa",
-    cardTitle: "Dhaabbata barnootaa dhuunfaa",
-    cardDescription:
-      "Manneen barnootaa dhuunfaa naannoo barnootaa, bu'uuraalee, sagantaalee fi hojiiwwan dabalataa adda addaa qabaachuu danda'u.",
+
+    cards: [
+      {
+        title: "School of Success",
+        description:
+          "School of Success mana barumsaa dhuunfaa Sulultaa keessatti argamu yoo ta'u, barnoota dubbisuu, herrega, teeknooloojii, ispoortii fi guddina barattootaa irratti xiyyeeffata.",
+        image: "/education/success-2.png",
+        imageAlt: "School of Success Sulultaa keessatti",
+      },
+
+      {
+        title: "BEZ Academy",
+        description:
+          "BEZ Academy carraa barnootaa fi naannoo barnootaa dhuunfaa barattoota Sulultaa keessatti argamaniif ni dhiheessa.",
+        image: "/education/private-school-2.jpg",
+        imageAlt: "BEZ Academy Sulultaa keessatti",
+      },
+
+      {
+        title: "Naannoo Barnootaa Mana Barumsaa Dhuunfaa",
+        description:
+          "Naannoo barnootaa, barattootaa fi tajaajila mana barumsaa dhuunfaa Sulultaa keessatti mul'atu.",
+        image: "/education/private-school-3.jpg",
+        imageAlt:
+          "Naannoo barnootaa mana barumsaa dhuunfaa Sulultaa",
+      },
+    ],
     featured: {
-      eyebrow: "Mana barnootaa filatamaa",
+      eyebrow: "Featured private school",
       title: "School of Success",
       description:
-        "School of Success, kan magaalaa Sulultaa keessatti argamu, kutaa barnootaa banaa, teeknooloojii smart-board, sagantaalee dubbisuu fi herregaa, ispoortii fi leenjii IT qabaachuu isaa odeeffannoo maxxanse keessatti ibseera.",
+        "According to its published information, School of Success was established in Sululta town in 2014 and describes programs including literacy, numeracy, sports, IT training and technology-supported learning.",
+
+        image: "/education/school-of-success.png",
+
       imageAlt:
-        "Barattoota School of Success Sulultaa keessatti barachaa jiran",
+        "Students participating in an outdoor lesson at School of Success in Sululta",
+
       features: [
-        "Bara 2014 hundaa'e",
-        "Kutaa barnootaa banaa",
-        "Teeknooloojii smart-board",
-        "Dubbisuu fi herrega",
-        "Hojiiwwan ispoortii",
-        "Leenjii IT",
+        "Established in 2014",
+        "Open-plan classrooms",
+        "Smart-board technology",
+        "Literacy & numeracy",
+        "Sports activities",
+        "IT training",
       ],
-      button: "Odeeffannoo mana barnootaa",
-      href: "https://www.ethioharvardschool.com/schoolofsuccess.php",
+
+      href:
+        "https://www.ethioharvardschool.com/schoolofsuccess.php",
+
+      button: "School information",
     },
   },
 
@@ -663,10 +723,10 @@ const om = {
         title: "Fooyya'iinsa Tajaajila WASH Mana Barnootaa Babo Wale Ilu",
         date: "2024",
         description:
-          "Mana Barnootaa Babo Wale Ilu keessatti tajaajilli qulqullinaa, bakka harka dhiqannaa fi sirni kuusaa bishaanii fooyya'uu isaa gabaafameera.",
-        image: "/images/projects/img444.png",
+          "Mana Barumsaa Lubee Walee Baabboo Sadarkaa Tokkoffaa",
+        image: "/images/projects/img5656.png",
         imageAlt:
-          "Fooyya'iinsa tajaajila WASH Mana Barnootaa Babo Wale Ilu",
+          "",
         source: "Gudina Tumsa Foundation, December 2024",
       },
     ],
@@ -702,7 +762,159 @@ const om = {
   },
 },
 
+scienceTechnology: {
+  hero: {
+    badge: "Saayinsii fi Teeknooloojii",
+    title: "Sululta caalaatti smart ta'e ijaaruu",
+    subtitle: "Tajaajila fooyya'aafi carraa haaraa uumuuf teeknooloojii.",
+    description:
+      "Bulchiinsi Kutaa Magaalaa Sulultaa tajaajila mootummaa fooyyeessuuf, jijjiirama dijitaalaa cimsuuf, akkasumas dargaggootaafi hawaasaaf carraa haaraa uumuuf saayinsii, teeknooloojii fi kalaqa fayyadamuuf hojjechaa jira.",
+    explore: "Saayinsii fi teeknooloojii ilaali",
+    gallery: "Suuraa ilaali",
+    imageAlt: "Saayinsii fi teeknooloojii Sulultaa",
+  },
 
+  introduction: {
+    eyebrow: "Saayinsii, teeknooloojii fi kalaqa",
+    title: "Teeknooloojii hawaasa keenya tajaajilu",
+    paragraphs: [
+      "Saayinsiifi teeknooloojiin misooma Kutaa Magaalaa Sulultaa keessatti gahee guddaa qabaachaa jiru. Meeshaaleen dijitaalaa tajaajila mootummaa, qunnamtii, karooraafi argama odeeffannoo fooyyeessuu danda'u.",
+      "Waajjirri Saayinsiifi Teeknooloojii bulchiinsaafi hawaasa waliin ta'uun dandeettii dijitaalaa cimsuu, kalaqa jajjabeessuufi dargaggoota, ogeeyyii fi dhaabbilee naannooof carraa uumuuf hojjechaa jira.",
+    ],
+  },
+
+  focusAreas: {
+    eyebrow: "Xiyyeeffannoo keenya",
+    title: "Naannoowwan misooma saayinsii fi teeknooloojii",
+    description:
+      "Xiyyeeffannoon keenya furmaata qabatamaa tajaajila fooyyeessu, dhaabbilee cimsuufi hawaasaaf carraa uumu irratti hundaa'a.",
+
+    items: [
+      {
+        title: "Tajaajila Mootummaa Dijitaalaa",
+        description:
+          "Tajaajila mootummaa saffisaa, salphaafi bu'a qabeessa taasisuuf sirna dijitaalaa fayyadamu.",
+      },
+      {
+        title: "Kalaqa",
+        description:
+          "Yaada haaraa, furmaata kalaqaa fi furmaata rakkoolee naannoo jajjabeessuu.",
+      },
+      {
+        title: "Dargaggoota fi Dandeettii",
+        description:
+          "Dargaggootaafi ogeeyyii dandeettii dijitaalaa, saayinsii fi teeknikaa akka horatan deeggaruu.",
+      },
+      {
+        title: "Misooma Magaalaa Smart",
+        description:
+          "Bulchiinsa magaalaa fooyyeessuuf daataa, teeknooloojii fi sirna walqunnamtii fayyadamuu.",
+      },
+      {
+        title: "ICT fi Walqunnamtii",
+        description:
+          "Argama teeknooloojii odeeffannoo fi qunnamtii babal'isuu.",
+      },
+      {
+        title: "Hubannoo Dijitaalaa",
+        description:
+          "Hawaasa keessatti hubannoo dijitaalaa fi itti fayyadama sirrii teeknooloojii guddisuu.",
+      },
+    ],
+  },
+
+  office: {
+    eyebrow: "Waajjira Saayinsii fi Teeknooloojii",
+    title: "Gara jijjiirama dijitaalaatti hojjechaa jirra",
+    description:
+      "Waajjirri Saayinsiifi Teeknooloojii tajaajila mootummaa keessatti teeknooloojii galchuu, dandeettii dijitaalaa cimsuu fi kalaqa jajjabeessuuf hojiiwwan bulchiinsaa deeggera.",
+    quote:
+      "Saayinsiifi teeknooloojiin yeroo fedhii, yaadaafi hirmaannaa hawaasa keenyaa waliin walqabatu meeshaa cimaa misoomaa ta'uu danda'a.",
+    officer: "Obbo Tarekegn Gedefa",
+    role: "Itti Gaafatamaa Waajjira Saayinsii fi Teeknooloojii",
+  },
+
+  initiatives: {
+    eyebrow: "Inisheetiviiwwan teeknooloojii",
+    title: "Teeknooloojii fi kalaqa hojii irra oolchu",
+    description:
+      "Saayinsii, teeknooloojii fi kalaqni misooma Sulultaa keessatti gumaacha gochuu danda'an ilaali.",
+
+    items: [
+      {
+        title: "Tajaajila Mootummaa Dijitaalaa",
+        description:
+          "Pilaattformoonni dijitaalaafi sirnoonni odeeffannoo jiraattonni odeeffannoo fi tajaajila mootummaa salphaatti akka argatan gargaaruu danda'u.",
+      },
+      {
+        title: "Kalaqa fi Yaada Haaraa",
+        description:
+          "Rakkoolee misooma naannoo furuuf yaada kalaqaa fi furmaata qabatamaa jajjabeessuu.",
+      },
+      {
+        title: "Carraa Teeknooloojii Dargaggootaa",
+        description:
+          "Teeknooloojiin dargaggoonni dandeettii akka horatan, pirojektoota akka ijaaran fi diinagdee dijitaalaa keessatti akka hirmaatan carraa uuma.",
+      },
+      {
+        title: "Misooma Magaalaa Smart",
+        description:
+          "Teeknooloojiifi daataan karoora, bulchiinsa bu'uuraalee misoomaa fi murtee kennuu fooyyeessuu danda'u.",
+      },
+    ],
+  },
+
+  gallery: {
+    eyebrow: "Suuraa teeknooloojii",
+    title: "Saayinsii, teeknooloojii fi kalaqa",
+    description:
+      "Suuraalee teeknooloojii, kalaqa, misooma dijitaalaa fi namoota Sululta caalaatti smart taasisuuf hojjetan agarsiisan.",
+    imageAlt: "Saayinsii fi teeknooloojii Sulultaa",
+    clickToView: "Suuraa guddaa ilaaluuf cuqaasi",
+    close: "Suuraa cufi",
+    previous: "Suuraa darbe",
+    next: "Suuraa itti aanu",
+  },
+
+  opportunities: {
+    eyebrow: "Carraawwan",
+    title: "Teeknooloojiin carraa uumu",
+    description:
+      "Teeknooloojiin dargaggoota, ogeeyyii, daldaltootaafi dhaabbilee mootummaa carraa haaraa waliin akka walqunnaman gargaaruu danda'a.",
+
+    items: [
+      "Guddina dandeettii dijitaalaa",
+      "Kalaqa fi hojii uumuu",
+      "Sagantaalee teeknooloojii dargaggootaa",
+      "Tajaajila mootummaa dijitaalaa",
+      "Argama odeeffannoo",
+      "Waliin hojjechuu dhaabbilee waliin",
+    ],
+  },
+
+  future: {
+    eyebrow: "Fuuldura ilaalu",
+    title: "Sululta walitti hidhameefi kalaqaan guutame",
+    description:
+      "Fuuldurri Sulultaa namoota, yaadaafi teeknooloojii waliin hojjechuu irratti hundaa'a. Dandeettii dijitaalaa cimsuufi kalaqa jajjabeessuun tajaajila fooyya'aafi carraa haaraa uumuun ni danda'ama.",
+
+    points: [
+      "Tajaajila mootummaa dijitaalaa cimaa",
+      "Argama odeeffannoo fooyya'aa",
+      "Carraa dargaggootaaf bal'aa",
+      "Kalaqa misooma naannoo keessatti",
+      "Karoora magaalaa teeknooloojiin deeggarame",
+      "Waliin hojjechuu dhaabbileefi hawaasa waliin",
+    ],
+  },
+
+  cta: {
+    title: "Teeknooloojiin fuuldura gaarii ijaaruu danda'a",
+    description:
+      "Saayinsii, teeknooloojiifi kalaqni tajaajila fooyyeessuuf, namoota cimsuufi misooma Sulultaa deeggaruuf carraa guddaa dha.",
+    button: "Bulchiinsa qunnami",
+  },
+},
 };
 
 export default om;
