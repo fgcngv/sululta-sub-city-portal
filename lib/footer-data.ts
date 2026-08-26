@@ -36,6 +36,10 @@ export const footerData = {
         href: "https://www.facebook.com/share/19ZE3WmMnr/",
       },
       {
+        label: "TikTok",
+        href: "https://www.tiktok.com/@sulultasubcitycom?_r=1&_t=ZS-999Jj3VkkAE",
+      },
+      {
         label: "Telegram",
         href: "#",
       },

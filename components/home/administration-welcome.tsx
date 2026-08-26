@@ -30,7 +30,7 @@ type AdministrationWelcomeProps = {
 
 const ADMINISTRATOR_IMAGES = [
   "/images/projects/img51.png",
-  "/administrations/waaziraa.jpg",
+  "/administrations/img6.png",
   "/administrations/img1.png",
   "/administrations/img2.png",
   "/images/projects/img48.png",
