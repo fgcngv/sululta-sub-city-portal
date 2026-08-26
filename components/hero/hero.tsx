@@ -298,12 +298,13 @@ export function Hero({ t }: HeroProps) {
             aria-live="polite"
             className="
               max-w-5xl
-              text-left
+              text-center
+              sm:text-left
               text-[clamp(3rem,8vw,7.5rem)]
               font-semibold
               leading-[0.9]
               tracking-[-0.055em]
-              text-white
+              text-white 
             "
           >
             {displayText}

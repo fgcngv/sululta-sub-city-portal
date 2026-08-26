@@ -148,6 +148,129 @@ const en = {
           "Discover schools, educational services and community learning initiatives.",
         button: "Explore",
       },
+
+      health: {
+        label: "Health",
+        title: "Health",
+        description:
+          "Discover Hospitals, medical services and community healthcare initiatives.",
+        button: "Explore more",
+      },
+
+      tech: {
+        label: "Science and Technology",
+        title: "Science and Technology",
+        description:
+          "Discover Tech actions, Digital services and community digitization initiatives.",
+        button: "Explore more",
+      },
+
+      agriculture: {
+        label: "Agriculture initiatives",
+        title: "Agricultural development initiatives",
+        description:
+          "Explore initiatives supporting farmers, agricultural production, irrigation, livestock development and sustainable farming across Sululta",
+        button: "Explore more",
+      },
+    },
+  },
+
+  projectsPage: {
+    introduction: {
+      eyebrow: "Our Development Work",
+  
+      title: "Building infrastructure for a better future",
+  
+      paragraphs: [
+        "Development projects play an important role in improving public services, supporting economic activity and creating better living conditions for residents.",
+  
+        "Our work focuses on practical infrastructure improvements including transportation, water, electricity and other essential public services.",
+      ],
+    },
+  
+    projects: {
+      title: "Current development projects",
+  
+      description:
+        "Explore some of the major development projects currently supporting infrastructure and public services.",
+  
+      viewImages: "View project images",
+  
+      galleryButton: "Explore project gallery",
+  
+      items: [
+        {
+          id: "fitesha-sululta-road",
+  
+          title: "Fitesha – Sululta Road Project",
+  
+          description:
+            "Road infrastructure development connecting Fitesha and Sululta, supporting improved mobility, traffic flow and urban connectivity.",
+  
+          category: "Roads & Transport",
+  
+          status: "Ongoing",
+  
+          location: "Sululta",
+        },
+  
+        {
+          id: "electricity-network",
+  
+          title: "Electricity Network Rehabilitation & Expansion",
+  
+          description:
+            "Rehabilitation and expansion of electricity distribution infrastructure to improve reliability and support the growing urban area.",
+  
+          category: "Electricity",
+  
+          status: "Ongoing",
+  
+          location: "Sululta",
+        },
+  
+        {
+          id: "water-supply",
+  
+          title: "Water Supply & Distribution Improvements",
+  
+          description:
+            "Investment in water transmission, distribution and public water access to improve reliable water services for residents.",
+  
+          category: "Water & Sanitation",
+  
+          status: "Ongoing",
+  
+          location: "Sululta",
+        },
+      ],
+    },
+  
+    priorities: {
+      eyebrow: "Development Priorities",
+  
+      title: "Investing in the future",
+  
+      description:
+        "Our development agenda focuses on practical improvements that create a more connected, accessible, sustainable and productive community.",
+  
+      items: [
+        "Better road connectivity",
+        "Reliable water services",
+        "Improved electricity access",
+        "Modern public facilities",
+        "Green and clean urban spaces",
+        "Planned urban expansion",
+      ],
+    },
+  
+    cta: {
+      title: "Have a project or infrastructure concern?",
+  
+      description:
+        "Share your feedback or report an infrastructure issue to help improve services and development across Sululta.",
+  
+      button: "Contact the Administration",
     },
   },
 
@@ -888,6 +1011,468 @@ scienceTechnology: {
     button: "Contact the Administration",
   },
 },
+
+health: {
+  hero: {
+    badge: "Health & Healthcare",
+    title: "Healthier communities, stronger Sululta.",
+    subtitle: "Accessible healthcare for everyone.",
+    description:
+      "Discover health services, healthcare facilities, community health initiatives and ongoing efforts to improve the wellbeing of people across Sululta Sub-City.",
+    exploreServices: "Explore health services",
+    viewGallery: "View health gallery",
+    imageAlt: "Healthcare and community health services in Sululta",
+  },
+
+  introduction: {
+    eyebrow: "Healthcare in Sululta",
+    title: "Building a healthier community together.",
+    paragraphs: [
+      "Healthcare is an essential part of Sululta's development. Accessible, reliable and quality health services help families, children, young people and older residents live healthier lives.",
+      "The health sector includes public health facilities, private healthcare providers, community health activities and programs focused on prevention, maternal and child health, sanitation and healthy living.",
+    ],
+  },
+
+  services: {
+    eyebrow: "Health services",
+    title: "Healthcare services for our community",
+    description:
+      "Health services cover prevention, treatment, maternal and child health, emergency care and community-based health support.",
+
+    items: [
+      {
+        title: "Primary Healthcare",
+        description:
+          "Basic healthcare services, consultations, treatment and referrals for residents and families.",
+      },
+      {
+        title: "Maternal & Child Health",
+        description:
+          "Healthcare services supporting mothers, newborns, children and families throughout important stages of life.",
+      },
+      {
+        title: "Emergency Care",
+        description:
+          "Emergency and urgent healthcare services for situations requiring immediate medical attention.",
+      },
+      {
+        title: "Health Prevention",
+        description:
+          "Community health activities that encourage disease prevention, hygiene, sanitation and healthy lifestyles.",
+      },
+      {
+        title: "Laboratory Services",
+        description:
+          "Diagnostic and laboratory services supporting healthcare professionals in identifying and treating health conditions.",
+      },
+      {
+        title: "Pharmacy Services",
+        description:
+          "Access to medicines and pharmaceutical support through healthcare facilities and licensed providers.",
+      },
+    ],
+  },
+
+  publicHealth: {
+    eyebrow: "Public healthcare",
+    title: "Government health facilities",
+    description:
+      "Public healthcare facilities play an important role in providing essential health services to residents of Sululta Sub-City.",
+
+    cards: [
+      {
+        title: "Sululta Health Center",
+        description:
+          "A public healthcare facility supporting primary healthcare and community health services.",
+        imageAlt: "Sululta Health Center",
+      },
+      {
+        title: "Sululta Community Health Services",
+        description:
+          "Community-based health activities supporting prevention, awareness and access to essential healthcare.",
+        imageAlt: "Community health services in Sululta",
+      },
+      {
+        title: "Public Health Services",
+        description:
+          "Government health services supporting families, children and the wider Sululta community.",
+        imageAlt: "Public healthcare services in Sululta",
+      },
+    ],
+
+    noteTitle: "Public healthcare",
+    noteDescription:
+      "Public health facilities remain an important part of Sululta's healthcare system, particularly for accessible primary healthcare and community health services.",
+  },
+
+  privateHealth: {
+    eyebrow: "Private healthcare",
+    title: "Private health facilities & providers",
+    description:
+      "Private healthcare providers complement public services by offering additional medical, diagnostic, pharmaceutical and specialist services.",
+
+    badge: "Private healthcare",
+
+    cards: [
+      {
+        title: "Private Medical Services",
+        description:
+          "Private healthcare providers offering consultations, treatment and other medical services.",
+        imageAlt: "Private medical service in Sululta",
+      },
+      {
+        title: "Private Clinics",
+        description:
+          "Clinics providing accessible healthcare services to individuals and families.",
+        imageAlt: "Private clinic in Sululta",
+      },
+      {
+        title: "Pharmacy & Diagnostic Services",
+        description:
+          "Private providers supporting medicine access, laboratory testing and diagnostic services.",
+        imageAlt: "Private pharmacy and diagnostic service",
+      },
+    ],
+
+    noteTitle: "A complementary healthcare system",
+    noteDescription:
+      "Public and private providers together contribute to a broader healthcare environment for residents of Sululta.",
+  },
+
+  maternalChild: {
+    eyebrow: "Maternal & child health",
+    title: "Supporting mothers, children and families",
+    description:
+      "Maternal and child healthcare is an important part of building a healthier future for Sululta.",
+
+    items: [
+      {
+        title: "Maternal care",
+        description:
+          "Supporting women before, during and after pregnancy through appropriate healthcare services.",
+      },
+      {
+        title: "Newborn care",
+        description:
+          "Promoting healthy beginnings and appropriate care for newborn children.",
+      },
+      {
+        title: "Child healthcare",
+        description:
+          "Supporting children's health, development, prevention and access to appropriate treatment.",
+      },
+      {
+        title: "Family health",
+        description:
+          "Helping families access information and services that support healthier households.",
+      },
+    ],
+  },
+
+  community: {
+    eyebrow: "Community health",
+    title: "Health begins in the community.",
+    description:
+      "Improving health is not only about treating illness. Prevention, sanitation, clean environments, health awareness and community participation all contribute to healthier communities.",
+
+    items: [
+      "Health awareness",
+      "Disease prevention",
+      "Water, sanitation & hygiene",
+      "Healthy lifestyles",
+      "Community participation",
+      "Environmental health",
+    ],
+  },
+
+  initiatives: {
+    eyebrow: "Health initiatives",
+    title: "Improving healthcare and wellbeing",
+    description:
+      "Health-related development requires continued investment in facilities, equipment, healthcare workers, prevention and community participation.",
+
+    items: [
+      {
+        title: "Healthcare infrastructure",
+        description:
+          "Improving healthcare buildings, facilities and environments helps create better conditions for patients and healthcare workers.",
+        imageAlt: "Healthcare infrastructure development",
+      },
+      {
+        title: "Community health awareness",
+        description:
+          "Health awareness helps residents understand prevention, healthy practices and when to seek professional healthcare.",
+        imageAlt: "Community health awareness activity",
+      },
+      {
+        title: "Water, sanitation & hygiene",
+        description:
+          "Clean water, sanitation and hygiene are essential foundations for preventing disease and improving community wellbeing.",
+        imageAlt: "Water sanitation and hygiene initiative",
+      },
+      {
+        title: "Better healthcare access",
+        description:
+          "Expanding access to healthcare helps more residents receive appropriate services closer to their communities.",
+        imageAlt: "Healthcare access initiative",
+      },
+    ],
+  },
+
+  gallery: {
+    eyebrow: "Health gallery",
+    title: "Healthcare in our community",
+    description:
+      "Explore photographs highlighting healthcare facilities, community health and health-related development in Sululta.",
+    imageAlt: "Health and healthcare in Sululta",
+    clickToView: "Click image to view full size",
+  },
+
+  information: {
+    eyebrow: "Health information",
+    title: "Take care of your health.",
+    description:
+      "For medical emergencies or serious health concerns, seek professional medical assistance immediately. Use official healthcare providers and follow advice from qualified health professionals.",
+    emergencyTitle: "Medical emergencies",
+    emergencyDescription:
+      "For emergencies, contact the appropriate emergency medical service or visit the nearest suitable healthcare facility.",
+  },
+
+  cta: {
+    title: "A healthier Sululta starts with all of us.",
+    description:
+      "Strong healthcare services, healthy environments and community participation can help build a healthier future for everyone.",
+    button: "Contact the Administration",
+  },
+},
+
+agricultures: {
+  label: "Agriculture initiatives",
+
+  title: "Agricultural development initiatives",
+
+  description:
+    "Explore initiatives supporting farmers, agricultural production, irrigation, livestock development and sustainable farming across Sululta.",
+
+  viewAll: "View all initiatives",
+
+  clickView: "Click to view image",
+
+  close: "Close image viewer",
+
+  previous: "Previous image",
+
+  next: "Next image",
+
+  learnMore: "Learn more",
+
+  hero: {
+    badge: "Agriculture & Development",
+
+    title: "Growing a stronger",
+    subtitle: "agricultural future.",
+
+    description:
+      "Supporting farmers, improving agricultural productivity and developing sustainable farming systems for a more prosperous Sululta.",
+
+    imageAlt: "Agricultural development in Sululta",
+
+    exploreButton: "Explore initiatives",
+
+    galleryButton: "View agriculture gallery",
+  },
+
+  introduction: {
+    eyebrow: "Agriculture in Sululta",
+
+    title: "Supporting agriculture and the communities behind it.",
+
+    paragraphs: [
+      "Agriculture plays an important role in the livelihoods, food security and economic development of communities across Sululta.",
+
+      "The administration is working to support farmers through improved agricultural practices, better access to water, modern technologies, livestock development and stronger community participation.",
+
+      "Our goal is to promote productive, sustainable and climate-resilient agriculture that creates opportunities for farmers, youth and local communities.",
+    ],
+  },
+
+  focus: {
+    eyebrow: "Our focus",
+
+    title: "Building a productive and sustainable agricultural sector.",
+
+    description:
+      "Our agricultural development efforts focus on practical improvements that can increase productivity, strengthen livelihoods and support long-term food security.",
+
+    areas: {
+      production: {
+        title: "Agricultural Production",
+
+        description:
+          "Supporting farmers to improve crop production, productivity and access to better farming practices.",
+      },
+
+      irrigation: {
+        title: "Irrigation & Water",
+
+        description:
+          "Expanding access to irrigation and improving efficient water use for agricultural production.",
+      },
+
+      mechanization: {
+        title: "Modern Agriculture",
+
+        description:
+          "Encouraging agricultural technologies, equipment and modern production methods.",
+      },
+
+      sustainable: {
+        title: "Sustainable Farming",
+
+        description:
+          "Promoting environmentally responsible farming and practices that protect natural resources.",
+      },
+    },
+  },
+
+  initiatives: {
+    eyebrow: "Agricultural initiatives",
+
+    title: "Supporting farmers and agricultural development.",
+
+    description:
+      "Explore some of the agricultural activities and initiatives supporting production, food security, livestock and sustainable development in Sululta.",
+
+    items: [
+      {
+        title: "Crop Production Development",
+
+        description:
+          "Supporting farmers with improved production methods and practices that can increase agricultural productivity.",
+
+        image: "/images/projects/img7.png",
+
+        imageAlt: "Crop production development",
+
+        category: "Crop Production",
+      },
+
+      {
+        title: "Irrigation Development",
+
+        description:
+          "Improving access to irrigation and water resources to help farmers increase production and reduce dependence on seasonal rainfall.",
+
+        image: "/images/projects/img27.png",
+
+        imageAlt: "Agricultural irrigation",
+
+        category: "Irrigation",
+      },
+
+      {
+        title: "Livestock Development",
+
+        description:
+          "Supporting livestock producers and improving opportunities for sustainable animal production and rural livelihoods.",
+
+        image: "/images/projects/img36.png",
+
+        imageAlt: "Livestock development",
+
+        category: "Livestock",
+      },
+
+      {
+        title: "Modern Farming Practices",
+
+        description:
+          "Promoting modern agricultural technologies, improved inputs and knowledge-based farming practices.",
+
+        image: "/images/projects/img9.png",
+
+        imageAlt: "Modern farming practices",
+
+        category: "Modern Agriculture",
+      },
+
+      {
+        title: "Farmer Support",
+
+        description:
+          "Strengthening farmer participation, agricultural knowledge and cooperation between communities and development institutions.",
+
+        image: "/images/projects/img28.png",
+
+        imageAlt: "Farmers and agricultural development",
+
+        category: "Farmer Support",
+      },
+
+      {
+        title: "Sustainable Agriculture",
+
+        description:
+          "Encouraging farming approaches that improve productivity while protecting soil, water and other natural resources.",
+
+        image: "/images/projects/img8.png",
+
+        imageAlt: "Sustainable agriculture",
+
+        category: "Sustainability",
+      },
+    ],
+  },
+
+  community: {
+    eyebrow: "Farmers & communities",
+
+    title: "Agriculture grows stronger when communities work together.",
+
+    description:
+      "Successful agricultural development depends on the knowledge, participation and cooperation of farmers, young people, professionals and local institutions.",
+
+    items: [
+      "Improving agricultural knowledge and skills",
+
+      "Supporting farmer participation",
+
+      "Encouraging youth involvement in agriculture",
+
+      "Promoting modern agricultural technologies",
+
+      "Strengthening food security",
+
+      "Protecting land and water resources",
+    ],
+
+    imageAlt: "Farmers working together",
+
+    imageCaption: "Community participation in agricultural development",
+  },
+
+  gallery: {
+    eyebrow: "Agriculture gallery",
+
+    title: "Agriculture in Sululta",
+
+    description:
+      "Explore images showing agricultural activities, farmers, production and development initiatives across Sululta.",
+
+    imageAlt: "Agriculture in Sululta",
+  },
+
+  cta: {
+    title: "Together, we can grow a stronger agricultural future.",
+
+    description:
+      "Agricultural development depends on collaboration between farmers, communities, professionals and public institutions.",
+
+    button: "Contact the Administration",
+  },
+},
+
+
 };
 
 export default en;

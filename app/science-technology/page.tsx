@@ -24,22 +24,25 @@ import ScienceGallery from "@/components/science-technology/science-gallery";
 
 const scienceImages = [
   {
-    image: "/science-technology/science-1.png",
+    image: "/images/projects/img71.png",
   },
   {
-    image: "/science-technology/science-2.png",
+    image: "/images/projects/img68.png",
   },
   {
-    image: "/science-technology/science-3.png",
+    image: "/images/projects/img65.png",
   },
   {
-    image: "/science-technology/science-4.png",
+    image: "/images/projects/img66.png",
   },
   {
-    image: "/science-technology/science-5.png",
+    image: "/images/projects/img67.png",
   },
   {
-    image: "/science-technology/science-6.png",
+    image: "/images/projects/img69.png",
+  },
+  {
+    image: "/images/projects/img64.png",
   },
 ];
 
@@ -72,7 +75,7 @@ export default async function ScienceTechnologyPage() {
       <section className="relative isolate overflow-hidden bg-slate-950">
         <div className="absolute inset-0">
           <Image
-            src="/science-technology/science-hero.png"
+            src="/images/projects/img71.png"
             alt={science.hero.imageAlt}
             fill
             priority
@@ -216,7 +219,7 @@ export default async function ScienceTechnologyPage() {
           <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
             <div className="relative overflow-hidden rounded-3xl">
               <Image
-                src="/science-technology/science-office.png"
+                src="/images/projects/img67.png"
                 alt={science.office.title}
                 width={1200}
                 height={900}

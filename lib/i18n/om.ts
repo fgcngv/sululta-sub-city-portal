@@ -148,7 +148,7 @@ const om = {
         title:" Pirojektoota fi Bu'uuraalee misoomaa",
         description:
         " Hojiiwwan misoomaa fi jalqabbii bu’uuraalee misoomaa guutuu Sulultaatti qorachuu. ",
-        button:" Gadi fageenyaan "
+        button:" Gadi fageenyaan ilaalaa"
       },
 
       education:{
@@ -156,10 +156,133 @@ const om = {
         title:"Barnoota",
         description:
         " Manneen barnootaa, tajaajila barnootaa fi jalqabbii barnoota hawaasaa argadhu.",
-        button:"Gadi fageenyaan"
-      }
+        button:"Gadi fageenyaan ilaalaa"
+      },
+
+      health: {
+        label: "Fayyaa",
+        title: "Fayyaa",
+        description:
+          "Hoospitaalota/klinikoota, tajaajila fayyaa fi inishiyeetiivota fayyaa argadhaa",
+        button: "Gadi fageenyaan ilaalaa",
+      },
+
+      tech: {
+        label: "Saayinsii fi Teeknooloojii",
+        title: "Saayinsii fi Teeknooloojii",
+        description:
+          " Ce'umsa Diigitaalaa fi hojiilee digitaayizeeshinii argadhaa",
+        button: "Gadi fageenyan ilaala",
+      },
+
+      agriculture: {
+        label: "Inishiyeetiivota  Qonnaa",
+        title: "Inishiyeetiivota Qonnaa",
+        description:
+          " Inishiyeetiiviiwwan oomisha qonna jallisii, misooma beeyladaa fi qonna itti fufiinsa qabu.",
+        button: "Gadi fageenyan ilaala",
+      },
     }
 
+  },
+
+  projectsPage: {
+    introduction: {
+      eyebrow: "Hojiiwwan Misoomaa Keenya",
+  
+      title: "Bu'uuraalee misoomaa egeree fooyya'aaf ijaaruu",
+  
+      paragraphs: [
+        "Pirojektoonni misoomaa tajaajila uummataa fooyyessuu, sochii dinagdee deeggaruu fi haala jireenyaa jiraattotaa fooyya'aa ta'e uumuuf gahee murteessaa qabu.",
+  
+        "Hojiin keenya fooyya'iinsa bu'uuraalee misoomaa qabatamaa kanneen akka geejjibaa, bishaanii, ibsaa fi tajaajiloota uummataa barbaachisoo biroo irratti xiyyeeffata.",
+      ],
+    },
+  
+    projects: {
+      title: "Pirojektoota misoomaa yeroo ammaa",
+  
+      description:
+        "Pirojektoota misoomaa gurguddoo yeroo ammaa bu'uuraalee misoomaa fi tajaajila uummataa deeggaran keessaa muraasa ilaalaa.",
+  
+      viewImages: "Suuraalee pirojektichaa ilaali",
+  
+      galleryButton: "Gaalaarii pirojektootaa ilaali",
+  
+      items: [
+        {
+          id: "fitesha-sululta-road",
+  
+          title: "Pirojektii Daandii Fiixeessaa – Sulultaa",
+  
+          description:
+            "Misooma bu'uura daandii Fiixeessaa fi Sulultaa wal qunnamsiisu, sochii konkolaataa, yaa'insa tiraafikaa fi walitti hidhamiinsa magaalaa fooyyessuuf gargaaru.",
+  
+          category: "Daandii fi Geejjiba",
+  
+          status: "Hojii irra jira",
+  
+          location: "Sulultaa",
+        },
+  
+        {
+          id: "electricity-network",
+  
+          title: "Fooyya'iinsa fi Babali'ina Neetwoorkii Elektirikii",
+  
+          description:
+            "Bu'uuraalee raabsa elektirikii haaromsuu fi babal'isuun amanamummaa tajaajilaa fooyyessuu fi naannoo magaalaa guddachaa jiru deeggaruuf.",
+  
+          category: "Elektirikii",
+  
+          status: "Hojii irra jira",
+  
+          location: "Sulultaa",
+        },
+  
+        {
+          id: "water-supply",
+  
+          title: "Fooyya'iinsa Dhiyeessii fi Raabsa Bishaanii",
+  
+          description:
+            "Jiraattotaaf tajaajila bishaanii amanamaa fooyyessuuf dabarsa bishaanii, raabsa bishaanii fi argama bishaanii uummataa irratti invastimantii taasifamu.",
+  
+          category: "Bishaanii fi Qulqullina",
+  
+          status: "Hojii irra jira",
+  
+          location: "Sulultaa",
+        },
+      ],
+    },
+  
+    priorities: {
+      eyebrow: "Dursaawwan Misoomaa",
+  
+      title: "Egeree irratti invastimantii gochuu",
+  
+      description:
+        "Sagantaan misoomaa keenya hawaasa walitti hidhame, tajaajila argachuu danda'u, itti fufiinsa qabu fi oomishaa ta'e uumuuf fooyya'iinsa qabatamaa irratti xiyyeeffata.",
+  
+      items: [
+        "Walitti hidhamiinsa daandii fooyya'aa",
+        "Tajaajila bishaanii amanamaa",
+        "Argama elektirikii fooyya'aa",
+        "Dhaabbilee uummataa ammayyaa",
+        "Iddoo magaalaa magariisaa fi qulqulluu",
+        "Babali'ina magaalaa karooraan gaggeeffamu",
+      ],
+    },
+  
+    cta: {
+      title: "Pirojektii ykn rakkoo bu'uuraalee misoomaa qabduu?",
+  
+      description:
+        "Tajaajilaa fi misooma Sulultaa fooyyessuuf yaada keessan nuuf qoodaa ykn rakkoo bu'uuraalee misoomaa jiru gabaasaa.",
+  
+      button: "Bulchiinsa waliin nu qunnamaa",
+    },
   },
 
   projects:{
@@ -765,8 +888,8 @@ const om = {
 scienceTechnology: {
   hero: {
     badge: "Saayinsii fi Teeknooloojii",
-    title: "Sululta caalaatti smart ta'e ijaaruu",
-    subtitle: "Tajaajila fooyya'aafi carraa haaraa uumuuf teeknooloojii.",
+    title: "Sululta caalaatti smart ta'e ijaaruuf akkasumas",
+    subtitle: "Tajaajila fooyya'aa fi carraa haaraa uumuuf teeknooloojin mureessadha.",
     description:
       "Bulchiinsi Kutaa Magaalaa Sulultaa tajaajila mootummaa fooyyeessuuf, jijjiirama dijitaalaa cimsuuf, akkasumas dargaggootaafi hawaasaaf carraa haaraa uumuuf saayinsii, teeknooloojii fi kalaqa fayyadamuuf hojjechaa jira.",
     explore: "Saayinsii fi teeknooloojii ilaali",
@@ -776,9 +899,9 @@ scienceTechnology: {
 
   introduction: {
     eyebrow: "Saayinsii, teeknooloojii fi kalaqa",
-    title: "Teeknooloojii hawaasa keenya tajaajilu",
+    title: "Teeknooloojiidhaan hawaasa keenya tajaajilla",
     paragraphs: [
-      "Saayinsiifi teeknooloojiin misooma Kutaa Magaalaa Sulultaa keessatti gahee guddaa qabaachaa jiru. Meeshaaleen dijitaalaa tajaajila mootummaa, qunnamtii, karooraafi argama odeeffannoo fooyyeessuu danda'u.",
+      "Saayinsiifi teeknooloojiin misooma Kutaa Magaalaa Sulultaa keessatti gahee guddaa qabaachaa jiru. Meeshaaleen dijitaalaa tajaajila mootummaa, qunnamtii, karooraafi argama odeeffannoo fooyyeessuuf gargaaru.",
       "Waajjirri Saayinsiifi Teeknooloojii bulchiinsaafi hawaasa waliin ta'uun dandeettii dijitaalaa cimsuu, kalaqa jajjabeessuufi dargaggoota, ogeeyyii fi dhaabbilee naannooof carraa uumuuf hojjechaa jira.",
     ],
   },
@@ -787,7 +910,7 @@ scienceTechnology: {
     eyebrow: "Xiyyeeffannoo keenya",
     title: "Naannoowwan misooma saayinsii fi teeknooloojii",
     description:
-      "Xiyyeeffannoon keenya furmaata qabatamaa tajaajila fooyyeessu, dhaabbilee cimsuufi hawaasaaf carraa uumu irratti hundaa'a.",
+      "Xiyyeeffannoon keenya furmaata qabatamaa dhiyeessuu,tajaajila fooyyeessu, dhaabbilee cimsuufi hawaasaaf carraa uumu irratti hundaa'a.",
 
     items: [
       {
@@ -803,7 +926,7 @@ scienceTechnology: {
       {
         title: "Dargaggoota fi Dandeettii",
         description:
-          "Dargaggootaafi ogeeyyii dandeettii dijitaalaa, saayinsii fi teeknikaa akka horatan deeggaruu.",
+          "Dargaggoonni fi ogeeyyiin dandeettii dijitaalaa, saayinsii fi teeknikaa akka horatan deeggaruu.",
       },
       {
         title: "Misooma Magaalaa Smart",
@@ -813,7 +936,7 @@ scienceTechnology: {
       {
         title: "ICT fi Walqunnamtii",
         description:
-          "Argama teeknooloojii odeeffannoo fi qunnamtii babal'isuu.",
+          "Argama odeeffannoo teeknooloojii fi qunnamtii babal'isuu.",
       },
       {
         title: "Hubannoo Dijitaalaa",
@@ -825,12 +948,12 @@ scienceTechnology: {
 
   office: {
     eyebrow: "Waajjira Saayinsii fi Teeknooloojii",
-    title: "Gara jijjiirama dijitaalaatti hojjechaa jirra",
+    title: "Gara jijjiirama dijitaalaatti ce'uuf hojjechaa jirra",
     description:
       "Waajjirri Saayinsiifi Teeknooloojii tajaajila mootummaa keessatti teeknooloojii galchuu, dandeettii dijitaalaa cimsuu fi kalaqa jajjabeessuuf hojiiwwan bulchiinsaa deeggera.",
     quote:
-      "Saayinsiifi teeknooloojiin yeroo fedhii, yaadaafi hirmaannaa hawaasa keenyaa waliin walqabatu meeshaa cimaa misoomaa ta'uu danda'a.",
-    officer: "Obbo Tarekegn Gedefa",
+      "Saayinsiifi teeknooloojiin yeroo fedhii, yaadaafi hirmaannaa hawaasa keenyaa waliin walqabatu meeshaa cimaa misooma diinagdee ta'uu danda'a.",
+    officer: "Obbo Taarraqeny Gaddafaa",
     role: "Itti Gaafatamaa Waajjira Saayinsii fi Teeknooloojii",
   },
 
@@ -838,13 +961,13 @@ scienceTechnology: {
     eyebrow: "Inisheetiviiwwan teeknooloojii",
     title: "Teeknooloojii fi kalaqa hojii irra oolchu",
     description:
-      "Saayinsii, teeknooloojii fi kalaqni misooma Sulultaa keessatti gumaacha gochuu danda'an ilaali.",
+      "Saayinsii, teeknooloojii fi kalaqni misooma magaalaa keenyaa keessatti gumaacha isaan gochuu danda'an ilaali.",
 
     items: [
       {
         title: "Tajaajila Mootummaa Dijitaalaa",
         description:
-          "Pilaattformoonni dijitaalaafi sirnoonni odeeffannoo jiraattonni odeeffannoo fi tajaajila mootummaa salphaatti akka argatan gargaaruu danda'u.",
+          "Pilaattfoormonni dijitaalaafi sirnoonni odeeffannoo jiraattonni odeeffannoo fi tajaajila mootummaa salphaatti akka argatan gargaaruu danda'u.",
       },
       {
         title: "Kalaqa fi Yaada Haaraa",
@@ -859,7 +982,7 @@ scienceTechnology: {
       {
         title: "Misooma Magaalaa Smart",
         description:
-          "Teeknooloojiifi daataan karoora, bulchiinsa bu'uuraalee misoomaa fi murtee kennuu fooyyeessuu danda'u.",
+          "Teeknooloojiifi daataan karoora bulchiinsa bu'uuraalee misoomaa fi murtee kennuu fooyyeessuu danda'u.",
       },
     ],
   },
@@ -878,25 +1001,25 @@ scienceTechnology: {
 
   opportunities: {
     eyebrow: "Carraawwan",
-    title: "Teeknooloojiin carraa uumu",
+    title: "Carraawwan Teeknooloojin uumu",
     description:
       "Teeknooloojiin dargaggoota, ogeeyyii, daldaltootaafi dhaabbilee mootummaa carraa haaraa waliin akka walqunnaman gargaaruu danda'a.",
 
     items: [
-      "Guddina dandeettii dijitaalaa",
-      "Kalaqa fi hojii uumuu",
-      "Sagantaalee teeknooloojii dargaggootaa",
-      "Tajaajila mootummaa dijitaalaa",
-      "Argama odeeffannoo",
-      "Waliin hojjechuu dhaabbilee waliin",
+      "Guddina dandeettii dijitaalaa saffisiisa",
+      "Kalaqa fi hojii uumuu jajjabeessa",
+      "Sagantaalee teeknooloojii dargaggootaa babal'isa",
+      "Tajaajila mootummaa dijitaalaa  babal'iss",
+      "Argama odeeffannoo balbaldhisa",
+      "Waliin hojjechuu dhaabbilee jajjabeessa",
     ],
   },
 
   future: {
     eyebrow: "Fuuldura ilaalu",
-    title: "Sululta walitti hidhameefi kalaqaan guutame",
+    title: "Sululta walitti hidhameefi kalaqaan guutame arguu hawwina",
     description:
-      "Fuuldurri Sulultaa namoota, yaadaafi teeknooloojii waliin hojjechuu irratti hundaa'a. Dandeettii dijitaalaa cimsuufi kalaqa jajjabeessuun tajaajila fooyya'aafi carraa haaraa uumuun ni danda'ama.",
+      "Fuuldurri Sulultaa yaadaafi teeknooloojii waliin hojjechuu irratti hundaa'a. Dandeettii dijitaalaa cimsuufi kalaqa jajjabeessuun tajaajila fooyya'aafi carraa haaraa uumuun ni danda'ama.",
 
     points: [
       "Tajaajila mootummaa dijitaalaa cimaa",
@@ -911,10 +1034,468 @@ scienceTechnology: {
   cta: {
     title: "Teeknooloojiin fuuldura gaarii ijaaruu danda'a",
     description:
-      "Saayinsii, teeknooloojiifi kalaqni tajaajila fooyyeessuuf, namoota cimsuufi misooma Sulultaa deeggaruuf carraa guddaa dha.",
+      "Saayinsii, teeknooloojiifi kalaqni tajaajila fooyyeessuuf, namoota cimsuufi misooma magaalaa keenyaa deeggaruuf carraa guddaa dha.",
+    button: "NU qunnamaa",
+  },
+},
+
+health: {
+  hero: {
+    badge: "Fayyaa fi Tajaajila Fayyaa",
+    title: "Hawaasa Sulultaa fayya Qabeessa Taasisuun Hawwii Keenya.",
+    subtitle: "Tajaajila fayyaa nama hundaaf dhaqqabamaa Diriirsuu.",
+    description:
+      "Tajaajiloota fayyaa, dhaabbilee fayyaa, hojiiwwan fayyaa hawaasaa fi carraawwan fayyaa uummata Kutaa Magaalaa Sulultaa fooyyeessuuf taasifaman ilaali.",
+    exploreServices: "Tajaajiloota fayyaa ilaali",
+    viewGallery: "Suuraa fayyaa ilaali",
+    imageAlt: "Tajaajila fayyaa fi hojii fayyaa hawaasa Sululta",
+  },
+
+  introduction: {
+    eyebrow: "Fayyaa Kutaa Magaalaa Sulultaa keessatti",
+    title: "Hawaasa fayyaa buleessa waliin ijaarra.",
+    paragraphs: [
+      "Fayyaan kutaa guddaa misooma Biyyaati. Tajaajilli fayyaa dhaqqabamaa, amanamaa fi qulqullina qabu maatii, daa'imman, dargaggoota fi jiraattota umrii adda addaa jireenya fayya qabeessa akka jiraatan gargaara.",
+      "Dhaabbileen fayyaa mootummaa, dhaabbileen fayyaa dhuunfaa, hojiiwwan fayyaa hawaasaa fi sagantaaleen ittisa dhibee, fayyaa haadholii fi daa'immanii, qulqullinaa fi jireenya fayya qabeessa irratti xiyyeeffatan sirna fayyaa keessatti gahee qabu.",
+    ],
+  },
+
+  services: {
+    eyebrow: "Tajaajila fayyaa",
+    title: "Tajaajila fayyaa hawaasa keenyaaf",
+    description:
+      "Tajaajilli fayyaa ittisa dhibee, yaala, fayyaa haadholii fi daa'immanii, kunuunsa hatattamaa fi deeggarsa fayyaa hawaasaa of keessatti qaba.",
+
+    items: [
+      {
+        title: "Tajaajila Fayyaa Bu'uuraa",
+        description:
+          "Tajaajila fayyaa bu'uuraa, qorannoo, yaalaa fi gara bakka yaalaa biroo dabarsuu.",
+      },
+      {
+        title: "Fayyaa Haadholii fi Daa'immanii",
+        description:
+          "Haadholii, daa'imman haaraa dhalatan, daa'immanii fi maatii deeggaruuf tajaajila fayyaa.",
+      },
+      {
+        title: "Kunuunsa Hatattamaa",
+        description:
+          "Haala fayyaa hatattamaa keessatti tajaajila saffisaa fi barbaachisaa kennuu.",
+      },
+      {
+        title: "Ittisa Dhibee",
+        description:
+          "Odeeffannoo fayyaa, qulqullina naannoo fi jireenya fayya qabeessa jajjabeessuu.",
+      },
+      {
+        title: "Tajaajila Laaboraatorii",
+        description:
+          "Qorannoo laaboraatorii fi tajaajila adda baasuu dhibee deeggaru.",
+      },
+      {
+        title: "Tajaajila Farmaasii",
+        description:
+          "Qorichoota fi gorsa qorichaa karaa dhaabbilee eeyyamaman argamsiisuu.",
+      },
+    ],
+  },
+
+  publicHealth: {
+    eyebrow: "Dhaabbilee Fayyaa mootummaa",
+    title: "Dhaabbilee fayyaa mootummaa",
+    description:
+      "Dhaabbileen fayyaa mootummaa tajaajila fayyaa bu'uuraa fi fayyaa hawaasaa jiraattota Kutaa Magaalaa Sulultaa tiif kennu keessatti gahee guddaa qabu.",
+
+    cards: [
+      {
+        title: "Buufata Fayyaa Sulultaa",
+        description:
+          "Dhaabbata fayyaa mootummaa kan tajaajila fayyaa bu'uuraa fi fayyaa hawaasaa kennu.",
+        imageAlt: "Buufata Fayyaa Sulultaa",
+      },
+      {
+        title: "Tajaajila Fayyaa Hawaasaa Sulultaa",
+        description:
+          "Hojiiwwan fayyaa hawaasaa ittisa dhibee, hubannoo fi argama tajaajila fayyaa deeggaran.",
+        imageAlt: "Tajaajila fayyaa hawaasaa Sulultaa",
+      },
+      {
+        title: "Tajaajila Fayyaa Mootummaa",
+        description:
+          "Tajaajila fayyaa mootummaa maatii, daa'immanii fi hawaasa Sulultaa deeggaru.",
+        imageAlt: "Tajaajila fayyaa mootummaa Sulultaa",
+      },
+    ],
+
+    noteTitle: "Fayyaa mootummaa",
+    noteDescription:
+      "Dhaabbileen fayyaa mootummaa sirna fayyaa Sulultaa keessatti, keessumaa tajaajila fayyaa bu'uuraa fi fayyaa hawaasaa dhaqqabamaa taasisuu keessatti, gahee murteessaa qabu.",
+  },
+
+  privateHealth: {
+    eyebrow: "Fayyaa dhuunfaa",
+    title: "Dhaabbilee fi kennitoota tajaajila fayyaa dhuunfaa",
+    description:
+      "Dhaabbileen fayyaa dhuunfaa tajaajila mootummaa dabalanii qorannoo, yaala, qorichaa fi tajaajila ogeessotaa kennu.",
+
+    badge: "Fayyaa dhuunfaa",
+
+    cards: [
+      {
+        title: "Tajaajila Fayyaa Dhuunfaa",
+        description:
+          "Dhaabbilee fayyaa dhuunfaa kan qorannoo, yaalaa fi tajaajila fayyaa biroo kennan.",
+        imageAlt: "Tajaajila fayyaa dhuunfaa Sulultaa",
+      },
+      {
+        title: "Kilinikoota Dhuunfaa",
+        description:
+          "Kilinikoota dhuunfaa namootaa fi maatiiwwaniif tajaajila fayyaa kennan.",
+        imageAlt: "Kilinikii dhuunfaa Sulultaa",
+      },
+      {
+        title: "Farmaasii fi Tajaajila Qorannoo",
+        description:
+          "Qorichoota, qorannoo laaboraatorii fi tajaajila adda baasuu dhibee kennan.",
+        imageAlt: "Farmaasii fi tajaajila qorannoo",
+      },
+    ],
+
+    noteTitle: "Sirna fayyaa wal-deeggaraa",
+    noteDescription:
+      "Dhaabbileen fayyaa mootummaa fi dhuunfaa waliin ta'uun jiraattota Sulultaa tiif tajaajila fayyaa bal'aa uumu.",
+  },
+
+  maternalChild: {
+    eyebrow: "Fayyaa haadholii fi daa'immanii",
+    title: "Haadholii, daa'immanii fi maatii deeggaruu",
+    description:
+      "Fayyaan haadholii fi daa'immanii dhaloota fayyaa qabu ijaaruuf kutaa murteessaa dha.",
+
+    items: [
+      {
+        title: "Kunuunsa haadholii",
+        description:
+          "Dubartoota yeroo ulfaa, da'umsaa fi da'umsaa booda tajaajila fayyaa barbaachisaa ta'een deeggaruu.",
+      },
+      {
+        title: "Kunuunsa daa'ima haaraa",
+        description:
+          "Jalqaba jireenyaa fayya qabeessa fi kunuunsa daa'imman haaraa dhalatanii jajjabeessuu.",
+      },
+      {
+        title: "Fayyaa daa'immanii",
+        description:
+          "Fayyaa, guddina, ittisa dhibee fi yaala daa'immanii deeggaruu.",
+      },
+      {
+        title: "Fayyaa maatii",
+        description:
+          "Maatiin odeeffannoo fi tajaajila fayyaa barbaachisaa argachuun jireenya fayya qabeessa akka qabaatu gargaaruu.",
+      },
+    ],
+  },
+
+  community: {
+    eyebrow: "Fayyaa hawaasaa",
+    title: "Fayyaan hawaasa keessatti jalqaba.",
+    description:
+      "Fayyaa fooyyeessuun dhibee yaaluu qofa miti. Ittisa dhibee, qulqullina, naannoo qulqulluu, hubannoo fayyaa fi hirmaannaa hawaasaa hundi hawaasa fayya qabeessa ijaaruuf barbaachisaa dha.",
+
+    items: [
+      "Hubannoo fayyaa",
+      "Ittisa dhibee",
+      "Bishaan, qulqullinaa fi qulqullina naannoo",
+      "Jireenya fayya qabeessa",
+      "Hirmaannaa hawaasaa",
+      "Fayyaa naannoo",
+    ],
+  },
+
+  initiatives: {
+    eyebrow: "Hojiiwwan fayyaa",
+    title: "Fayyaa fi jireenya hawaasaa fooyyeessuu",
+    description:
+      "Misoomni fayyaa invastimantii itti fufiinsa qabu bu'uuraalee fayyaa, meeshaalee, hojjettoota fayyaa, ittisa dhibee fi hirmaannaa hawaasaa barbaada.",
+
+    items: [
+      {
+        title: "Bu'uuraalee fayyaa",
+        description:
+          "Gamoo, dhaabbilee fi naannoo tajaajila fayyaa fooyyeessuun haala dhukkubsataa fi hojjetaa fayyaatiif mijataa uuma.",
+        imageAlt: "Misooma bu'uuraalee fayyaa",
+      },
+      {
+        title: "Hubannoo fayyaa hawaasaa",
+        description:
+          "Hubannoon fayyaa jiraattotaaf ittisa dhibee, amala fayya qabeessa fi yeroo tajaajila fayyaa barbaaduu hubachiisa.",
+        imageAlt: "Hojii hubannoo fayyaa hawaasaa",
+      },
+      {
+        title: "Bishaan, qulqullinaa fi qulqullina naannoo",
+        description:
+          "Bishaan qulqulluu, mana fincaanii fi qulqullinni qaamaa bu'uura ittisa dhibee fi fayyaa hawaasaati.",
+        imageAlt: "Hojii bishaanii fi qulqullinaa",
+      },
+      {
+        title: "Argama tajaajila fayyaa",
+        description:
+          "Tajaajila fayyaa gara hawaasaatti dhiyeessuun jiraattonni tajaajila barbaachisaa yeroo sirriitti akka argatan gargaara.",
+        imageAlt: "Hojii argama tajaajila fayyaa",
+      },
+    ],
+  },
+
+  gallery: {
+    eyebrow: "Suuraa fayyaa",
+    title: "Fayyaa hawaasa keenyaa",
+    description:
+      "Suuraalee dhaabbilee fayyaa, hojii fayyaa hawaasaa fi misooma fayyaa Sulultaa ilaali.",
+    imageAlt: "Fayyaa fi tajaajila fayyaa Sulultaa",
+    clickToView: "Suuraa guutuu ilaaluuf cuqaasi",
+  },
+
+  information: {
+    eyebrow: "Odeeffannoo fayyaa",
+    title: "Fayyaa kee eegi.",
+    description:
+      "Yeroo balaa fayyaa ykn rakkoo fayyaa cimaa uumamu, hatattamaan gargaarsa ogeessa fayyaa barbaadi. Dhaabbilee fayyaa seeraan eeyyamaman fayyadami fi gorsa ogeessota fayyaa hordofi.",
+    emergencyTitle: "Balaa fayyaa",
+    emergencyDescription:
+      "Yeroo balaa fayyaa, tajaajila yaalaa hatattamaa barbaadi ykn gara dhaabbata fayyaa siitti dhihoo jiru deemii.",
+  },
+
+  cta: {
+    title: "Sulultaan fayyaa qabu hunduma keenyaan jalqaba.",
+    description:
+      "Tajaajilli fayyaa cimaa, naannoo fayya qabeessa fi hirmaannaan hawaasaa egeree fayyaa qabu ijaaru.",
     button: "Bulchiinsa qunnami",
   },
 },
+
+
+agricultures: {
+  label: "Inisheetivoota Qonnaa",
+
+  title: "Inisheetivoota Misooma Qonnaa",
+
+  description:
+    "Inisheetivoota qonnaan bultoota, oomisha qonnaa, jallisii, horsiisa beeyladaa fi qonna itti fufiinsa qabu Sulultaa keessatti deeggaran ilaalaa.",
+
+  viewAll: "Inisheetivoota hunda ilaali",
+
+  clickView: "Suuraa ilaaluuf cuqaasi",
+
+  close: "Mul'ata suuraa cufi",
+
+  previous: "Suuraa duraa",
+
+  next: "Suuraa itti aanu",
+
+  learnMore: "Dabalata ilaali",
+
+  hero: {
+    badge: "Qonnaa fi Misooma",
+
+    title: "Egeree qonnaa",
+    subtitle: "cimaa waliin haa ijaarru.",
+
+    description:
+      "Qonnaan bultoota deeggaruu, oomishtummaa qonnaa fooyyeessuu fi sirna qonnaa itti fufiinsa qabu Sululta keessatti guddisuu.",
+
+    imageAlt: "Misooma qonnaa Kutaa Magaalaa Sulultaa keessatti",
+
+    exploreButton: "Inisheetiivoota qonnaa ilaali",
+
+    galleryButton: "Suuraalee qonnaa ilaali",
+  },
+
+  introduction: {
+    eyebrow: "Misooma qonnaa Kutaa Magaalaa Sulultaa keessatt",
+
+    title: "Qonnaa fi hawaasa qonna irratti hirkatu deeggaruu.",
+
+    paragraphs: [
+      "Qonni jireenya hawaasaa, wabii midhaanii fi misooma dinagdee hawaasa Sulultaa keessatti gahee guddaa qaba.",
+
+      "Bulchiinsi qonnaan bultoota mala qonnaa fooyya'aa, bishaan, teeknooloojii ammayyaa, misooma beeyladaa fi hirmaannaa hawaasaa cimsuun deeggaruuf hojjechaa jira.",
+
+      "Kaayyoon keenya oomisha itti fufiinsa qabu fi jijjiirama haala qilleensaa dandamatu guddisuun qonnaan bultoota, dargaggootaa fi hawaasaaf carraa uumuu dha.",
+    ],
+  },
+
+  focus: {
+    eyebrow: "Xiyyeeffannoo keenya",
+
+    title: "Damee qonnaa oomishtaa fi itti fufiinsa qabu ijaaruu.",
+
+    description:
+      "Hojiiwwan misooma qonnaa keenyaa fooyya'iinsa qabatamaa oomishtummaa dabalu, jireenya hawaasaa cimsu fi wabii midhaanii yeroo dheeraa mirkaneessu irratti xiyyeeffatu.",
+
+    areas: {
+      production: {
+        title: "Oomisha Qonnaa",
+
+        description:
+          "Mala qonnaa fooyya'aa fayyadamuun oomisha fi oomishtummaa qonnaan bultootaa guddisuu.",
+      },
+
+      irrigation: {
+        title: "Jallisii fi Bishaan",
+
+        description:
+          "Tajaajila jallisii babal'isuu fi bishaan gahumsa qabu oomisha qonnaaf oolchuu.",
+      },
+
+      mechanization: {
+        title: "Qonna Ammayyaa",
+
+        description:
+          "Teeknooloojii qonnaa, meeshaalee fi mala oomishaa ammayyaa jajjabeessuu.",
+      },
+
+      sustainable: {
+        title: "Qonna Itti Fufiinsa Qabu",
+
+        description:
+          "Mala qonnaa naannoo eeguu fi qabeenya uumamaa tikfachu jajjabeessuu.",
+      },
+    },
+  },
+
+  initiatives: {
+    eyebrow: "Inisheetiivota Qonnaa",
+
+    title: "Qonnaan bultootaa fi misooma qonnaa deeggaruu.",
+
+    description:
+      "Hojiiwwan qonnaa oomisha, wabii midhaanii, horsiisa beeyladaa fi misooma itti fufiinsa qabu Sulultaa keessatti deeggaran ilaalaa.",
+
+    items: [
+      {
+        title: "Misooma Oomisha Midhaanii",
+
+        description:
+          "Mala oomishaa fooyya'aa fayyadamuun oomishtummaa qonnaa guddisuuf qonnaan bultoota deeggaruu.",
+
+        image: "/images/projects/img7.png",
+
+        imageAlt: "Misooma oomisha midhaanii",
+
+        category: "Oomisha Qonnaa",
+      },
+
+      {
+        title: "Misooma Jallisii",
+
+        description:
+          "Oomisha guddisuuf bishaanii fi tajaajila jallisii fooyyeessuu.",
+
+        image: "/images/projects/img27.png",
+
+        imageAlt: "Jallisii qonnaa",
+
+        category: "Jallisii",
+      },
+
+      {
+        title: "Misooma Beeyladaa",
+
+        description:
+          "Horsiistota beeyladaa deeggaruu fi oomisha beeyladaa itti fufiinsa qabu guddisuu.",
+
+        image: "/images/projects/img36.png",
+
+        imageAlt: "Misooma beeyladaa",
+
+        category: "Horsiisa Beeyladaa",
+      },
+
+      {
+        title: "Mala Qonnaa Ammayyaa",
+
+        description:
+          "Teeknooloojii qonnaa ammayyaa, galteewwan fooyya'aa fi mala qonnaa beekumsa irratti hundaa'e jajjabeessuu.",
+
+        image: "/images/projects/img9.png",
+
+        imageAlt: "Mala qonnaa ammayyaa",
+
+        category: "Qonna Ammayyaa",
+      },
+
+      {
+        title: "Deeggarsa Qonnaan Bultootaa",
+
+        description:
+          "Hirmaannaa qonnaan bultootaa, beekumsa qonnaa fi tumsa hawaasaa cimsuu.",
+
+        image: "/images/projects/img28.png",
+
+        imageAlt: "Qonnaan bultootaa fi misooma qonnaa",
+
+        category: "Deeggarsa Qonnaan Bultootaa",
+      },
+
+      {
+        title: "Qonna Itti Fufiinsa Qabu",
+
+        description:
+          "Mala qonnaa oomishtummaa fooyyeessuu fi biyyee, bishaanii fi qabeenya uumamaa eegu jajjabeessuu.",
+
+        image: "/images/projects/img8.png",
+
+        imageAlt: "Qonna itti fufiinsa qabu",
+
+        category: "Itti Fufiinsa",
+      },
+    ],
+  },
+
+  community: {
+    eyebrow: "Qonnaan Bultootaa fi Hawaasa",
+
+    title: "Yeroo hawaasni waliin hojjetu qonni ni cimina.",
+
+    description:
+      "Misoomni qonnaa milkaa'aan beekumsa, hirmaannaa fi tumsa qonnaan bultootaa, dargaggootaa, ogeessotaa fi dhaabbilee naannoo irratti hundaa'a.",
+
+    items: [
+      "Beekumsa fi dandeettii qonnaa fooyyeessuu",
+      "Hirmaannaa qonnaan bultootaa deeggaruu",
+      "Dargaggoonni qonna keessatti akka hirmaatan jajjabeessuu",
+      "Teeknooloojii qonnaa ammayyaa babal'isuu",
+      "Wabii midhaanii cimsuu",
+      "Lafa fi qabeenya bishaanii eegu",
+    ],
+
+    imageAlt: "Qonnaan bultoota waliin hojjetan",
+
+    imageCaption: "Hirmaannaa hawaasaa misooma qonnaa keessatti",
+  },
+
+  gallery: {
+    eyebrow: "Suuraalee Qonnaa",
+
+    title: "Qonnaa Kutaa Magaalaa Sulultaa keessatti",
+
+    description:
+      "Suuraalee hojii qonnaa, qonnaan bultootaa, oomisha fi inisheetivoota misoomaa Sululta keessatti argaman ilaalaa.",
+
+    imageAlt: "Qonnaa Sulultaa keessatti",
+  },
+
+  cta: {
+    title: "Egeree qonnaa cimaa waliin haa Ijaarru.",
+
+    description:
+      "Misoomni qonnaa tumsa qonnaan bultootaa, hawaasaa, ogeessotaa fi dhaabbilee mootummaa irratti hundaa'a.",
+
+    button: "NU Qunnamaa",
+  },
+},
+
+
 };
 
 export default om;

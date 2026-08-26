@@ -3,7 +3,7 @@ import { Hero } from "@/components/hero/hero";
 import { AdministrationWelcome } from "@/components/home/administration-welcome";
 import { ProjectsPreview } from "@/components/home/services-preview";
 import { NewsPreview } from "@/components/home/news-preview";
-import { GalleryPreview } from "@/components/home/gallery-preview";
+// import { GalleryPreview } from "@/components/home/gallery-preview";
 import { VisualStory } from "@/components/home/visual-story";
 import { visualStory } from "@/lib/visual-story-data";
 import { ContactLocation } from "@/components/home/contact-location";
@@ -28,9 +28,9 @@ export default async function Home() {
         <AdministrationWelcome t={t} />
         {/* <QuickAccess /> */}
         <SulultaOverview t={t}/>
-        <ProjectsPreview t={t} />
+        
         <NewsPreview t={t}/>
-        <GalleryPreview t={t}/>
+        {/* <GalleryPreview t={t}/> */}
         <VisualStory  {...visualStory} />
         <ContactLocation
           {...contactInformation}

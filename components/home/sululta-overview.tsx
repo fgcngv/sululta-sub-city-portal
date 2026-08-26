@@ -5,9 +5,12 @@ import {
   ArrowRight,
   Building2,
   ChevronUp,
+  Cpu,
   GraduationCap,
+  HeartPlusIcon,
   MapPin,
   MessageSquareText,
+  Truck,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -47,6 +50,27 @@ type SulultaOverviewProps = {
           description: string;
           button: string;
         };
+
+        health: {
+          label: string;
+          title: string;
+          description: string;
+          button: string;
+        };
+
+        tech: {
+          label: string;
+          title: string;
+          description: string;
+          button: string;
+        };
+
+        agriculture: {
+          label: string;
+          title: string;
+          description: string;
+          button: string;
+        };
       };
     };
   };
@@ -81,14 +105,32 @@ export function SulultaOverview({
       href: "/services/education",
       ...t.overview.cards.education,
     },
+
+    {
+      icon: HeartPlusIcon,
+      image: "/images/projects/img72.png",
+      href: "/health",
+      ...t.overview.cards.health,
+    },
+
+    {
+      icon: Cpu,
+      image: "/images/projects/img71.png",
+      href: "/science-technology",
+      ...t.overview.cards.tech,
+    },
+    {
+      icon: Truck,
+      image: "/images/projects/img73.png",
+      href: "/agriculture",
+      ...t.overview.cards.agriculture,
+    },
   ];
 
 
   return (
     <section className="relative overflow-hidden bg-white py-20 sm:py-24 lg:py-28">
-
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
 
         {/* HEADER */}
 
