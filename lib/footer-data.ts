@@ -25,7 +25,7 @@ export const footerData = {
     ],
   
     contact: {
-      phone: "+251961083131",
+      phone: "+251993565000",
       email: "sulultssubcity@gmail.com",
       address: "Sululta Sub-City Administration",
     },
