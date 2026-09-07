@@ -21,6 +21,7 @@ type SulultaOverviewProps = {
       badge: string;
       title: string;
       description: string;
+      slogan:string;
 
       administrator: {
         label: string;
@@ -135,7 +136,6 @@ export function SulultaOverview({
         {/* HEADER */}
 
         <div className="mx-auto max-w-3xl text-center">
-
           <span className="
             inline-flex items-center gap-2
             rounded-full bg-slate-100
@@ -402,8 +402,9 @@ export function SulultaOverview({
 
 
 
-        {/* DEVELOPMENT + EDUCATION CARDS */}
+        {/* DEVELOPMENT CARDS */}
 
+        <h1 className="text-green-600 underline w-full  text-2xl text-center font-bold p-4 mt-40"> {t.overview.slogan} </h1>
 
         <div className="
           mt-6 grid gap-6 md:grid-cols-2

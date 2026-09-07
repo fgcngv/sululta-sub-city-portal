@@ -52,7 +52,7 @@ const om = {
         name: "Obbo Kumaa Hundee",
         role: "Bulchaa Kutaa Magaalaa Sulultaa",
         message:
-          " Hoggansa cimaa fi hirmaannaa hawaasaatiin Magaalaa Sulultaa ammayyaa, hunda hammatte, fi badhaate ijaaruuf waadaa seennee jirra.",
+          " Hoggansa cimaa fi hirmaannaa hawaasaatiin Magaalaa Sulultaa ammayyaa, hunda hammatte, fi badhaate ijaaruuf waadaa seennee jirra. Bulchiinsi Magaalaa Shaggar kaayyoo cimaa hawaasa keenya fuulduratti tarkaanfachiisuuf qabnu qooduuf gammachuu guddaatu ​​nutti dhagahama. Shaggar gara Magaalaa Ismaartii fakkeenyummaa qabdutti jijjiiruuf kutannoo cimaa qabna. Magaalaa dorgomtuu, jireenya gaarii dhiyeessitu, fi hawaasa ishee hundaaf deebii kennitu akka taatufis ni hojjenna.Galmi keenya Shaggar magaalaa kompaaktii fi wiirtuu dinagdee giddugaleessa hedduu qabu gochuudha. Kunis hirmaannaa hawaasaa, walitti hidhamiinsa tarsiimoo, fi bulchiinsa naannoo cimsuun kan argamu ta’a.Kana malees, tarsiimoo qindoomina qabuu fi bu’uuraalee misoomaa haaraa fi ismaartii hawaasni keenya barbaadu irratti invastimantii xiyyeeffannoo qabu irratti ni hojjenna",
       },
       {
         name: "Aadde Waaziraa Jamaal I/A Bulchaa Kutaa Magaalaa Sulultaa",
@@ -102,6 +102,8 @@ const om = {
 
     description:
       " Odeeffannoo waa’ee tajaajila mootummaa, misoomaa, jalqabbii hawaasaa fi hojii Bulchiinsa Magaalaa Sulultaa argadhaa.",
+    slogan:"Intiyoophiyaan Gara Fakkeenyummaatti!",
+
 
 
     administrator:{
@@ -431,8 +433,8 @@ const om = {
   
     phone:{
       label:"Bilbila",
-      value:"+251961083131",
-      href:"tel:+251961083131",
+      value:"+251993565000",
+      href:"tel:+251993565000",
     },
   
   
@@ -571,7 +573,7 @@ const om = {
   
       phone: {
         title: "Nuuf bilbilaa",
-        value: "+251961083131",
+        value: "+251993565000",
         description:
           "Wiixata – Jimaata, yeroo hojii keessatti",
       },
