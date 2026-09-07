@@ -64,8 +64,8 @@ export function VisualStory({
               poster={posterImage}
               aria-label={videoTitle}
             >
-              <source src={"https://jippbr7pe5ialdxy.public.blob.vercel-storage.com/documentary.mp4"} type="video/mp4" />
-              {/* <source src={"/videos/documentary.mp4"} type="video/mp4" /> */}
+              {/* <source src={"https://jippbr7pe5ialdxy.public.blob.vercel-storage.com/documentary.mp4"} type="video/mp4" /> */}
+              <source src={"/videos/documentary.mp4"} type="video/mp4" />
 
               Your browser does not support HTML5 video.
             </video>
