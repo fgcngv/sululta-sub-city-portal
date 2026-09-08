@@ -246,7 +246,18 @@ type AdministrationWelcomeProps = {
 
 const ADMINISTRATOR_IMAGES = [
   "/images/projects/img51.png",
+  "/images/projects/img90.png",
   "/administrations/img6.png",
+  "/images/projects/img91.png",
+  "/images/projects/img92.png",
+  "/images/projects/img93.png",
+  "/images/projects/img94.png",
+  "/images/projects/img95.png",
+  "/images/projects/img96.png",
+  "/images/projects/img98.png",
+  "/images/projects/img97.png",
+  "/images/projects/img99.png",
+
   "/administrations/img1.png",
   "/administrations/img2.png",
   "/images/projects/img48.png",

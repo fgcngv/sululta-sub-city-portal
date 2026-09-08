@@ -21,7 +21,7 @@ import {
 import { getCurrentDictionary } from "@/lib/i18n/index";
 
 const publicHealthImages = [
-  "/images/projects/img75.png",
+  "/images/projects/img89.png",
   "/images/projects/img74.png",
   "/images/health/public-health-3.jpg",
 ];
@@ -33,12 +33,16 @@ const privateHealthImages = [
 ];
 
 const healthGallery = [
-  "/images/health/health-1.jpg",
-  "/images/health/health-2.jpg",
-  "/images/health/health-3.jpg",
-  "/images/health/health-4.jpg",
-  "/images/health/health-5.jpg",
-  "/images/health/health-6.jpg",
+  "/images/projects/img79.png",
+  "/images/projects/img76.png",
+  "/images/projects/img77.png",
+  "/images/projects/img78.png",
+  "/images/projects/img81.png",
+  "/images/projects/img82.png",
+  "/images/projects/img83.png",
+  "/images/projects/img84.png",
+  "/images/projects/img85.png",
+
 ];
 
 const serviceIcons = [
@@ -69,7 +73,7 @@ export default async function HealthPage() {
       <section className="relative isolate overflow-hidden bg-slate-950">
         <div className="absolute inset-0">
           <Image
-            src="/images/projects/img72.png"
+            src="/images/projects/img89.png"
             alt={health.hero.imageAlt}
             fill
             priority
@@ -297,7 +301,7 @@ export default async function HealthPage() {
       {/* =========================================================
           PRIVATE HEALTH
       ========================================================= */}
-      <section className="border-y border-black/5 bg-[#f7f7f5]">
+      {/* <section className="border-y border-black/5 bg-[#f7f7f5]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
           <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
             <div>
@@ -391,7 +395,7 @@ export default async function HealthPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* =========================================================
           MATERNAL & CHILD HEALTH
@@ -503,7 +507,7 @@ export default async function HealthPage() {
       {/* =========================================================
           HEALTH INITIATIVES
       ========================================================= */}
-      <section className="bg-[#f7f7f5]">
+      {/* <section className="bg-[#f7f7f5]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#ed1c24]">
@@ -563,7 +567,7 @@ export default async function HealthPage() {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* =========================================================
           GALLERY

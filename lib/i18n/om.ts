@@ -55,10 +55,70 @@ const om = {
           " Hoggansa cimaa fi hirmaannaa hawaasaatiin Magaalaa Sulultaa ammayyaa, hunda hammatte, fi badhaate ijaaruuf waadaa seennee jirra. Bulchiinsi Magaalaa Shaggar kaayyoo cimaa hawaasa keenya fuulduratti tarkaanfachiisuuf qabnu qooduuf gammachuu guddaatu ​​nutti dhagahama. Shaggar gara Magaalaa Ismaartii fakkeenyummaa qabdutti jijjiiruuf kutannoo cimaa qabna. Magaalaa dorgomtuu, jireenya gaarii dhiyeessitu, fi hawaasa ishee hundaaf deebii kennitu akka taatufis ni hojjenna.Galmi keenya Shaggar magaalaa kompaaktii fi wiirtuu dinagdee giddugaleessa hedduu qabu gochuudha. Kunis hirmaannaa hawaasaa, walitti hidhamiinsa tarsiimoo, fi bulchiinsa naannoo cimsuun kan argamu ta’a.Kana malees, tarsiimoo qindoomina qabuu fi bu’uuraalee misoomaa haaraa fi ismaartii hawaasni keenya barbaadu irratti invastimantii xiyyeeffannoo qabu irratti ni hojjenna",
       },
       {
+        name: "Obbo Tasfaayee Haayiluu I/G Waajjira Paartii Badhaadhinaa Damee Kutaa Magaalaa Sulultaa",
+        role: "I/G Waajjira Paartii Badhaadhinaa ",
+        message:
+          " ",
+      },
+      {
         name: "Aadde Waaziraa Jamaal I/A Bulchaa Kutaa Magaalaa Sulultaa",
         role: "I/A Bulchaa ",
         message:
           "Hawaasa keenya waliin ta’uun tajaajila fooyyessuu fi jiraataa hundaaf carraa fooyya’aa uumuu. ",
+      },
+      {
+        name: "Obbo Sisaay Haayilee I/G Siyaasa Paartii Damee Kutaa Magaalaa Sulultaa",
+        role: "I/G Siyaasa Paartii ",
+        message:
+          " ",
+      },
+      {
+        name: "Obbo Lammeessa Bayyanaa I/G Ijaarsa Paartii Badhaadhinaa Damee KMSulultaa",
+        role: "I/G Ijaarsa Paartii Badhaadhinaa Damee KMSulultaa ",
+        message:
+          " ",
+      },
+      {
+        name: "Obbo Guutaa Hundee I/G Waajjira Nageenyaa Kutaa Magaalaa Sulultaa",
+        role: "I/G Waajjira Nageenyaa ",
+        message:
+          " ",
+      },
+      {
+        name: "Obbo Abraham Birhaanuu I/G Waajjira Kaafamtoota Misoomaa Magaalaa Shaggar",
+        role: "I/G Waajjira Kaafamtoota Misoomaa ",
+        message:
+          " ",
+      },
+      {
+        name: "Obbo Daani'eel Girmaa I/G Abbaa Taayitaa Eegumsa Naannoo KMS",
+        role: "I/G Abbaa Taayitaa Eegumsa Naannoo KMS ",
+        message:
+          " ",
+      },
+      {
+        name: "Obbo Habtamuu Rattaa I/G Waajjira Fayyaa Kutaa Magaalaa Sulultaa",
+        role: "I/G Waajjira Fayyaa Kutaa Magaalaa Sulultaa ",
+        message:
+          " ",
+      },
+      {
+        name: "Obbo Tizaazuu Mirreessaa I/G Waajjira Barnootaa Kutaa Magaalaa Sulultaa",
+        role: "I/G Waajjira Barnootaa ",
+        message:
+          " ",
+      },
+      {
+        name: "Aaddee Tigist Dabbabaa I/A Waajjira Barnootaa KMSulultaa",
+        role: "I/A Waajjira Barnootaa KMSulultaa ",
+        message:
+          " ",
+      },
+      {
+        name: "I/G Qajeelcha Poolisii KMSulultaa",
+        role: "I/G Qajeelcha Poolisii KMSulultaa ",
+        message:
+          " ",
       },
       {
         name: "Obbo Amantee Fullaasaa Bulchaa Aanaa Abbaa Gadaa",
@@ -1106,13 +1166,13 @@ health: {
     eyebrow: "Dhaabbilee Fayyaa mootummaa",
     title: "Dhaabbilee fayyaa mootummaa",
     description:
-      "Dhaabbileen fayyaa mootummaa tajaajila fayyaa bu'uuraa fi fayyaa hawaasaa jiraattota Kutaa Magaalaa Sulultaa tiif kennu keessatti gahee guddaa qabu.",
+      "Dhaabbileen fayyaa mootummaa tajaajila fayyaa bu'uuraa fi fayyaa hawaasaa/jiraattota Kutaa Magaalaa Sulultaatiif kennu keessatti gahee guddaa qabu.",
 
     cards: [
       {
         title: "Buufata Fayyaa Sulultaa",
         description:
-          "Dhaabbata fayyaa mootummaa kan tajaajila fayyaa bu'uuraa fi fayyaa hawaasaa kennu.",
+          "Shaggar Kutaa Magaalaa Sulultaa Qaammee 2 – Guyyaa Olka’iinsaa sababeeffachuun, Shaggar Kutaa Magaalaa Sulultaatti daawwannaan hojii ijaarsa pirojektoota Buufata Fayyaa fi Hospitaala Waliigalaa Sulultaa irratti gaggeeffameera.",
         imageAlt: "Buufata Fayyaa Sulultaa",
       },
       {
