@@ -143,7 +143,7 @@ export function Hero({ t }: HeroProps) {
           loop
           playsInline
           preload="auto"
-          poster="/images/hero/sululta-img-1.jpg"
+          poster="/images/projects/img100.png"
           aria-hidden="true"
         >
           {/* <source

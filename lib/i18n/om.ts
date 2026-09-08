@@ -78,15 +78,20 @@ const om = {
         message:
           " ",
       },
+
+      {
+        name: "Obbo Amantee Fullaasaa Bulchaa Aanaa Abbaa Gadaa",
+        role: "Bulchaa Aanaa Abbaa Gadaa",
+        message: "",
+      },
+      {
+        name: "Obbo Shimallis Nagaash Bulchaa Aanaa Wasarbii",
+        role: "Bulchaa Aanaa Wasarbii",
+        message: "",
+      },
       {
         name: "Obbo Guutaa Hundee I/G Waajjira Nageenyaa Kutaa Magaalaa Sulultaa",
         role: "I/G Waajjira Nageenyaa ",
-        message:
-          " ",
-      },
-      {
-        name: "Obbo Abraham Birhaanuu I/G Waajjira Kaafamtoota Misoomaa Magaalaa Shaggar",
-        role: "I/G Waajjira Kaafamtoota Misoomaa ",
         message:
           " ",
       },
@@ -120,16 +125,7 @@ const om = {
         message:
           " ",
       },
-      {
-        name: "Obbo Amantee Fullaasaa Bulchaa Aanaa Abbaa Gadaa",
-        role: "Bulchaa Aanaa Abbaa Gadaa",
-        message: "",
-      },
-      {
-        name: "Obbo Shimallis Nagaash Bulchaa Aanaa Wasarbii",
-        role: "Bulchaa Aanaa Wasarbii",
-        message: "",
-      },
+
       {
         name: "Obbo Taarraqeny Gaddafaa Itti Gaafatamaa Waajjira Saayinsii fi Teeknooloojii Kutaa Magaalaa Sulultaa",
         role: "",
