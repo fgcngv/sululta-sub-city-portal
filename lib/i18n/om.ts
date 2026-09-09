@@ -29,7 +29,7 @@ const om = {
     eyebrow: " Hoggansa Keenya",
     title: "Bulchiinsa ",
     description:
-      " Bulchitoota ummata Magaalaa Sulultaa tajaajiluu fi hawaasa keenya tarkaanfachiisuuf hojjetan waliin wal baraa.",
+      " Bulchitoota ummata Kutaa Magaalaa Sulultaa tajaajiluu fi hawaasa keenya tarkaanfachiisuuf hojjetan waliin wal baraa.",
     administrationLabel: " ",
     mainAdministrator: " Bulchiinsa",
     fromAdministration: "Bulchiinsa irraa",

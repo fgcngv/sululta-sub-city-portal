@@ -603,11 +603,11 @@ export function Hero({ t }: HeroProps) {
           loop
           playsInline
           preload="auto"
-          poster="/images/projects/img100.png"
+          poster="/images/projects/img128.png"
           aria-hidden="true"
         >
           <source
-            src="/videos/documentary.mp4"
+            src="/videoss/documentary.mp4"
             type="video/mp4"
           />
 
