@@ -799,7 +799,7 @@ export function Hero({ t }: HeroProps) {
                 className="
                   inline-block
                   whitespace-nowrap
-                  animate-[heroSlide_20s_linear_forwards]
+                  animate-[heroSlide_20s_linear_forwards] 
                 "
               >
                 {displayText}

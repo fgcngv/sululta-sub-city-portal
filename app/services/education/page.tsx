@@ -16,7 +16,16 @@ import EducationImageLightbox from "@/components/education/education-image-light
 
 const educationGallery = [
   {
+    image: "/images/projects/img125.png",
+  },
+  {
+    image: "/images/projects/img126.png",
+  },
+  {
     image: "/images/projects/img62.png",
+  },
+  {
+    image: "/images/projects/img127.png",
   },
   {
     image: "/education/success-2.png",

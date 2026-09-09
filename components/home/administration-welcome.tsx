@@ -245,7 +245,7 @@ type AdministrationWelcomeProps = {
 };
 
 const ADMINISTRATOR_IMAGES = [
-  "/images/projects/img51.png",
+  "/images/projects/img124.png",
   "/images/projects/img90.png",
   "/administrations/img6.png",
   "/images/projects/img91.png",
