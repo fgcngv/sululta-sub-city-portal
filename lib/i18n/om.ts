@@ -1554,6 +1554,219 @@ agricultures: {
 },
 
 
+sports: {
+  hero: {
+    badge: "Ispoortii fi Bashannana",
+    title: "Ispoortii fi bashannanaan. ",
+    subtitle: "Hawaasa fayyaa qabu ijaaruu",
+    description:
+      "Sochiiwwan ispoortii, iddoowwan ispoortii, hirmaannaa dargaggootaa fi hojiiwwan hawaasaa Sulultaa keessatti fayyaa fi sochii hawaasaa cimsan ilaalaa.",
+    viewGallery: "Gaalarii ispoortii ilaali",
+    learnMore: "Misooma ispoortii ilaali",
+    imageAlt: "Sochii ispoortii Sulultaa keessatti",
+  },
+
+  introduction: {
+    eyebrow: "Ispoortii Sulultaa keessatti",
+    title: "Ispoortiin hawaasa keenya walitti fida.",
+    paragraphs: [
+      "Ispoortii fi bashannanni hawaasa fayyaa qabu, sochii qabu fi walitti dhufeenya cimaa qabu ijaaruuf gahee guddaa qabu.",
+      "Bulchiinsi Kutaa Magaalaa Sulultaa hirmaannaa dargaggootaa jajjabeessuu, iddoowwan ispoortii babal'isuu fi jiraattotaaf carraa sochiiwwan ispoortii adda addaa irratti hirmaachuu uumuuf hojjechaa jira.",
+      "Hirmaannaa hawaasaa fi misooma itti fufiinsa qabuun, ispoortiin fayyaa, hojii garee, naamusa fi walitti dhufeenya hawaasaa cimsuu danda'a.",
+    ],
+  },
+
+  areas: {
+    eyebrow: "Sochiiwwan ispoortii",
+    title: "Carraa nama hundaaf",
+    description:
+      "Sochiin ispoortii Sulultaa keessatti daa'imman, dargaggoota fi hawaasa bal'aaf hirmaachuu, dorgomuu fi dandeettii isaanii guddisuuf carraa uuma.",
+    items: [
+      {
+        title: "Kubbaa Miilaa",
+        description:
+          "Sochii kubbaa miilaa, leenjii fi dorgommiiwwan hawaasaa deeggaruu.",
+      },
+      {
+        title: "Dorgommiiwwan",
+        description:
+          "Dorgommiiwwan ispoortii atileetotaa fi hawaasa walitti fidan jajjabeessuu.",
+      },
+      {
+        title: "Ispoortii Dargaggootaa",
+        description:
+          "Dargaggoonni ispoortii irratti hirmaatanii dandeettii isaanii akka guddisan carraa uumuu.",
+      },
+      {
+        title: "Atileetiksii fi Bashannana",
+        description:
+          "Sochii qaamaa, atileetiksii fi hojiiwwan bashannanaa hawaasaaf babal'isuu.",
+      },
+    ],
+  },
+
+  facilities: {
+    eyebrow: "Iddoowwan ispoortii",
+    title: "Iddoowwan ispoortii fi bashannanaa misoomsuu",
+    description:
+      "Iddoowwan ispoortii irratti invastimantii gochuun jiraattonni bakka nageenya qabu fi salphatti argamuu danda'utti socho'uu, leenjii, dorgommii fi yeroo waliin dabarsuu akka danda'an gargaara.",
+    items: [
+      "Stadiyeemotaa fi dirreewwan ispoortii",
+      "Iddoowwan kubbaa miilaa fi leenjii",
+      "Iddoowwan bashannanaa hawaasaa",
+      "Misooma ispoortii dargaggootaa",
+      "Carraa ispoortii argachuu fooyyeessuu",
+      "Dorgommiiwwan hawaasaa",
+    ],
+  },
+
+  community: {
+    eyebrow: "Hawaasa fi dargaggoota",
+    title: "Dhaloota dhufu deeggaruu",
+    description:
+      "Ispoortiin dargaggootaaf ofitti amanamummaa, naamusa, hojii garee fi hoggansa guddisuuf carraa kenna; akkasumas jireenya fayya qabeessa jajjabeessa.",
+    cardTitle: "Hirmaannaan dargaggootaa barbaachisaa dha",
+    cardDescription:
+      "Dargaggootaa fi miseensonni hawaasaa sochii ispoortii, dorgommii fi bashannana irratti akka hirmaatan ni jajjabeessina.",
+  },
+
+  gallery: {
+    eyebrow: "Gaalarii ispoortii",
+    title: "Sochiiwwanii fi iddoowwan ispoortii",
+    description:
+      "Suuraalee sochii ispoortii, atileetota, iddoowwan ispoortii, dorgommiiwwanii fi hirmaannaa hawaasaa Sulultaa keessatti ilaalaa.",
+    imageAlt: "Sochii ispoortii Sulultaa",
+    clickView: "Suuraa ilaaluuf cuqaasi",
+    close: "Mul'ata suuraa cufi",
+    previous: "Suuraa darbe",
+    next: "Suuraa itti aanu",
+    viewerTitle: "Mul'ata suuraa ispoortii",
+  },
+
+  cta: {
+    title: "Sulultaa sochii qabu waliin haa ijaarru.",
+    description:
+      "Hirmaannaan hawaasaa magaalaa fayyaa qabdu, sochii qabdu fi walitti dhufeenya cimaa qabdu ijaaruuf murteessaa dha. Waa'ee sochii ispoortii fi misooma isaa caalaatti baruuf bulchiinsa qunnamaa.",
+    button: "Bulchiinsa qunnami",
+  },
+},
+
+cultureTourism: {
+  hero: {
+    badge: "Aadaa fi Tuurizimii",
+    title: "Aadaa fi miidhagina Sulultaa Daawwadhaa.",
+    subtitle: "Aadaa, uumamaa fi hawaasa.",
+    description:
+      "Aadaa, duudhaa, miidhagina uumamaa, iddoowwan tuurizimii fi muuxannoowwan hawaasaa Sulultaa addaa taasisan keşfadhaa.",
+    explore: "Sulultaa Daawwadhaa",
+    viewGallery: "Gaalarii ilaali",
+    imageAlt: "Aadaa fi tuurizimii Sulultaa",
+  },
+
+  introduction: {
+    eyebrow: "Sulultaa Daawwadhaa",
+    title: "Hawaasa aadaa, uumamaa fi muuxannoo hedduu qabu.",
+    paragraphs: [
+      "Sulultaan hawaasa guddachaa jiru, eenyummaa aadaa cimaa, lafa miidhagaa fi walitti dhufeenya cimaa uummata, duudhaa fi uumamaa qabuudha.",
+      "Aadaan fi tuurizimiin dhaala keenya eeguuf, hawaasa deeggaruuf, carraa hojii uumuu fi Sulultaa daawwattootaaf beeksisuuf carraa guddaa qabu.",
+    ],
+  },
+
+  culture: {
+    eyebrow: "Aadaa fi Dhaala",
+    title: "Eenyummaa keenya haa eegnu.",
+    description:
+      "Aadaan keenya duudhaa, duudhaa hawaasaa, beekumsa naannoo, ayyaanota, muuziqaa, nyaataa fi seenaa dhalootaa irraa dhalate.",
+
+    items: [
+      {
+        title: "Duudhaa Naannoo",
+        description:
+          "Duudhaa fi hojiiwwan hawaasaa eenyummaa fi seenaa Sulultaa calaqqisiisan keşfadhaa.",
+      },
+      {
+        title: "Muuziqaa fi Ayyaana",
+        description:
+          "Ayyaanota aadaa, muuziqaa, sirba, shubbisa fi walga'ii hawaasaa muuxadhaa.",
+      },
+      {
+        title: "Dhaala Hawaasaa",
+        description:
+          "Uummata, seenaa fi dhaala hawaasa keenya bocaa jiru baradhaa.",
+      },
+    ],
+  },
+
+  tourism: {
+    eyebrow: "Tuurizimii",
+    title: "Iddoowwan daawwatamuu qaban.",
+    description:
+      "Lafa magariisaa, ilaalcha gaarreenii fi iddoowwan hawaasaa fi aadaa irraa kaasee Sulultaan carraa daawwannaa fi bashannanaa hedduu qabdi.",
+
+    items: [
+      {
+        title: "Lafa Uumamaa",
+        description:
+          "Lafa magariisaa fi iddoowwan banaa Sulultaa marsan miidhagoo keşfadhaa.",
+      },
+      {
+        title: "Gaara fi Ilaalcha Miidhagaa",
+        description:
+          "Ilaalcha uumamaa fi naannoo Sulultaa hawwataa taasisu daawwadhaa.",
+      },
+      {
+        title: "Iddoowwan Hawaasaa",
+        description:
+          "Iddoowwan hawaasa naannoo waliin wal qunnamtii uumuu fi jireenya isaanii muuxachuu dandeessan daawwadhaa.",
+      },
+    ],
+  },
+
+  gallery: {
+    eyebrow: "Suuraan keşfadhaa",
+    title: "Gaalarii aadaa fi tuurizimii",
+    description:
+      "Suuraalee uummata, lafa, duudhaa fi iddoowwan Sulultaa calaqqisiisan ilaalaa.",
+    imageAlt: "Aadaa fi tuurizimii Sulultaa",
+    clickToView: "Suuraa ilaaluuf cuqaasaa",
+    close: "Gaalarii cufi",
+    previous: "Suuraa duraa",
+    next: "Suuraa itti aanu",
+    imageOf: "Suuraa",
+    of: "keessaa",
+  },
+
+  opportunities: {
+    eyebrow: "Carraa Tuurizimii",
+    title: "Tuurizimiin carraa uuma.",
+    description:
+      "Tuurizimiin itti gaafatamummaa qabu daldala naannoo deeggaruu, hojii uumuu, dhaala aadaa eeguu fi guddina hawaasaa itti fufiinsa qabuuf gumaachuu danda'a.",
+
+    items: [
+      "Iddoowwan tuurizimii naannoo beeksisuu",
+      "Daldaltootaa fi abbootii qabeenyaa naannoo deeggaruu",
+      "Dhaala aadaa eeguu",
+      "Dargaggootaaf carraa uumuu",
+      "Naannoo uumamaa kunuunsuu",
+      "Tuurizimii itti gaafatamummaa qabu jajjabeessuu",
+    ],
+  },
+
+  community: {
+    eyebrow: "Hawaasa fi Aadaa",
+    title: "Aadaan kan hundaati.",
+    description:
+      "Hirmaannaan hawaasaa eenyummaa keenya eeguuf fi tuurizimii itti gaafatamummaa fi itti fufiinsa qabu ijaaruuf murteessaadha.",
+  },
+
+  cta: {
+    title: "Sulultaa ofii keessaniif Daawwadhaa.",
+    description:
+      "Aadaa, miidhagina uumamaa fi muuxannoo hawaasaa keenya keşfadhaa; fuuldura dhaalaa fi guddinni waliin guddatan haa ijaarru.",
+    button: "Bulchiinsa qunnamaa",
+  },
+},
+
 };
 
 export default om;

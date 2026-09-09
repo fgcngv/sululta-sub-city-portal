@@ -53,42 +53,98 @@ const en = {
           "We are committed to building a modern, inclusive, and prosperous Sululta Sub-City through strong leadership and community participation. Shaggar City Administration is pleased to share our strong goal to move our community forward. We are strongly committed to transforming Shaggar into an exemplary Smart City—a city that is competitive, offers a good life, and is responsive to all of its communities. Our goal is to make Shaggar a compact city and a polycentric economic hub. This will be achieved by strengthening community participation, strategic linkages, and environmental stewardship. Furthermore, we will work on coordinated strategy development and focused investment in new and smart infrastructure that our communities need.",
       },
       {
-        name: "Mrs. Wazira Jamal I/A Governor of Sululta District ",
-        role: "Deputy Administrator",
+        name: "Mr. Tasfaayee Haayiluu, Head of Prosperity Party Branch Office, Sululta Sub-City",
+        role: "Head of Prosperity Party Office",
         message:
-          "Working together with our communities to improve services and create better opportunities for every resident.",
-      },
-      {
-        name: "Mr.Amante Fulasa Governor of the Abba Geda District ",
-        role: "Governor of the Abba Geda District",
-        message: "",
-      },
-      {
-        name: " Mr.Shemalis Negash Governor of the Weserbi District",
-        role: "Governor of the Weserbi District",
-        message: "",
-      },
-      {
-        name: "Mr. Tarekegn Gedefa Head of Science and Technology Office",
-        role: "",
+        " ",
+        },
+        {
+        name: "Mrs. Wazra Jemal, Deputy Head of Sululta Sub-City Administration",
+        role: "Deputy Head of Administration",
         message:
-          "Working together with our communities to improve digital transformation.",
-      },
-      {
-        name: "Sulultaa Sub-City Communication Officer",
-        role: "Sulultaa Sub-City Communication Officer",
-        message: "",
-      },
-      {
-        name: "Sululta Sub-City Head of Cadastre Office",
-        role: " Sululta Sub-City Head of Cadastre Office",
-        message: "",
-      },
-      {
-        name: "Sululta Sub-City Head of Finance Office",
-        role: "Sululta Sub-City Head of Finance Office",
-        message: "",
-      },
+        "Working together with our community to improve services and create better opportunities for every resident.",
+        },
+        {
+        name: "Mr. Sisay Haile, Head of Political Affairs, Prosperity Party Branch, Sululta Sub-City",
+        role: "Head of Party Political Affairs",
+        message:
+        " ",
+        },
+        {
+        name: "Mr. Lemesa Beyena, Head of Party Organization, Prosperity Party Branch, Sululta Sub-City",
+        role: "Head of Party Organization, Prosperity Party Branch, Sululta Sub-City",
+        message:
+        " ",
+        },
+        
+          {
+            name: "Mr. Amante Fulasa, Head of Abbaa Gadaa District",
+            role: "Head of Abbaa Gadaa District",
+            message: "",
+          },
+          {
+            name: "Mr. Shimalis Negash, Head of Wasarbii District",
+            role: "Head of Wasarbii District",
+            message: "",
+          },
+          {
+            name: "Mr. Guta Hunde, Head of Security Office, Sululta Sub-City",
+            role: "Head of Security Office",
+            message:
+              " ",
+          },
+          {
+            name: "Mr. Daniel Germa, Head of Environmental Protection Authority, Sululta Sub-City",
+            role: "Head of Environmental Protection Authority, Sululta Sub-City",
+            message:
+              " ",
+          },
+          {
+            name: "Mr. Habtamu Reta, Head of Health Office, Sululta Sub-City",
+            role: "Head of Health Office, Sululta Sub-City",
+            message:
+              " ",
+          },
+          {
+            name: "Mr. Tizazu Miresa, Head of Education Office, Sululta Sub-City",
+            role: "Head of Education Office",
+            message:
+              " ",
+          },
+          {
+            name: "Mrs. Tigist Debeba, Deputy Head of Education Office, Sululta Sub-City",
+            role: "Deputy Head of Education Office, Sululta Sub-City",
+            message:
+              " ",
+          },
+          {
+            name: "Head of Police Department, Sululta Sub-City",
+            role: "Head of Police Department, Sululta Sub-City",
+            message:
+              " ",
+          },
+        
+          {
+            name: "Mr. Tarekegn Gedefa, Head of Science and Technology Office, Sululta Sub-City",
+            role: "",
+            message:
+              "We work together with our community to improve digital transformation.",
+          },
+          {
+            name: "Head of Communication Office, Sululta Sub-City",
+            role: "Head of Communication Office, Sululta Sub-City",
+            message: "",
+          },
+          {
+            name: "Head of Cadastre Office, Sululta Sub-City",
+            role: "Head of Cadastre Office, Sululta Sub-City",
+            message: "",
+          },
+          {
+            name: "Head of Finance Office, Sululta Sub-City",
+            role: "Head of Finance Office, Sululta Sub-City",
+            message: "",
+          },
     ],
   },
 
@@ -1473,7 +1529,222 @@ agricultures: {
   },
 },
 
+sports: {
+  hero: {
+    badge: "Sports & Recreation",
+    title: "Building healthier communities",
+    subtitle: "Through sport and recreation.",
+    description:
+      "Discover sports activities, facilities, youth participation and community initiatives supporting a healthier and more active Sululta.",
+    viewGallery: "View sports gallery",
+    learnMore: "Explore sports development",
+    imageAlt: "Sports activities in Sululta",
+  },
 
+  introduction: {
+    eyebrow: "Sports in Sululta",
+    title: "Sport brings our communities together.",
+    paragraphs: [
+      "Sports and recreation play an important role in building healthy, active and connected communities.",
+      "Sululta Sub-City is working to encourage youth participation, develop sports facilities and create opportunities for residents to participate in different sporting activities.",
+      "Through community participation and continued development, sports can help promote health, teamwork, discipline and social connection.",
+    ],
+  },
+
+  areas: {
+    eyebrow: "Sports activities",
+    title: "Opportunities for everyone",
+    description:
+      "Sports activities across Sululta provide opportunities for children, youth and the wider community to participate, compete and develop their skills.",
+    items: [
+      {
+        title: "Football",
+        description:
+          "Supporting football activities, training and community competitions.",
+      },
+      {
+        title: "Competitions",
+        description:
+          "Encouraging sporting competitions that bring communities and athletes together.",
+      },
+      {
+        title: "Youth Sports",
+        description:
+          "Creating opportunities for young people to participate in sports and develop their talents.",
+      },
+      {
+        title: "Athletics & Recreation",
+        description:
+          "Promoting physical activity, athletics and recreational activities for the community.",
+      },
+    ],
+  },
+
+  facilities: {
+    eyebrow: "Sports facilities",
+    title: "Developing spaces for sport and recreation",
+    description:
+      "Investment in sports facilities helps create safe and accessible spaces where residents can exercise, train, compete and spend time together.",
+    items: [
+      "Sports stadiums and fields",
+      "Football and training facilities",
+      "Community recreation spaces",
+      "Youth sports development",
+      "Improved access to sporting activities",
+      "Community-based competitions",
+    ],
+  },
+
+  community: {
+    eyebrow: "Community & youth",
+    title: "Supporting the next generation",
+    description:
+      "Sport provides young people with opportunities to develop confidence, discipline, teamwork and leadership while encouraging healthy lifestyles.",
+    cardTitle: "Youth participation matters",
+    cardDescription:
+      "We encourage young people and community members to take part in sports, competitions and recreational activities.",
+  },
+
+  gallery: {
+    eyebrow: "Sports gallery",
+    title: "Sports activities and facilities",
+    description:
+      "Explore photos showing sporting activities, athletes, facilities, competitions and community participation in Sululta.",
+    imageAlt: "Sululta sports activity",
+    clickView: "Click to view image",
+    close: "Close image viewer",
+    previous: "Previous image",
+    next: "Next image",
+    viewerTitle: "Sports image viewer",
+  },
+
+  cta: {
+    title: "Let's build a more active Sululta.",
+    description:
+      "Community participation is essential for creating a healthy, active and connected city. Get in touch with the administration to learn more about sports activities and development.",
+    button: "Contact the Administration",
+  },
+},
+
+
+cultureTourism: {
+  hero: {
+  badge: "Culture and Tourism",
+  title: "Discover the culture and beauty of Sululta.",
+  subtitle: "Heritage, nature, and community.",
+  description:
+  "Discover the culture, traditions, natural beauty, tourism destinations, and community experiences that make Sululta unique.",
+  explore: "Explore Sululta",
+  viewGallery: "View Gallery",
+  imageAlt: "Culture and tourism of Sululta",
+  },
+  
+  introduction: {
+  eyebrow: "Discover Sululta",
+  title: "A community rich in culture, nature, and experiences.",
+  paragraphs: [
+  "Sululta is a growing community with a strong cultural identity, beautiful landscapes, and a deep connection between its people, traditions, and nature.",
+  "Culture and tourism offer great opportunities to preserve our heritage, support the community, create jobs, and introduce Sululta to visitors.",
+  ],
+  },
+  
+  culture: {
+  eyebrow: "Culture and Heritage",
+  title: "Let us preserve our identity.",
+  description:
+  "Our culture is rooted in traditions, community practices, local knowledge, celebrations, music, food, and history passed down through generations.",
+  
+  items: [
+    {
+      title: "Local Traditions",
+      description:
+        "Discover the traditions and community practices that reflect the identity and history of Sululta.",
+    },
+    {
+      title: "Music and Celebrations",
+      description:
+        "Experience cultural celebrations, music, songs, dances, and community gatherings.",
+    },
+    {
+      title: "Community Heritage",
+      description:
+        "Learn about the people, history, and heritage that continue to shape our community.",
+    },
+  ],
+  
+  },
+  
+  tourism: {
+  eyebrow: "Tourism",
+  title: "Places worth visiting.",
+  description:
+  "From green landscapes and mountain views to community and cultural destinations, Sululta offers many opportunities for exploration and recreation.",
+  
+  items: [
+    {
+      title: "Natural Landscapes",
+      description:
+        "Discover the beautiful green landscapes and open spaces surrounding Sululta.",
+    },
+    {
+      title: "Mountains and Scenic Views",
+      description:
+        "Enjoy the natural views and landscapes that make Sululta an attractive destination.",
+    },
+    {
+      title: "Community Destinations",
+      description:
+        "Visit places where you can connect with the local community and experience their way of life.",
+    },
+  ],
+  
+  },
+  
+  gallery: {
+  eyebrow: "Explore Through Images",
+  title: "Culture and Tourism Gallery",
+  description:
+  "View images showcasing the people, landscapes, traditions, and destinations of Sululta.",
+  imageAlt: "Culture and tourism of Sululta",
+  clickToView: "Click to view image",
+  close: "Close Gallery",
+  previous: "Previous image",
+  next: "Next image",
+  imageOf: "Image",
+  of: "of",
+  },
+  
+  opportunities: {
+  eyebrow: "Tourism Opportunities",
+  title: "Tourism creates opportunities.",
+  description:
+  "Responsible tourism can support local businesses, create jobs, preserve cultural heritage, and contribute to sustainable community development.",
+  
+  items: [
+    "Promote local tourism destinations",
+    "Support local businesses and entrepreneurs",
+    "Preserve cultural heritage",
+    "Create opportunities for young people",
+    "Protect the natural environment",
+    "Encourage responsible tourism",
+  ],
+  
+  },
+  
+  community: {
+  eyebrow: "Community and Culture",
+  title: "Culture belongs to everyone.",
+  description:
+  "Community participation is essential to preserving our identity and building responsible and sustainable tourism.",
+  },
+  
+  cta: {
+  title: "Discover Sululta for yourself.",
+  description:
+  "Explore our culture, natural beauty, and community experiences; let us build a future where heritage and development grow together.",
+  button: "Contact the Administration",
+  },
+  },
 };
 
 export default en;
