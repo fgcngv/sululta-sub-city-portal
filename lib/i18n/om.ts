@@ -240,6 +240,22 @@ const om = {
           " Inishiyeetiiviiwwan oomisha qonna jallisii, misooma beeyladaa fi qonna itti fufiinsa qabu.",
         button: "Gadi fageenyan ilaala",
       },
+
+      culture: {
+        label: "Aadaa fi Tuurizimii",
+        title: "Aadaa fi Tuurizimii",
+        description:
+          " Aadaa, duudhaa, miidhagina uumamaa, iddoowwan tuurizimii fi muuxannoowwan hawaasaa Sulultaa addaa taasisan daawwadhaa.",
+        button: "Gadi fageenyan ilaala",
+      },
+
+      sports: {
+        label: "Taphaa fi Ispoortii",
+        title: "Taphaa fi Ispoortii",
+        description:
+          " Taphaalee fi ispoortiiwwan Sulultaa keessatti gaggeeffaman, dorgommiiwwan, leenjii fi carraa ispoortii argadhaa.",
+        button: "Gadi fageenyan ilaala",
+      },
     }
 
   },

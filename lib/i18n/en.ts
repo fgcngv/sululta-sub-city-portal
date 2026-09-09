@@ -229,6 +229,22 @@ const en = {
           "Explore initiatives supporting farmers, agricultural production, irrigation, livestock development and sustainable farming across Sululta",
         button: "Explore more",
       },
+
+      culture: {
+        label: "Culture & Tourism",
+        title: "Culture & Tourism",
+        description:
+          "Explore the unique culture, heritage, natural beauty and tourism experiences that make Sululta a special place to visit.",
+        button: "Explore more",
+      },
+
+      sports: {
+        label: "Sports & Recreation",
+        title: "Sports & Recreation",
+        description:
+          "Discover sports facilities, recreational activities and community sports initiatives that promote health, fitness and community engagement in Sululta.",
+        button: "Explore more",
+      },
     },
   },
 

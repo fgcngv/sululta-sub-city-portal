@@ -72,6 +72,20 @@ type SulultaOverviewProps = {
           description: string;
           button: string;
         };
+
+        culture: {
+          label: string;
+          title: string;
+          description: string;
+          button: string;
+        };
+
+        sports: {
+          label: string;
+          title: string;
+          description: string;
+          button: string;
+        };
       };
     };
   };
@@ -81,6 +95,8 @@ type SulultaOverviewProps = {
 const overviewImages = {
   development: "/images/projects/img4.png",
   education: "/images/projects/img46.png",
+  culture: "/images/projects/img119.png",
+  sports: "/images/projects/img103.png",
 };
 
 
@@ -109,7 +125,7 @@ export function SulultaOverview({
 
     {
       icon: HeartPlusIcon,
-      image: "/images/projects/img72.png",
+      image: "/images/projects/img123.png",
       href: "/health",
       ...t.overview.cards.health,
     },
@@ -125,6 +141,18 @@ export function SulultaOverview({
       image: "/images/projects/img73.png",
       href: "/agriculture",
       ...t.overview.cards.agriculture,
+    },
+    {
+      icon: Truck,
+      image: "/images/projects/img119.png",
+      href: "/culture-tourism",
+      ...t.overview.cards.culture,
+    },
+    {
+      icon: Truck,
+      image: "/images/projects/img103.png",
+      href: "/sports",
+      ...t.overview.cards.sports,
     },
   ];
 

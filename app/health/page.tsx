@@ -73,7 +73,7 @@ export default async function HealthPage() {
       <section className="relative isolate overflow-hidden bg-slate-950">
         <div className="absolute inset-0">
           <Image
-            src="/images/projects/img89.png"
+            src="/images/projects/img123.png"
             alt={health.hero.imageAlt}
             fill
             priority
