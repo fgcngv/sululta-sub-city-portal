@@ -264,6 +264,8 @@ const ADMINISTRATOR_IMAGES = [
   "/administrations/img3.png",
   "/administrations/img4.png",
   "/administrations/img5.png",
+  "/images/projects/img129.png",
+  "/images/projects/img130.png",
 ];
 
 export function AdministrationWelcome({

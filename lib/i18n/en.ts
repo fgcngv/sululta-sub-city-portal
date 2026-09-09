@@ -118,7 +118,7 @@ const en = {
               " ",
           },
           {
-            name: "Head of Police Department, Sululta Sub-City",
+            name: "Commander Tesfa Itana Head of Police Department, Sululta Sub-City",
             role: "Head of Police Department, Sululta Sub-City",
             message:
               " ",
@@ -131,18 +131,28 @@ const en = {
               "We work together with our community to improve digital transformation.",
           },
           {
-            name: "Head of Communication Office, Sululta Sub-City",
+            name: "Mr Tesfa Fekadu Head of Communication Office, Sululta Sub-City",
             role: "Head of Communication Office, Sululta Sub-City",
             message: "",
           },
           {
-            name: "Head of Cadastre Office, Sululta Sub-City",
+            name: "Mr.Teshale Head of Cadastre Office, Sululta Sub-City",
             role: "Head of Cadastre Office, Sululta Sub-City",
             message: "",
           },
           {
-            name: "Head of Finance Office, Sululta Sub-City",
+            name: "Mr.Berhan Kebret Head of Finance Office, Sululta Sub-City",
             role: "Head of Finance Office, Sululta Sub-City",
+            message: "",
+          },
+          {
+            name: "Mrs.Tigist Belay Head of  Transportation Office, Sululta Sub-City",
+            role: "Head of Transportation Office, Sululta Sub-City",
+            message: "",
+          },
+          {
+            name: "Mrs.Tadelech Head of Women and Children",
+            role: "Head of Women and Children Affairs Office",
             message: "",
           },
     ],

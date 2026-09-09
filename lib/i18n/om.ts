@@ -120,7 +120,7 @@ const om = {
           " ",
       },
       {
-        name: "I/G Qajeelcha Poolisii KMSulultaa",
+        name: "Koomaandar Tasfaa Ittaanaa I/G Qajeelcha Poolisii KMSulultaa",
         role: "I/G Qajeelcha Poolisii KMSulultaa ",
         message:
           " ",
@@ -133,18 +133,28 @@ const om = {
           "Jijjiirama dijitaalaa fooyyessuuf hawaasa keenya waliin hojjenna.",
       },
       {
-        name: "I/G Kominikeeshinii Kutaa Magaalaa Sulultaa",
+        name: "Obbo Tasfaa Fiqaaduu I/G Kominikeeshinii Kutaa Magaalaa Sulultaa",
         role: "I/G Kominikeeshinii Kutaa Magaalaa Sulultaa",
         message: "",
       },
       {
-        name: "I/G Waajjira Kadastaraa Kutaa Magaalaa Sulultaa",
+        name: "Obbo Tashaalee I/G Waajjira Kadastaraa Kutaa Magaalaa Sulultaa",
         role: "I/G Waajjira Kadastaraa Kutaa Magaalaa Sulultaa",
         message: "",
       },
       {
-        name: "I/G Waajjira Maallaqaa Kutaa Magaalaa Sulultaa",
+        name: "Obbo Birhaan Kibrat I/G Waajjira Maallaqaa Kutaa Magaalaa Sulultaa",
         role: "I/G Waajjira Maallaqaa Kutaa Magaalaa Sulultaa",
+        message: "",
+      },
+      {
+        name: "Adde Tigist Balaay I/G Waajjira geejjibaa",
+        role: "I/G Waajjira Maallaqaa Kutaa Magaalaa Sulultaa",
+        message: "",
+      },
+      {
+        name: "Adde Taddalach I/G waajjira Dhimma Dubartoota fi Daa'immanii Kutaa Magaalaa Sulultaa",
+        role: "I/G waajjira Dhimma Dubartoota fi Daa'immanii Kutaa Magaalaa Sulultaa",
         message: "",
       },
     ],
