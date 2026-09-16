@@ -78,6 +78,19 @@ const om = {
         message:
           " ",
       },
+      {
+        name: "Aaddee Tigist Girmaa I/G Waajjira Bulchiinsaa KM Sulultaa",
+        role: "I/G Waajjira Bulchiinsaa",
+        message:
+          " ",
+      },
+            {
+        name: "Obbo Darajjee Yaa'ii Itti Gaafatamaa Mana Qopheessaa KM Sulultaa",
+        role: "Itti Gaafatamaa Mana Qopheessaa",
+        message:
+          " ",
+      },
+      
 
       {
         name: "Obbo Amantee Fullaasaa Bulchaa Aanaa Abbaa Gadaa",
@@ -140,6 +153,11 @@ const om = {
       {
         name: "Obbo Tashaalee I/G Waajjira Kadastaraa Kutaa Magaalaa Sulultaa",
         role: "I/G Waajjira Kadastaraa Kutaa Magaalaa Sulultaa",
+        message: "",
+      },
+      {
+        name: "Obbo Bayyanaa Dheeressaa I/A Waajjira Kaadastaraa KM Sulultaa",
+        role: "I/A Waajjira Kadastaraa Kutaa Magaalaa Sulultaa",
         message: "",
       },
       {

@@ -198,20 +198,6 @@
 //   );
 // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 "use client";
 
 import Image from "next/image";
@@ -250,11 +236,13 @@ const ADMINISTRATOR_IMAGES = [
   "/administrations/img6.png",
   "/images/projects/img91.png",
   "/images/projects/img92.png",
+  "/images/projects/img133.png",
+  "/images/projects/img131.png",
   "/administrations/img1.png",
   "/administrations/img2.png",
   "/images/projects/img93.png",
 
-    "/images/projects/img95.png",
+  "/images/projects/img95.png",
   "/images/projects/img96.png",
   "/images/projects/img98.png",
   "/images/projects/img97.png",
@@ -263,21 +251,20 @@ const ADMINISTRATOR_IMAGES = [
   "/images/projects/img48.png",
   "/administrations/img3.png",
   "/administrations/img4.png",
+  "/images/projects/img132.png",
   "/administrations/img5.png",
   "/images/projects/img129.png",
   "/images/projects/img130.png",
 ];
 
-export function AdministrationWelcome({
-  t,
-}: AdministrationWelcomeProps) {
-  const [selectedAdministrator, setSelectedAdministrator] =
-    useState<
-      (Administrator & {
+export function AdministrationWelcome({ t }: AdministrationWelcomeProps) {
+  const [selectedAdministrator, setSelectedAdministrator] = useState<
+    | (Administrator & {
         image: string;
         main: boolean;
-      }) | null
-    >(null);
+      })
+    | null
+  >(null);
 
   const administrators = t.administration.administrators.map(
     (administrator, index) => ({
@@ -318,7 +305,6 @@ export function AdministrationWelcome({
       >
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
           <div className="grid items-start gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
-
             {/* =====================================================
                 LEFT — ADMINISTRATION
             ===================================================== */}
@@ -345,9 +331,7 @@ export function AdministrationWelcome({
                   <button
                     key={administrator.name}
                     type="button"
-                    onClick={() =>
-                      setSelectedAdministrator(administrator)
-                    }
+                    onClick={() => setSelectedAdministrator(administrator)}
                     aria-label={`View message from ${administrator.name}`}
                     className={[
                       "group w-full overflow-hidden rounded-2xl border bg-white text-left shadow-sm",
@@ -537,7 +521,6 @@ export function AdministrationWelcome({
                 DIALOG CONTENT
             ===================================================== */}
             <div className="grid max-h-[90vh] overflow-y-auto md:grid-cols-[0.85fr_1.15fr] md:overflow-hidden">
-
               {/* =================================================
                   DIALOG IMAGE
               ================================================= */}
@@ -635,4 +618,3 @@ export function AdministrationWelcome({
     </>
   );
 }
-

@@ -76,6 +76,18 @@ const en = {
         message:
         " ",
         },
+        {
+          name: "Mrs.Tigist Girma Head of Sululta Sub-city Administrator Office",
+          role: "Head of Sululta Sub-city Administrator Office",
+          message:
+            " ",
+        },
+        {
+          name: "Obbo Darajjee Yaa'ii Itti Gaafatamaa Mana Qopheessaa KM Sulultaa",
+          role: "Itti Gaafatamaa Mana Qopheessaa",
+          message:
+            " ",
+        },
         
           {
             name: "Mr. Amante Fulasa, Head of Abbaa Gadaa District",
@@ -138,6 +150,11 @@ const en = {
           {
             name: "Mr.Teshale Head of Cadastre Office, Sululta Sub-City",
             role: "Head of Cadastre Office, Sululta Sub-City",
+            message: "",
+          },
+          {
+            name: "Mr.Beyena Deresa Assistant Cadastre Office, Sululta Sub-City",
+            role: "Assistant Cadastre Office, Sululta Sub-City",
             message: "",
           },
           {
