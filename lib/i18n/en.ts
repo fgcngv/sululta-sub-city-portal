@@ -42,12 +42,12 @@ const en = {
     welcomeParagraph3:
       "Furthermore, we will work on coordinated strategy development and focused investment in new and smart infrastructure that our communities need.",
 
-    governorName: "Mr. Kuma Hundee",
+    governorName: "Mr. Wendwesen Tamire",
     governorRole: "Governor of Sululta Sub-City",
 
     administrators: [
       {
-        name: "Mr. Kuma Hundee",
+        name: "Mr. Wendwesen Tamire",
         role: "Governor of Sululta Sub-City",
         message:
           "We are committed to building a modern, inclusive, and prosperous Sululta Sub-City through strong leadership and community participation. Shaggar City Administration is pleased to share our strong goal to move our community forward. We are strongly committed to transforming Shaggar into an exemplary Smart City—a city that is competitive, offers a good life, and is responsive to all of its communities. Our goal is to make Shaggar a compact city and a polycentric economic hub. This will be achieved by strengthening community participation, strategic linkages, and environmental stewardship. Furthermore, we will work on coordinated strategy development and focused investment in new and smart infrastructure that our communities need.",
@@ -65,7 +65,7 @@ const en = {
         "Working together with our community to improve services and create better opportunities for every resident.",
         },
         {
-        name: "Mr. Sisay Haile, Head of Political Affairs, Prosperity Party Branch, Sululta Sub-City",
+        name: "Mr. Yowhanes Asefa, Head of Political Affairs, Prosperity Party Branch, Sululta Sub-City",
         role: "Head of Party Political Affairs",
         message:
         " ",

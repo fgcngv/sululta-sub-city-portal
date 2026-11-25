@@ -44,12 +44,12 @@ const om = {
     welcomeParagraph3:
       " Kana malees, tarsiimoo qindoomina qabuu fi bu’uuraalee misoomaa haaraa fi ismaartii hawaasni keenya barbaadu irratti invastimantii xiyyeeffannoo qabu irratti ni hojjenna.",
   
-    governorName: "Obbo Kumaa Hundee",
+    governorName: "Obbo Wandwasan Taammiree",
     governorRole: "Bulchaa Kutaa Magaalaa Sulultaa",
   
     administrators: [
       {
-        name: "Obbo Kumaa Hundee",
+        name: "Obbo Wandwasan Taammiree",
         role: "Bulchaa Kutaa Magaalaa Sulultaa",
         message:
           " Hoggansa cimaa fi hirmaannaa hawaasaatiin Magaalaa Sulultaa ammayyaa, hunda hammatte, fi badhaate ijaaruuf waadaa seennee jirra. Bulchiinsi Magaalaa Shaggar kaayyoo cimaa hawaasa keenya fuulduratti tarkaanfachiisuuf qabnu qooduuf gammachuu guddaatu ​​nutti dhagahama. Shaggar gara Magaalaa Ismaartii fakkeenyummaa qabdutti jijjiiruuf kutannoo cimaa qabna. Magaalaa dorgomtuu, jireenya gaarii dhiyeessitu, fi hawaasa ishee hundaaf deebii kennitu akka taatufis ni hojjenna.Galmi keenya Shaggar magaalaa kompaaktii fi wiirtuu dinagdee giddugaleessa hedduu qabu gochuudha. Kunis hirmaannaa hawaasaa, walitti hidhamiinsa tarsiimoo, fi bulchiinsa naannoo cimsuun kan argamu ta’a.Kana malees, tarsiimoo qindoomina qabuu fi bu’uuraalee misoomaa haaraa fi ismaartii hawaasni keenya barbaadu irratti invastimantii xiyyeeffannoo qabu irratti ni hojjenna",
@@ -67,7 +67,7 @@ const om = {
           "Hawaasa keenya waliin ta’uun tajaajila fooyyessuu fi jiraataa hundaaf carraa fooyya’aa uumuu. ",
       },
       {
-        name: "Obbo Sisaay Haayilee I/G Siyaasa Paartii Damee Kutaa Magaalaa Sulultaa",
+        name: "Obbo Yohannis Asaffaa I/G Siyaasa Paartii Damee Kutaa Magaalaa Sulultaa",
         role: "I/G Siyaasa Paartii ",
         message:
           " ",
