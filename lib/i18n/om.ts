@@ -140,14 +140,14 @@ const om = {
       },
 
       {
-        name: "Obbo Taarraqeny Gaddafaa Itti Gaafatamaa Waajjira Saayinsii fi Teeknooloojii Kutaa Magaalaa Sulultaa",
+        name: "Obbo Taarraqeny Gaddafaa  Kutaa Magaalaa sulultaatti I/G waajjira barnootaa Aanaa Wasarbii",
         role: "",
         message:
           "Jijjiirama dijitaalaa fooyyessuuf hawaasa keenya waliin hojjenna.",
       },
       {
-        name: "Obbo Tasfaa Fiqaaduu I/G Kominikeeshinii Kutaa Magaalaa Sulultaa",
-        role: "I/G Kominikeeshinii Kutaa Magaalaa Sulultaa",
+        name: "Obbo Tasfaa Fiqaaduu Kutaa Magaalaa sulultaatti I/G waajjira barnootaa Aanaa Abbaa Gadaa",
+        role: "waajjira barnootaa Aanaa Abbaa Gadaa",
         message: "",
       },
       {

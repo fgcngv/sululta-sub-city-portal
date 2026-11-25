@@ -137,14 +137,14 @@ const en = {
           },
         
           {
-            name: "Mr. Tarekegn Gedefa, Head of Science and Technology Office, Sululta Sub-City",
+            name: "Mr. Tarekegn Gedefa,  Head of Education Office, Sululta Sub-City, Weserbi Wereda",
             role: "",
             message:
               "We work together with our community to improve digital transformation.",
           },
           {
             name: "Mr Tesfa Fekadu Head of Communication Office, Sululta Sub-City",
-            role: "Head of Communication Office, Sululta Sub-City",
+            role: " Head of Education Office, Sululta Sub-City, Aba Gada Wereda",
             message: "",
           },
           {
